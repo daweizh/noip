@@ -1,12 +1,17 @@
 ## 欢迎关注
 
-<table border="0">
-<tr><td>
-<img src="assets/me/img/idea8.jpg" width="240px" height="240px">
-</td><td>
-<img src="assets/me/img/challenge.png" width="240px" height="240px">
-</td></tr>
-<tr><td>欢迎关注“智数精英(IDEA)”订阅号</td><td>欢迎关注“挑战编程”微信群</td></tr>
+<table>
+   <tr>
+      <td align="center">
+        <img src="assets/me/img/idea8.jpg" width="240px" height="240px">
+      </td>
+      <td align="center">
+        <img src="assets/me/img/challenge.png" width="240px" height="240px">
+      </td>
+    </tr><tr>
+      <td align="center">欢迎关注“智数精英(IDEA)”订阅号</td>
+      <td align="center">欢迎关注“挑战编程”微信群</td>
+    </tr>
 </table>
 
 ## NOIP普及组初赛试题
