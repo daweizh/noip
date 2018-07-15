@@ -1,3 +1,7 @@
+## 欢迎关注“智数精英(IDEA)”
+
+![智数精英(IDEA)](assets/me/img/idea.jpg)
+
 ## NOIP普及组初赛试题
 
 | 届 |在线测试 |原题下载|
