@@ -1,6 +1,8 @@
 ## 欢迎关注“智数精英(IDEA)”
 
-![智数精英(IDEA)](assets/me/img/idea8.jpg)
+|![智数精英(IDEA)](assets/me/img/idea8.jpg)||
+|---|---|
+|智数精英(IDEA)|挑战编程|
 
 ## NOIP普及组初赛试题
 
