@@ -4,3 +4,7 @@
 2. [NOIP(2016)C++普及组初赛在线测试](junior/preliminary/page/22-C++2016-10-22.html)
 
 
+
+| 届 |在线测试 | 试题下载 |
+|---|---|---|
+|23|[NOIP(2017)C++普及组初赛在线测试](junior/preliminary/page/23-C++2017-10-14.html)||
