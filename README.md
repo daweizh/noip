@@ -23,6 +23,11 @@
 |21|[NOIP(2015)C++普及组初赛在线测试](junior/preliminary/page/21-C++2015-10-11.html)|[下载](junior/preliminary/text/21.NOIP2015普及组初赛C++试题和答案.pdf)|
 |20|[NOIP(2014)C++普及组初赛在线测试](junior/preliminary/page/20-C++2014-10-12.html)|[下载](junior/preliminary/text/20.NOIP2014普及组初赛C++试题和答案.pdf)|
 |19|[NOIP(2013)C++普及组初赛在线测试](junior/preliminary/page/19-C++2013-10-13.html)|[下载](junior/preliminary/text/19.NOIP2013普及组初赛C++试题和答案.pdf)|
+|18|[NOIP(2012)C++普及组初赛在线测试](junior/preliminary/page/18-C++2012-10-13.html)|[下载](junior/preliminary/text/18.NOIP2012普及组初赛C++试题和答案.pdf)|
+|17|[NOIP(2011)C++普及组初赛在线测试](junior/preliminary/page/17-C++2011-10-15.html)|[下载](junior/preliminary/text/17.NOIP2011普及组初赛C++试题和答案.pdf)|
+|16|[NOIP(2010)C++普及组初赛在线测试](junior/preliminary/page/16-C++2010-10-22.html)|[下载](junior/preliminary/text/16.NOIP2010普及组初赛C++试题和答案.pdf)|
+|15|[NOIP(2009)C++普及组初赛在线测试](junior/preliminary/page/15-C++2009-10-17.html)|[下载](junior/preliminary/text/15.NOIP2009普及组初赛C++试题和答案.pdf)|
+|14|[NOIP(2008)C++普及组初赛在线测试](junior/preliminary/page/14-C++2008-10-18.html)|[下载](junior/preliminary/text/14.NOIP2008普及组初赛C++试题和答案.pdf)|
 
 ## NOIP普及组复赛试题及数据
 
