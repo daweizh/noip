@@ -1,8 +1,12 @@
 ## 欢迎关注
 
-|---|---|
-|![智数精英(IDEA)](assets/me/img/idea8.jpg)||
-|智数精英(IDEA)|挑战编程|
+<table>
+<tr><td>
+<img src="assets/me/img/idea8.jpg" style="width:240px;height:240px">
+</td><td>
+</td></tr>
+<tr><td>欢迎关注“智数精英(IDEA)”订阅号</td><td>欢迎关注“挑战编程”微信群</td></tr>
+</table>
 
 ## NOIP普及组初赛试题
 
