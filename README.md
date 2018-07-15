@@ -9,7 +9,7 @@
         <img src="assets/me/img/challenge.png" width="240px" height="240px">
       </td>
     </tr><tr>
-      <td align="center">欢迎关注“智数精英(IDEA)”订阅号</td>
+      <td align="center">欢迎关注“智数精英”订阅号</td>
       <td align="center">欢迎关注“挑战编程”微信群</td>
     </tr>
 </table>
