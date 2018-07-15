@@ -1,0 +1,1148 @@
+<!DOCTYPE html>
+<html lang="zh_CN" ng-app="testApp">
+	<head>
+    	<meta charset="utf-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>NOIP (21) C++ 2015-10-11</title>
+    	<link href="../../../assets/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    	<link href="../../../assets/me/css/test.css" rel="stylesheet">
+	</head>
+	<body ng-controller="test-paper as $ctrl" data-ng-init="loadAnswers()">
+		<header class="navbar navbar-static-top" id="top">
+		    <div class="container">
+		        <!--首行左侧-->
+		        <div class="navbar-header">
+		            <div class="navbar-brand">NOIP(21)2015普及组C++初赛试题</div>
+		        </div>
+		        <!-- 首行右侧-->
+		        <nav id="bs-navbar" class="collapse navbar-collapse">
+		            <ul class="nav navbar-nav navbar-right">
+		                <li><a>竞赛时间：2015年10 月11 日 14:30~16:30</a></li>
+		            </ul>
+		        </nav>
+		    </div>
+		</header>
+		
+		<div class="container">
+		    <!-- 左侧内容区 -->
+		    <div class="col-md-9" role="main">
+		    	
+				<div class="page-header">
+  					<h4><b>一、单项选择题</b>（共 20 题，每题 1.5 分，共计 30 分；每题有且仅有一个正确选项）</h4>
+				</div>
+
+				<div id="QA101" class="panel panel-default">
+  					<div class="panel-heading">
+  						<table>
+  							<tr>
+  								<th valign="top" nowrap="nowrap">1.&nbsp;</th>
+  								<td valign="top">1MB等于（ ）。</td>
+  							</tr>
+  						</table>
+  					</div>
+					<table class="table">
+						<tr>
+							<td width="25%">
+								<input type="radio" name="ans_01" id="ans_01_A" value="A" ng-model="ans.questa[0].answer" />
+								<label for="ans_01_A">A. 1000 字节</label>
+							</td><td width="25%">
+								<input type="radio" name="ans_01" id="ans_01_B" value="B" ng-model="ans.questa[0].answer" />
+								<label for="ans_01_B">B. 1024 字节</label>
+							</td><td width="25%">
+								<input type="radio" name="ans_01" id="ans_01_C" value="C" ng-model="ans.questa[0].answer" />
+								<label for="ans_01_C">C. 1000 X 1000 字节</label>
+							</td><td width="25%">
+								<input type="radio" name="ans_01" id="ans_01_D" value="D" ng-model="ans.questa[0].answer" />
+								<label for="ans_01_D">D. 1024 X 1024 字节</label>
+							</td>
+						</tr>
+					</table>
+				</div>
+				
+				<div id="QA102" class="panel panel-default">
+  					<div class="panel-heading">
+  						<table>
+  							<tr>
+  								<th valign="top" nowrap="nowrap">2.&nbsp;</th>
+  								<td valign="top">在 PC机中，PENTIUM(奔腾）、酷睿、赛扬等是指（ ）。</td>
+  							</tr>
+  						</table>
+  					</div>
+					<table class="table">
+						<tr>
+							<td width="25%">
+								<input type="radio" name="ans_02" id="ans_02_A" value="A" ng-model="ans.questa[1].answer" />
+								<label for="ans_02_A">A. 生产厂家名称</label>
+							</td><td width="25%">
+								<input type="radio" name="ans_02" id="ans_02_B" value="B" ng-model="ans.questa[1].answer" />
+								<label for="ans_02_B">B. 硬盘的型号</label>
+							</td><td width="25%">
+								<input type="radio" name="ans_02" id="ans_02_C" value="C" ng-model="ans.questa[1].answer" />
+								<label for="ans_02_C">C. CPU的型号</label>
+							</td><td width="25%">
+								<input type="radio" name="ans_02" id="ans_02_D" value="D" ng-model="ans.questa[1].answer" />
+								<label for="ans_02_D">D. 显示器的型号</label>
+							</td>
+						</tr>
+					</table>
+				</div>
+
+				<div id="QA103" class="panel panel-default">
+  					<div class="panel-heading">
+  						<table>
+  							<tr>
+  								<th valign="top" nowrap="nowrap">3.&nbsp;</th>
+  								<td valign="top">操作系统的作用是（	）。</td>
+  							</tr>
+  						</table>
+  					</div>
+					<table class="table">
+						<tr>
+							<td width="25%">
+								<input type="radio" name="ans_03" id="ans_03_A" value="A" ng-model="ans.questa[2].answer" />
+								<label for="ans_03_A">A. 把源程序译成目标程序</label>
+							</td><td width="25%">
+								<input type="radio" name="ans_03" id="ans_03_B" value="B" ng-model="ans.questa[2].answer" />
+								<label for="ans_03_B">B. 便于进行数据管理</label>
+							</td><td width="25%">
+								<input type="radio" name="ans_03" id="ans_03_C" value="C" ng-model="ans.questa[2].answer" />
+								<label for="ans_03_C">C. 控制和管理系统资源</label>
+							</td><td width="25%">
+								<input type="radio" name="ans_03" id="ans_03_D" value="D" ng-model="ans.questa[2].answer" />
+								<label for="ans_03_D">D. 实现硬件之间的连接</label>
+							</td>
+						</tr>
+					</table>
+				</div>
+
+				<div id="QA104" class="panel panel-default">
+  					<div class="panel-heading">
+  						<table>
+  							<tr>
+  								<th valign="top" nowrap="nowrap">4.&nbsp;</th>
+  								<td valign="top">在计算机内部用来传送、存贮、加工处理的数据或指令都是以（ ）形式进行的。</td>
+  							</tr>
+  						</table>
+  					</div>
+					<table class="table">
+						<tr>
+							<td width="25%">
+								<input type="radio" name="ans_04" id="ans_04_A" value="A" ng-model="ans.questa[3].answer" />
+								<label for="ans_04_A">A. 二进制码</label>
+							</td><td width="25%">
+								<input type="radio" name="ans_04" id="ans_04_B" value="B" ng-model="ans.questa[3].answer" />
+								<label for="ans_04_B">B. 八进制码</label>
+							</td><td width="25%">
+								<input type="radio" name="ans_04" id="ans_04_C" value="C" ng-model="ans.questa[3].answer" />
+								<label for="ans_04_C">C. 十进制码</label>
+							</td><td width="25%">
+								<input type="radio" name="ans_04" id="ans_04_D" value="D" ng-model="ans.questa[3].answer" />
+								<label for="ans_04_D">D. 智能拼音码</label>
+							</td>
+						</tr>
+					</table>
+				</div>
+
+				<div id="QA105" class="panel panel-default">
+  					<div class="panel-heading">
+  						<table>
+  							<tr>
+  								<th valign="top" nowrap="nowrap">5.&nbsp;</th>
+  								<td valign="top">下列说法正确的是（	）。</td>
+  							</tr>
+  						</table>
+  					</div>
+					<table class="table">
+						<tr>
+							<td>
+								<input type="radio" name="ans_05" id="ans_05_A" value="A" ng-model="ans.questa[4].answer" />
+								<label for="ans_05_A">A. CPU 的主要任务是执行数据运算和程序控制</label>
+							</td></tr><tr><td>
+								<input type="radio" name="ans_05" id="ans_05_B" value="B" ng-model="ans.questa[4].answer" />
+								<label for="ans_05_B">B. 存储器具有记忆能力，其中信息任何时候都不会丢失</label>
+							</td></tr><tr><td>
+								<input type="radio" name="ans_05" id="ans_05_C" value="C" ng-model="ans.questa[4].answer" />
+								<label for="ans_05_C">C. 两个显示器屏幕尺寸相同，则它们的分辨率必定相同</label>
+							</td></tr><tr><td>
+								<input type="radio" name="ans_05" id="ans_05_D" value="D" ng-model="ans.questa[4].answer" />
+								<label for="ans_05_D">D. 个人用户只能使用 Wifi 的方式连接到 Internet</label>
+							</td>
+						</tr>
+					</table>
+				</div>
+
+				<div id="QA106" class="panel panel-default">
+  					<div class="panel-heading">
+  						<table>
+  							<tr>
+  								<th valign="top" nowrap="nowrap">6.&nbsp;</th>
+  								<td valign="top">二进制数 00100100 和 00010100 的和是（ ）。</td>
+  							</tr>
+  						</table>
+  					</div>
+					<table class="table">
+						<tr>
+							<td width="25%">
+								<input type="radio" name="ans_06" id="ans_06_A" value="A" ng-model="ans.questa[5].answer" />
+								<label for="ans_06_A">A. 00101000</label>
+							</td><td width="25%">
+								<input type="radio" name="ans_06" id="ans_06_B" value="B" ng-model="ans.questa[5].answer" />
+								<label for="ans_06_B">B. 01000001</label>
+							</td><td width="25%">
+								<input type="radio" name="ans_06" id="ans_06_C" value="C" ng-model="ans.questa[5].answer" />
+								<label for="ans_06_C">C. 01000100</label>
+							</td><td width="25%">
+								<input type="radio" name="ans_06" id="ans_06_D" value="D" ng-model="ans.questa[5].answer" />
+								<label for="ans_06_D">D. 00111000</label>
+							</td>
+						</tr>
+					</table>
+				</div>
+
+				<div id="QA107" class="panel panel-default">
+  					<div class="panel-heading">
+  						<table>
+  							<tr>
+  								<th valign="top" nowrap="nowrap">7.&nbsp;</th>
+  								<td valign="top">与二进制小数 0.1 相等的十六进制数是（ ）。</td>
+  							</tr>
+  						</table>
+  					</div>
+  					<table class="table">
+  						<tr><td width="25%">
+							<input type="radio" name="ans_07" id="ans_07_A" value="A" ng-model="ans.questa[6].answer" />
+							<label for="ans_07_A">A. 0.8</label>
+  						</td><td width="25%">
+							<input type="radio" name="ans_07" id="ans_07_B" value="B" ng-model="ans.questa[6].answer" />
+							<label for="ans_07_B">B. 0.4</label>
+  						</td><td width="25%">
+							<input type="radio" name="ans_07" id="ans_07_C" value="C" ng-model="ans.questa[6].answer" />
+							<label for="ans_07_C">C. 0.2</label>
+  						</td><td width="25%">
+							<input type="radio" name="ans_07" id="ans_07_D" value="D" ng-model="ans.questa[6].answer" />
+							<label for="ans_07_D">D. 0.1</label>
+  						</td></tr>
+  					</table>
+				</div>
+
+				<div id="QA108" class="panel panel-default">
+  					<div class="panel-heading">
+  						<table>
+  							<tr>
+  								<th valign="top" nowrap="nowrap">8.&nbsp;</th>
+  								<td valign="top">所谓的“中断”是指（ ）。</td>
+  							</tr>
+  						</table>
+  					</div>
+					<table class="table">
+						<tr>
+							<td>
+								<input type="radio" name="ans_08" id="ans_08_A" value="A" ng-model="ans.questa[7].answer" />
+								<label for="ans_08_A">A. 操作系统随意停止一个程序的运行</label>
+							</td></tr><tr><td>
+								<input type="radio" name="ans_08" id="ans_08_B" value="B" ng-model="ans.questa[7].answer" />
+								<label for="ans_08_B">B. 当出现需要时，CPU暂时停止当前程序的执行转而执行处理新情况的过程</label>
+							</td></tr><tr><td>
+								<input type="radio" name="ans_08" id="ans_08_C" value="C" ng-model="ans.questa[7].answer" />
+								<label for="ans_08_C">C. 因停机而停止一个程序的运行</label>
+							</td></tr><tr><td>
+								<input type="radio" name="ans_08" id="ans_08_D" value="D" ng-model="ans.questa[7].answer" />
+								<label for="ans_08_D">D. 电脑死机</label>
+							</td>
+						</tr>
+					</table>
+				</div>
+	
+				<div id="QA109" class="panel panel-default">
+  					<div class="panel-heading">
+  						<table>
+  							<tr>
+  								<th valign="top" nowrap="nowrap">9.&nbsp;</th>
+  								<td valign="top">计算机病毐是（ ）。</td>
+  							</tr>
+  						</table>
+  					</div>
+					<table class="table">
+						<tr>
+							<td>
+								<input type="radio" name="ans_09" id="ans_09_A" value="A" ng-model="ans.questa[8].answer" />
+								<label for="ans_09_A">A. 通过计算机传播的危害人体健康的一种病毒</label>
+							</td></tr><tr><td>
+								<input type="radio" name="ans_09" id="ans_09_B" value="B" ng-model="ans.questa[8].answer" />
+								<label for="ans_09_B">B. 人为制造的能够侵入计算机系统并给计算机带来故障的程序或指令集合</label>
+							</td></tr><tr><td>
+								<input type="radio" name="ans_09" id="ans_09_C" value="C" ng-model="ans.questa[8].answer" />
+								<label for="ans_09_C">C. 一种由于计算机元器件老化而产生的对生态环境有害的物质</label>
+							</td></tr><tr><td>
+								<input type="radio" name="ans_09" id="ans_09_D" value="D" ng-model="ans.questa[8].answer" />
+								<label for="ans_09_D">D. 利用计算机的海量高速运算能力而研制出来的用于疾病预防的新型病毒</label>
+							</td>
+						</tr>
+					</table>
+				</div>
+
+				<div id="QA110" class="panel panel-default">
+  					<div class="panel-heading">
+  						<table>
+  							<tr>
+  								<th valign="top" nowrap="nowrap">10.&nbsp;</th>
+  								<td valign="top">FTP 可以用于（	）。</td>
+  							</tr>
+  						</table>
+  					</div>
+					<table class="table">
+						<tr>
+							<td width="25%">
+								<input type="radio" name="ans_10" id="ans_10_A" value="A" ng-model="ans.questa[9].answer" />
+								<label for="ans_10_A">A. 远程传输文件</label>
+							</td><td width="25%">
+								<input type="radio" name="ans_10" id="ans_10_B" value="B" ng-model="ans.questa[9].answer" />
+								<label for="ans_10_B">B. 发送电子邮件</label>
+							</td><td width="25%">
+								<input type="radio" name="ans_10" id="ans_10_C" value="C" ng-model="ans.questa[9].answer" />
+								<label for="ans_10_C">C. 浏览网页</label>
+							</td><td width="25%">
+								<input type="radio" name="ans_10" id="ans_10_D" value="D" ng-model="ans.questa[9].answer" />
+								<label for="ans_10_D">D. 网上聊天</label>
+							</td>
+						</tr>
+					</table>
+				</div>
+
+				<div id="QA111" class="panel panel-default">
+  					<div class="panel-heading">
+  						<table>
+  							<tr>
+  								<th valign="top" nowrap="nowrap">11.&nbsp;</th>
+  								<td valign="top">下面哪种软件不属于即时通信软件（	）。</td>
+  							</tr>
+  						</table>
+  					</div>
+					<table class="table">
+						<tr>
+							<td width="25%">
+								<input type="radio" name="ans_11" id="ans_11_A" value="A" ng-model="ans.questa[10].answer" />
+								<label for="ans_11_A">A. QQ</label>
+							</td><td width="25%">
+								<input type="radio" name="ans_11" id="ans_11_B" value="B" ng-model="ans.questa[10].answer" />
+								<label for="ans_11_B">B. MSN</label>
+							</td><td width="25%">
+								<input type="radio" name="ans_11" id="ans_11_C" value="C" ng-model="ans.questa[10].answer" />
+								<label for="ans_11_C">C. 微信</label>
+							</td><td width="25%">
+								<input type="radio" name="ans_11" id="ans_11_D" value="D" ng-model="ans.questa[10].answer" />
+								<label for="ans_11_D">D. P2P</label>
+							</td>
+						</tr>
+					</table>
+				</div>
+
+				<div id="QA112" class="panel panel-default">
+  					<div class="panel-heading">
+  						<table>
+  							<tr>
+  								<th valign="top" nowrap="nowrap">12.&nbsp;</th>
+  								<td valign="top">6 个顶点的连通图的最小生成树，其边数为（ ）。</td>
+  							</tr>
+  						</table>
+  					</div>
+					<table class="table">
+						<tr>
+							<td width="25%">
+								<input type="radio" name="ans_12" id="ans_12_A" value="A" ng-model="ans.questa[11].answer" />
+								<label for="ans_12_A">A. 6</label>
+							</td><td width="25%">
+								<input type="radio" name="ans_12" id="ans_12_B" value="B" ng-model="ans.questa[11].answer" />
+								<label for="ans_12_B">B. 5</label>
+							</td><td width="25%">
+								<input type="radio" name="ans_12" id="ans_12_C" value="C" ng-model="ans.questa[11].answer" />
+								<label for="ans_12_C">C. 7</label>
+							</td><td width="25%">
+								<input type="radio" name="ans_12" id="ans_12_D" value="D" ng-model="ans.questa[11].answer" />
+								<label for="ans_12_D">D. 4</label>
+							</td>
+						</tr>
+					</table>
+				</div>
+
+				<div id="QA113" class="panel panel-default">
+  					<div class="panel-heading">
+  						<table>
+  							<tr>
+  								<th valign="top" nowrap="nowrap">13.&nbsp;</th>
+  								<td valign="top">链表不具备的特点是（ ）。</td>
+  							</tr>
+  						</table>
+  					</div>
+  					<table class="table">
+  						<tr><td>
+							<input type="radio" name="ans_13" id="ans_13_A" value="A" ng-model="ans.questa[12].answer" />
+							<label for="ans_13_A">A. 可随机访问任何一个元素</label>
+  						</td></tr><tr><td>
+							<input type="radio" name="ans_13" id="ans_13_B" value="B" ng-model="ans.questa[12].answer" />
+							<label for="ans_13_B">B. 插入、删除操作不需要移动元素</label>
+  						</td></tr><tr><td>
+							<input type="radio" name="ans_13" id="ans_13_C" value="C" ng-model="ans.questa[12].answer" />
+							<label for="ans_13_C">C. 无需事先估计存储空间大小</label>
+  						</td></tr><tr><td>
+							<input type="radio" name="ans_13" id="ans_13_D" value="D" ng-model="ans.questa[12].answer" />
+							<label for="ans_13_D">D. 所需存储空间与存储元素个数成正比</label>
+  						</td></tr>
+  					</table>
+				</div>
+
+				<div id="QA114" class="panel panel-default">
+  					<div class="panel-heading">
+  						<table>
+  							<tr>
+  								<th valign="top" nowrap="nowrap">14.&nbsp;</th>
+  								<td valign="top">线性表若采用链表存储结构，要求内存中可用存储单元地址（ ）。</td>
+  							</tr>
+  						</table>
+  					</div>
+					<table class="table">
+						<tr>
+							<td width="25%">
+								<input type="radio" name="ans_14" id="ans_14_A" value="A" ng-model="ans.questa[13].answer" />
+								<label for="ans_14_A">A. 必须连续</label>
+							</td><td width="25%">
+								<input type="radio" name="ans_14" id="ans_14_B" value="B" ng-model="ans.questa[13].answer" />
+								<label for="ans_14_B">B. 部分地址必须连续</label>
+							</td><td width="25%">
+								<input type="radio" name="ans_14" id="ans_14_C" value="C" ng-model="ans.questa[13].answer" />
+								<label for="ans_14_C">C. 一定不连续</label>
+							</td><td width="25%">
+								<input type="radio" name="ans_14" id="ans_14_D" value="D" ng-model="ans.questa[13].answer" />
+								<label for="ans_14_D">D. 连续不连续均可</label>
+							</td>
+						</tr>
+					</table>
+				</div>
+
+				<div id="QA115" class="panel panel-default">
+  					<div class="panel-heading">
+  						<table>
+  							<tr>
+  								<th valign="top" nowrap="nowrap">15.&nbsp;</th>
+  								<td valign="top">
+  									今有一空栈 S，对下列待进栈的数据元素序列 a,b,c,d,e,f依次进行进栈，
+  									进栈，出栈，进栈，进 栈，出栈的操作，则此操作完成后，栈 S的栈顶元素为（ ）。
+  								</td>
+  							</tr>
+  						</table>
+  					</div>
+					<table class="table">
+						<tr>
+							<td width="25%">
+								<input type="radio" name="ans_15" id="ans_15_A" value="A" ng-model="ans.questa[14].answer" />
+								<label for="ans_15_A">A. f</label>
+							</td><td width="25%">
+								<input type="radio" name="ans_15" id="ans_15_B" value="B" ng-model="ans.questa[14].answer" />
+								<label for="ans_15_B">B. c</label>
+							</td><td width="25%">
+								<input type="radio" name="ans_15" id="ans_15_C" value="C" ng-model="ans.questa[14].answer" />
+								<label for="ans_15_C">C. a</label>
+							</td><td width="25%">
+								<input type="radio" name="ans_15" id="ans_15_D" value="D" ng-model="ans.questa[14].answer" />
+								<label for="ans_15_D">D. b</label>
+							</td>
+						</tr>
+					</table>
+				</div>
+
+				<div id="QA116" class="panel panel-default">
+  					<div class="panel-heading">
+  						<table>
+  							<tr>
+  								<th valign="top" nowrap="nowrap">16.&nbsp;</th>
+  								<td valign="top">前序遍历序列与中序遍历序列相同的二叉树为（ ）。</td>
+  							</tr>
+  						</table>
+  					</div>
+					<table class="table">
+						<tr>
+							<td width="25%">
+								<input type="radio" name="ans_16" id="ans_16_A" value="A" ng-model="ans.questa[15].answer" />
+								<label for="ans_16_A">A. 根结点无左子树的二叉树</label>
+							</td></tr><tr><td width="25%">
+								<input type="radio" name="ans_16" id="ans_16_B" value="B" ng-model="ans.questa[15].answer" />
+								<label for="ans_16_B">B. 根结点无右子树的二叉树</label>
+							</td></tr><tr><td width="25%">
+								<input type="radio" name="ans_16" id="ans_16_C" value="C" ng-model="ans.questa[15].answer" />
+								<label for="ans_16_C">C. 只有根结点的二叉树或非叶子结点只有左子树的二叉树</label>
+							</td></tr><tr><td width="25%">
+								<input type="radio" name="ans_16" id="ans_16_D" value="D" ng-model="ans.questa[15].answer" />
+								<label for="ans_16_D">D. 只有根结点的二叉树或非叶子结点只有右子树的二叉树</label>
+							</td>
+						</tr>
+					</table>
+				</div>
+
+				<div id="QA117" class="panel panel-default">
+  					<div class="panel-heading">
+  						<table>
+  							<tr>
+  								<th valign="top" nowrap="nowrap">17.&nbsp;</th>
+  								<td valign="top">如果根的高度为 1，具有 61 个结点的完全二叉树的高度为（  ）。</td>
+  							</tr>
+  						</table>
+  					</div>
+					<table class="table">
+						<tr>
+							<td width="25%">
+								<input type="radio" name="ans_17" id="ans_17_A" value="A" ng-model="ans.questa[16].answer" />
+								<label for="ans_17_A">A. 5</label>
+							</td><td width="25%">
+								<input type="radio" name="ans_17" id="ans_17_B" value="B" ng-model="ans.questa[16].answer" />
+								<label for="ans_17_B">B. 6</label>
+							</td><td width="25%">
+								<input type="radio" name="ans_17" id="ans_17_C" value="C" ng-model="ans.questa[16].answer" />
+								<label for="ans_17_C">C. 7 </label>
+							</td><td width="25%">
+								<input type="radio" name="ans_17" id="ans_17_D" value="D" ng-model="ans.questa[16].answer" />
+								<label for="ans_17_D">D. 8</label>
+							</td>
+						</tr>
+					</table>
+				</div>
+
+				<div id="QA118" class="panel panel-default">
+  					<div class="panel-heading">
+  						<table>
+  							<tr>
+  								<th valign="top" nowrap="nowrap">18.&nbsp;</th>
+  								<td valign="top">下列选项中不属于视频文件格式的是（ ）。</td>
+  							</tr>
+  						</table>
+  					</div>
+					<table class="table">
+						<tr>
+							<td width="25%">
+								<input type="radio" name="ans_18" id="ans_18_A" value="A" ng-model="ans.questa[17].answer" />
+								<label for="ans_18_A">A. TXT</label>
+							</td><td width="25%">
+								<input type="radio" name="ans_18" id="ans_18_B" value="B" ng-model="ans.questa[17].answer" />
+								<label for="ans_18_B">B. AVI</label>
+							</td><td width="25%">
+								<input type="radio" name="ans_18" id="ans_18_C" value="C" ng-model="ans.questa[17].answer" />
+								<label for="ans_18_C">C. MOV</label>
+							</td><td width="25%">
+								<input type="radio" name="ans_18" id="ans_18_D" value="D" ng-model="ans.questa[17].answer" />
+								<label for="ans_18_D">D. RMVB</label>
+							</td>
+						</tr>
+					</table>
+				</div>
+
+				<div id="QA119" class="panel panel-default">
+  					<div class="panel-heading">
+  						<table>
+  							<tr>
+  								<th valign="top" nowrap="nowrap">19.&nbsp;</th>
+  								<td valign="top">
+  									设某算法的计算时间表示为递推关系式 T(n)=T(n-1)+n(n为正整数）
+  									及 T(0)=1，则 该算法的时间复杂度为（ ）。
+  								</td>
+  							</tr>
+  						</table>
+  					</div>
+					<table class="table">
+						<tr>
+							<td width="25%">
+								<input type="radio" name="ans_19" id="ans_19_A" value="A" ng-model="ans.questa[18].answer" />
+								<label for="ans_19_A">A. O(log<sub>n</sub>)</label>
+							</td><td width="25%">
+								<input type="radio" name="ans_19" id="ans_19_B" value="B" ng-model="ans.questa[18].answer" />
+								<label for="ans_19_B">B. O(nlog<sub>n</sub>)</label>
+							</td><td width="25%">
+								<input type="radio" name="ans_19" id="ans_19_C" value="C" ng-model="ans.questa[18].answer" />
+								<label for="ans_19_C">C. O(n)</label>
+							</td><td width="25%">
+								<input type="radio" name="ans_19" id="ans_19_D" value="D" ng-model="ans.questa[18].answer" />
+								<label for="ans_19_D">D. O(n<sup>2</sup>)</label>
+							</td>
+						</tr>
+					</table>
+				</div>
+
+				<div id="QA120" class="panel panel-default">
+  					<div class="panel-heading">
+  						<table>
+  							<tr>
+  								<th valign="top" nowrap="nowrap">20.&nbsp;</th>
+  								<td valign="top">
+  									在 NOI系列赛事中参赛选手必须使用由承办单位统一提供的设备。
+  									下列物品中不允许选 手自带的 是（	）。
+  								</td>
+  							</tr>
+  						</table>
+  					</div>
+					<table class="table">
+						<tr>
+							<td width="25%">
+								<input type="radio" name="ans_20" id="ans_20_A" value="A" ng-model="ans.questa[19].answer" />
+								<label for="ans_20_A">A. 鼠标</label>
+							</td><td width="25%">
+								<input type="radio" name="ans_20" id="ans_20_B" value="B" ng-model="ans.questa[19].answer" />
+								<label for="ans_20_B">B. 笔</label>
+							</td><td width="25%">
+								<input type="radio" name="ans_20" id="ans_20_C" value="C" ng-model="ans.questa[19].answer" />
+								<label for="ans_20_C">C. 身份证</label>
+							</td><td width="25%">
+								<input type="radio" name="ans_20" id="ans_20_D" value="D" ng-model="ans.questa[19].answer" />
+								<label for="ans_20_D">D. 准考证</label>
+							</td>
+						</tr>
+					</table>
+				</div>
+
+				<div class="page-header">
+  					<h4><b>二、问题求解</b>（共 2 题，每题 5 分，共计 10 分；每题全部答对得 5 分，没有部分分）</h4>
+				</div>
+				
+				<div id="QA201" class="panel panel-default">
+  					<div class="panel-body">
+						<table>
+							<tr>
+								<th valign="middle" nowrap="nowrap">1.&nbsp;</th>
+								<td valign="middle">
+									重新排列 1234 使得每一个数字都不在原来的位置上，一共有
+									<input style="width: 60px;" type="text" ng-model="ans.questb[0].answer" placeholder="[5分]">
+									种排法。
+								</td>
+							</tr>
+						</table>
+  					</div>
+				</div>
+				
+				<div id="QA202" class="panel panel-default">
+  					<div class="panel-body">
+						<table>
+							<tr>
+								<th valign="middle" nowrap="nowrap">2.&nbsp;</th>
+								<td valign="middle">
+									—棵结点数为 2015 的二叉树最多有
+									<input style="width: 60px;" type="text" ng-model="ans.questb[1].answer" placeholder="[5分]">
+ 									个叶子结点。
+								</td>
+							</tr>
+						</table>
+  					</div>
+				</div>
+				
+				<div class="page-header">
+  					<h4><b>三、阅读程序写结果</b>(共4题，每题8分，共计32分)</h4>
+				</div>
+				
+				<div id="QA301" class="panel panel-default">
+  					<div class="panel-body">
+						<table width="100%">
+							<tr>
+								<th valign="top" nowrap="nowrap">1.&nbsp;</th>
+								<td valign="top">
+									<pre>
+#include &lt;iostream>
+using namespace std;
+
+int main() {
+    int a,b,c;
+    a=1; b=2; c=3;
+    if (a > c){
+        if(a > c)
+            cout << a << " " ;
+        else cout << b << " ";
+    }
+    cout << c << endl;
+    return 0;
+}									</pre>
+								</td>
+							</tr>
+							<tr><td></td><td>
+								输出：<input style="width: 200px;" type="text" ng-model="ans.questc[0].answer" placeholder="[8分]">
+							</td></tr>
+						</table>
+  					</div>
+				</div>
+				
+				<div id="QA302" class="panel panel-default">
+  					<div class="panel-body">
+						<table width="100%">
+							<tr>
+								<th valign="top" nowrap="nowrap">2.&nbsp;</th>
+								<td valign="top">
+									<pre>
+#include &lt;iostream>
+using namespace std;
+
+struct point {
+    int x;
+    int y;
+};
+
+int main() {
+    struct EX { 
+        int a; 
+        int b;
+        point c;
+    } e; 
+    e.a=1; 
+    e.b=2;
+    e.c.x = e.a + e.b;
+    e.c.y = e.a * e.b;
+    cout << e.c.x << "," << e.c.y << endl;
+
+    return 0;
+}
+									</pre>
+								</td>
+							</tr>
+							<tr><td></td><td>
+								输出：<input style="width: 200px;" type="text" ng-model="ans.questc[1].answer" placeholder="[8分]">
+							</td></tr>
+						</table>
+  					</div>
+				</div>
+				
+				<div id="QA303" class="panel panel-default">
+  					<div class="panel-body">
+						<table width="100%">
+							<tr>
+								<th valign="top" nowrap="nowrap">3.&nbsp;</th>
+								<td valign="top">
+									<pre>
+#include &lt;iostream>
+using namespace std;
+
+int main() {
+    string str;
+    int i;
+    int count;
+    count = 0;
+    getline(cin,str);
+    for (i = 0; i < str.length(); i++) {
+        if(str[i] >= 'a' && str[i] <= 'z')
+            count++;
+    }
+    cout << "It has " << count << " lowercases" << endl;
+    return 0;
+}
+									</pre>
+								</td>
+							</tr>
+							<tr><td></td><td>
+								输入：NOI2016 will be held in Mian Yang.
+							</td></tr>
+							<tr><td></td><td>
+								输出：<input style="width: 200px;" type="text" ng-model="ans.questc[2].answer" placeholder="[8分]">
+							</td></tr>
+						</table>
+  					</div>
+				</div>
+				
+				<div id="QA304" class="panel panel-default">
+  					<div class="panel-body">
+						<table width="100%">
+							<tr>
+								<th valign="top" nowrap="nowrap">4.&nbsp;</th>
+								<td valign="top">
+									<pre>
+#include &lt;iostream>
+using namespace std;
+
+void fun(char *a, char *b) {
+    a = b;
+    (*a)++;
+}
+
+int main() {
+    char cl, c2, *p1, *p2;
+    cl = 'A'; c2 = 'a'; p1 = &cl; p2 = &c2;
+    fun(p1, p2);
+    cout << cl << c2 << endl;
+    return 0;
+}
+									</pre>
+								</td>
+							</tr>
+							<tr><td></td><td>
+								输出：<input style="width: 200px;" type="text" ng-model="ans.questc[3].answer" placeholder="[8分]">
+							</td></tr>
+						</table>
+  					</div>
+				</div>
+				
+				<div class="page-header">
+  					<h4><b>四、完善程序</b>(共2题，每题14分，共计28分)</h4>
+				</div>
+				
+				<div id="QA401" class="panel panel-default">
+				  	<div class="panel-heading">
+				    	<table width="100%">
+				    		<tr>
+				    			<th valign="top" nowrap="nowrap">1.&nbsp;</th>
+				    			<td>
+									<b>（打印月历）</b>
+									输入月份 m(1 ≤ m ≤ 12)，按一定格式打印 2015 年第 m月的月历。<br>
+									例如，2015 年 1 月的月历打印效果如下（第一列为周日）：<br>
+									<table width="300">
+										<tr><th>S </th><th>M </th><th>T </th><th>W </th><th>T </th><th>F </th><th>S </th></tr>	
+										<tr><td>  </td><td>  </td><td>  </td><td>  </td><td>1 </td><td>2 </td><td>3 </td></tr>	
+										<tr><td>4 </td><td>5 </td><td>6 </td><td>7 </td><td>8 </td><td>9 </td><td>10</td></tr>	
+										<tr><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td></tr>	
+										<tr><td>18</td><td>19</td><td>20</td><td>21</td><td>22</td><td>23</td><td>24</td></tr>	
+										<tr><td>25</td><td>26</td><td>27</td><td>28</td><td>29</td><td>30</td><td>31</td></tr>	
+									</table>
+				    			</td>
+				    		</tr>
+				    	</table>
+				  	</div>
+				  	<div class="panel-body">
+				    	<table width="100%">
+				    		<tr>
+				    			<th nowrap="nowrap">&nbsp;&nbsp;&nbsp;</th>
+				    			<td><pre>
+#include &lt;iostream>
+using namespace std;
+
+const int dayNum[] = {-l,31,28,31,30,31,30,31,31,30,31,30,31};
+int m, offset, i;
+
+int main() {
+    cin >> m;
+    cout << " S\tM\tT\tW\tT\tF\tS " endl; // '\t'为  TAB 制表符
+    <input id="QA411" style="width: 240px;" type="text" ng-model="ans.questd[0].answer" placeholder="(___1___)[3分]">;
+    for(i = 1; i < m; i++)
+        offset = <input id="QA412" style="width: 240px;" type="text" ng-model="ans.questd[1].answer" placeholder="(___2___)[3分]">;
+    for(i = 0; i < offset; i++)
+        cout <<	'\t';
+    for(i = 1; i <= <input id="QA413" style="width: 240px;" type="text" ng-model="ans.questd[2].answer" placeholder="(___3___)[2.5分]">;i++){
+        cout << <input id="QA414" style="width: 240px;" type="text" ng-model="ans.questd[3].answer" placeholder="(___4___)[2.5分]">;
+        if(i == dayNum[m] || <input id="QA415" style="width: 240px;" type="text" ng-model="ans.questd[4].answer" placeholder="(___5___)[3分]"> == 0)
+            cout << endl;
+        else
+            cout << '\t';
+    }
+
+    return 0;
+}
+								</pre></td>
+				    		</tr>
+				    	</table>
+				  	</div>
+				</div>
+				
+				<div id="QA402" class="panel panel-default">
+				  	<div class="panel-heading">
+				    	<table width="100%">
+				    		<tr>
+				    			<th valign="top" nowrap="nowrap">2.&nbsp;</th>
+				    			<td><b>（中位数）</b>
+									给定 n(n为奇数且小于 1000)个整数，整数的范围在 0〜m(0 < m < 2<sup>31</sup>)之间，
+									请使用二分法求这 n个整数的中位数。所谓中位数，是指将这 n个数排序之后， 排在正中间的数。
+				    			</td>
+				    		</tr>
+				    	</table>
+				  	</div>
+				  	<div class="panel-body">
+				    	<table width="100%">
+				    		<tr><th nowrap="nowrap">&nbsp;&nbsp;&nbsp;</th>
+				    			<td><pre>
+#include &lt;iostream>
+using namespace std;
+
+const int MAXN = 1000;
+int n, i, lbound, rbound, mid, m, count;
+int x[MAXN];
+
+int main(){
+    cin >> n >> m;
+    for (i = 0; i < n; ++i)
+        cin >> x[i];
+    lbound=0;
+    rbound=m;
+
+    while (<input id="QA421" style="width: 240px;" type="text" ng-model="ans.questd[5].answer" placeholder="(___1___)[3分]">) {
+        mid = (lbound + rbound)/2;
+ 	    <input id="QA422" style="width: 240px;" type="text" ng-model="ans.questd[6].answer" placeholder="(___2___)[3分]">;
+        for(i = 0; i < n; i++)
+            if (<input id="QA423" style="width: 240px;" type="text" ng-model="ans.questd[7].answer" placeholder="(___3___)[3分]">)
+                <input id="QA424" style="width: 240px;" type="text" ng-model="ans.questd[8].answer" placeholder="(___4___)[3分]">;
+        if(count > n / 2) lbound = mid + 1;
+        else
+            <input id="QA425" style="width: 240px;" type="text" ng-model="ans.questd[9].answer" placeholder="(___5___)[2分]">;
+    }
+    cout << rbound << endl;
+    return 0;
+}
+								</pre></td>
+				    		</tr>
+				    	</table>
+				  	</div>
+				</div>
+		    </div>
+		    
+		    <!-- 右侧目录边栏-->
+		    <div class="col-md-3" role="complementary">
+				<div id="panel-top" class="page-header">
+  					<h4><b>一、单选题</b></h4>
+				</div>
+    			<div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+      				<div class="btn-group" role="group" aria-label="First group">
+        				<a href="#QA101"><button id="btn_1_1" type="button" class="btn btn-default">1</button></a>
+        				<a href="#QA102"><button id="btn_1_2" type="button" class="btn btn-default">2</button></a>
+        				<a href="#QA103"><button id="btn_1_3" type="button" class="btn btn-default">3</button></a>
+        				<a href="#QA104"><button id="btn_1_4" type="button" class="btn btn-default">4</button></a>
+        				<a href="#QA105"><button id="btn_1_5" type="button" class="btn btn-default">5</button></a>
+        				<a href="#QA106"><button id="btn_1_6" type="button" class="btn btn-default">6</button></a>
+        				<a href="#QA107"><button id="btn_1_7" type="button" class="btn btn-default">7</button></a>
+        				<a href="#QA108"><button id="btn_1_8" type="button" class="btn btn-default">8</button></a>
+        				<a href="#QA109"><button id="btn_1_9" type="button" class="btn btn-default">9</button></a>
+        				<a href="#QA110"><button id="btn_1_10" type="button" class="btn btn-default">10</button></a>
+        				<a href="#QA111"><button id="btn_1_11" type="button" class="btn btn-default">11</button></a>
+        				<a href="#QA112"><button id="btn_1_12" type="button" class="btn btn-default">12</button></a>
+        				<a href="#QA113"><button id="btn_1_13" type="button" class="btn btn-default">13</button></a>
+        				<a href="#QA114"><button id="btn_1_14" type="button" class="btn btn-default">14</button></a>
+        				<a href="#QA115"><button id="btn_1_15" type="button" class="btn btn-default">15</button></a>
+        				<a href="#QA116"><button id="btn_1_16" type="button" class="btn btn-default">16</button></a>
+        				<a href="#QA117"><button id="btn_1_17" type="button" class="btn btn-default">17</button></a>
+        				<a href="#QA118"><button id="btn_1_18" type="button" class="btn btn-default">18</button></a>
+        				<a href="#QA119"><button id="btn_1_19" type="button" class="btn btn-default">19</button></a>
+        				<a href="#QA120"><button id="btn_1_20" type="button" class="btn btn-default">20</button></a>
+      				</div>
+    			</div>
+				
+				<div class="page-header">
+  					<h4><b>二、问题求解</b></h4>
+				</div>
+				<div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+      				<div class="btn-group" role="group" aria-label="First group">
+        				<a href="#QA201"><button id="btn_2_1" type="button" class="btn btn-default">1</button></a>
+        				<a href="#QA202"><button id="btn_2_2" type="button" class="btn btn-default">2</button></a>
+      				</div>
+    			</div>
+
+				<div class="page-header">
+  					<h4><b>三、阅读程序写结果</b></h4>
+				</div>
+				
+				<div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+      				<div class="btn-group" role="group" aria-label="First group">
+        				<a href="#QA301"><button id="btn_3_1" type="button" class="btn btn-default">1</button></a>
+        				<a href="#QA302"><button id="btn_3_2" type="button" class="btn btn-default">2</button></a>
+        				<a href="#QA303"><button id="btn_3_3" type="button" class="btn btn-default">3</button></a>
+        				<a href="#QA304"><button id="btn_3_4" type="button" class="btn btn-default">4</button></a>
+      				</div>
+    			</div>
+
+				<div class="page-header">
+  					<h4><b>四、完善程序</b></h4>
+				</div>
+
+				<div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+      				<div class="btn-group" role="group" aria-label="First group">
+        				<a href="#QA411"><button id="btn_4_1" type="button" class="btn btn-default">1</button></a>
+        				<a href="#QA412"><button id="btn_4_2" type="button" class="btn btn-default">2</button></a>
+        				<a href="#QA413"><button id="btn_4_3" type="button" class="btn btn-default">3</button></a>
+        				<a href="#QA414"><button id="btn_4_4" type="button" class="btn btn-default">4</button></a>
+        				<a href="#QA415"><button id="btn_4_5" type="button" class="btn btn-default">5</button></a>
+      				</div>
+      				<div class="btn-group" role="group" aria-label="Second group">
+        				<a href="#QA421"><button id="btn_4_6" type="button" class="btn btn-default">1</button></a>
+        				<a href="#QA422"><button id="btn_4_7" type="button" class="btn btn-default">2</button></a>
+        				<a href="#QA423"><button id="btn_4_8" type="button" class="btn btn-default">3</button></a>
+        				<a href="#QA424"><button id="btn_4_9" type="button" class="btn btn-default">4</button></a>
+        				<a href="#QA425"><button id="btn_4_10" type="button" class="btn btn-default">5</button></a>
+      				</div>
+    			</div>
+		    </div>
+    	</div>
+
+		<footer class="footer ">
+    		<div class="container">
+      			<hr>
+      			<div class="row footer-bottom">
+        			<ul class="list-inline text-center">
+          				<li><a>网页制作：张大为</a></li>
+          				<li>制作日期：2018年5月24日</li>
+        			</ul>
+      			</div>
+    		</div>
+  		</footer>
+    	
+    	<!-- 左侧边栏 -->
+		<div class="tool-box" style="left:-20px; display: block;">
+			<ul class="meau-list">
+				<li>
+					<a class="btn-comments" title="交卷"  ng-click="$ctrl.doHandin()" style="cursor: pointer">
+						<span class="glyphicon  glyphicon-log-out glp-size"></span><br>交卷
+					</a>
+				</li>
+				<li>
+					<a class="btn-comments" title="交卷"  href="#panel-top" style="cursor: pointer">
+						<span class="glyphicon  glyphicon-share-alt glp-size"></span><br>返回
+					</a>
+				</li>
+			</ul>
+		</div>
+
+		<!-- 成绩模态框 -->
+    	<script type="text/ng-template" id="handin.html">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<table width="100%">
+						<tr style="font-size: 20px; font-weight: bold;">
+							<td>成绩统计结果</td>
+							<td  ng-click="$ctrl.handinCancel()" align="right" style="cursor: pointer">&nbsp;X&nbsp;</td></tr>
+					</table>
+				</div>
+				<table class="table">
+					<tr>
+						<th width="20%">一、单项选择</th>
+						<th width="20%">二、问题求解</th>
+						<th width="20%">三、阅读程序</th>
+						<th width="20%">四、完善程序</th>
+						<th width="20%">五、最终成绩</th>
+					</tr>
+					<tr>
+						<td width="20%">{{score.q1}}</td>
+						<td width="20%">{{score.q2}}</td>
+						<td width="20%">{{score.q3}}</td>
+						<td width="20%">{{score.q4}}</td>
+						<td width="20%">{{score.qq}}</td>
+					</tr>
+				</table>
+			</div>
+    	</script>
+    	
+		<script src="../../../assets/jquery/3.3.1/jquery-3.3.1.min.js"></script>
+		<script src="../../../assets/angular/1.6.9/angular.min.js"></script>
+		<script src="../../../assets/angular-ui-bootstrap/ui-bootstrap-tpls-2.5.0.js"></script>
+		<script src="../../../assets/ng-dialog/1.4.0/js/ngDialog.min.js"></script>
+
+		<script type="text/javascript">
+    		var app = angular.module('testApp', ['ui.bootstrap','ngDialog']);
+    		app.controller('test-paper', function ($log ,$scope,$http,$uibModal,ngDialog) {
+    			var $ctrl = this;
+
+				$scope.ans = {};
+				$scope.score = {q1:0,q2:0,q3:0,q4:0,qq:0};
+		        $scope.loadAnswers = function () {
+		            $http({method: 'GET',url: '../../../assets/data/junior-2015-10-11.json'}).then(
+		                function successCallback(response) {
+		                    $scope.ans = response.data;
+		                }, function errorCallback(response) {
+		                    $log.info(response);
+		                }
+		            );
+		        }
+		        
+		        $scope.doJudge=function(){
+		        	var sa = 0;
+		        	for(var i=0;i<20;i++){
+		        		var id = "#btn_1_" + (i+1);
+		        		var qa = $scope.ans.questa[i];
+		        		if(qa.answer==qa.key){
+		        			sa = sa + qa.score;
+		        			$(id).removeClass("btn-danger");
+		        			$(id).addClass("btn-success");
+		        		}else{
+		        			$(id).removeClass("btn-success");
+		        			$(id).addClass("btn-danger");
+		        		}
+
+		        	}
+					$scope.score.q1 = sa;
+					
+		        	var sb = 0;
+		        	for(var i=0;i<2;i++){
+		        		var id = "#btn_2_" + (i+1);
+		        		var qb = $scope.ans.questb[i];
+		        		if(qb.answer==qb.key){
+		        			sb = sb + qb.score;
+		        			$(id).removeClass("btn-danger");
+		        			$(id).addClass("btn-success");
+		        		}else{
+		        			$(id).removeClass("btn-success");
+		        			$(id).addClass("btn-danger");
+		        		}
+
+		        	}
+					$scope.score.q2 = sb;
+
+		        	var sc = 0;
+		        	for(var i=0;i<4;i++){
+		        		var id = "#btn_3_" + (i+1);
+		        		var qc = $scope.ans.questc[i];
+		        		if($.trim(qc.answer)==qc.key){
+		        			sc = sc + qc.score;
+		        			$(id).removeClass("btn-danger");
+		        			$(id).addClass("btn-success");
+		        		}else{
+		        			$(id).removeClass("btn-success");
+		        			$(id).addClass("btn-danger");
+		        		}
+		        	}
+					$scope.score.q3 = sc;
+
+		        	var sd = 0;
+		        	for(var i=0;i<10;i++){
+		        		var qd = $scope.ans.questd[i];
+		        		var res = removeAllSpace(qd.answer);
+		        		var ans = qd.key.split(";");
+		        		var flag = 0;
+		        		for(var j=0;j<ans.length;j++){
+							if(res==ans[j]){
+								flag = 1;
+								break;
+							}
+		        		}
+		        		var id = "#btn_4_" + (i+1);
+		        		if(flag==1){
+		        			sd = sd + qd.score;
+		        			$(id).removeClass("btn-danger");
+		        			$(id).addClass("btn-success");
+		        		}else{
+		        			$(id).removeClass("btn-success");
+		        			$(id).addClass("btn-danger");
+		        		}
+		        	}
+					$scope.score.q4 = sd;
+					
+					$scope.score.qq = sa + sb + sc + sd;
+		        }
+
+        		//显示登录模态框
+        		$ctrl.doHandin = function(){
+        			$scope.doJudge();
+            		//显示模态登录对话框
+            		var modalInstance = $uibModal.open({
+                		animation: true,
+                		ariaLabelledBy: 'login-title',
+                		ariaDescribedBy: 'login-body',
+                		templateUrl: 'handin.html',
+                		controller: 'HandinController',
+                		controllerAs: '$ctrl',
+                		scope:$scope
+            		});
+            		//处理模态对话框按钮事件
+            		modalInstance.result.then(function (data) {}, function (){});
+        		}
+
+    		});
+
+		    //登录对话框控制器
+		    app.controller('HandinController', function ($uibModalInstance,$scope,$log) {
+		        var $ctrl = this;
+		        //处理登录对话框关闭按钮事件
+		        $ctrl.handinCancel = function () {
+		            $uibModalInstance.dismiss('cancel');
+		        };
+		    });
+
+    		function removeAllSpace(str) {
+				return str.replace(/\s+/g, "");
+			}
+		</script>
+	</body>
+</html>
