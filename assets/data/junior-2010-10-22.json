@@ -1,0 +1,47 @@
+{
+	"questa":[
+		{"id":1,"answer":"","key":"D","score":1.5},
+		{"id":2,"answer":"","key":"A","score":1.5},
+		{"id":3,"answer":"","key":"A","score":1.5},
+		{"id":4,"answer":"","key":"D","score":1.5},
+		{"id":5,"answer":"","key":"A","score":1.5},
+		{"id":6,"answer":"","key":"D","score":1.5},
+		{"id":7,"answer":"","key":"B","score":1.5},
+		{"id":8,"answer":"","key":"D","score":1.5},
+		{"id":9,"answer":"","key":"C","score":1.5},
+		{"id":10,"answer":"","key":"B","score":1.5},
+		{"id":11,"answer":"","key":"D","score":1.5},
+		{"id":12,"answer":"","key":"B","score":1.5},
+		{"id":13,"answer":"","key":"B","score":1.5},
+		{"id":14,"answer":"","key":"B","score":1.5},
+		{"id":15,"answer":"","key":"B","score":1.5},
+		{"id":16,"answer":"","key":"A","score":1.5},
+		{"id":17,"answer":"","key":"A","score":1.5},
+		{"id":18,"answer":"","key":"D","score":1.5},
+		{"id":19,"answer":"","key":"C","score":1.5},
+		{"id":20,"answer":"","key":"D","score":1.5}
+	],
+	"questb":[
+		{"id":1,"answer":"","key":"2-2-1-2-3-1-1-3-4-3-1-2-1-3-5-3-6;22123113431213536","score":5},
+		{"id":2,"answer":"","key":"49","score":5}
+	],
+	"questc":[
+		{"id":1,"answer":"","key":"2 20 77 91","score":8},
+		{"id":2,"answer":"","key":"99 101 111","score":8},
+		{"id":3,"answer":"","key":"120 112","score":8},
+		{"id":4,"answer":"","key":"1","score":4},
+        {"id":5,"answer":"","key":"4","score":4}
+	],
+	"questd":[
+		{"id":1,"answer":"","key":"tmp=1","score":2.5},
+		{"id":2,"answer":"","key":"p[j]","score":2.5},
+		{"id":3,"answer":"","key":"p[r]=i","score":2.5},
+		{"id":4,"answer":"","key":"p[j]+p[k];p[k]+p[j]","score":2.5},
+		{"id":5,"answer":"","key":"1004","score":3},
+		{"id":6,"answer":"","key":"num<=2;num<3;num==2","score":3},
+		{"id":7,"answer":"","key":"go(LEFT_TO_RIGHT);go(true)","score":3},
+		{"id":8,"answer":"","key":"pos[i]==LEFT;LEFT==pos[i];true==pos[i];pos[i]==true","score":3},
+		{"id":9,"answer":"","key":"hour[i]+go(RIGHT_TO_LEFT);hour[i]+go(false);go(RIGHT_TO_LEFT)+hour[i];go(false)+hour[i]","score":3},
+		{"id":10,"answer":"","key":"pos[i]=LEFT;pos[i]=true","score":3}
+	]
+}
