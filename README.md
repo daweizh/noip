@@ -7,3 +7,9 @@
 |21|[NOIP(2015)C++普及组初赛在线测试](junior/preliminary/page/21-C++2015-10-11.html)|[下载](junior/preliminary/text/21.NOIP2015普及组初赛C++试题和答案.pdf)|
 |20|[NOIP(2014)C++普及组初赛在线测试](junior/preliminary/page/20-C++2014-10-12.html)|[下载](junior/preliminary/text/20.NOIP2014普及组初赛C++试题和答案.pdf)|
 |19|[NOIP(2013)C++普及组初赛在线测试](junior/preliminary/page/19-C++2013-10-13.html)|[下载](junior/preliminary/text/19.NOIP2013普及组初赛C++试题和答案.pdf)|
+
+## NOIP普及组复赛试题及数据
+
+| 届 |试题 |数据 | | | |
+|---|---|---|---|---|---|
+|23|[NOIP(2017)C++普及组复赛试题](junior/repecharge/2017/23.NOIP2017普及组复赛C++试题.pdf)|[1.score](junior/repecharge/2017/data/1.score.rar)|[2.librarian](junior/repecharge/2017/data/2.librarian.rar)|[3.chess](junior/repecharge/2017/data/3.chess.rar)|[4.jump](junior/repecharge/2017/data/4.jump.rar)|
