@@ -1,23 +1,7 @@
-## NOIP
+## 欢迎关注“智数精英”订阅号
 
 ![欢迎关注“智数精英”订阅号](assets/me/img/idea8.jpg)
 
-
-## 欢迎关注
-
-<table>
-   <tr>
-      <td align="center">
-        <img src="" width="240px" height="240px">
-      </td>
-      <td align="center">
-        <img src="assets/me/img/challenge.png" width="240px" height="240px">
-      </td>
-    </tr><tr>
-      <td align="center"></td>
-      <td align="center">欢迎关注“挑战编程”微信群</td>
-    </tr>
-</table>
 
 ## NOIP普及组初赛试题
 
