@@ -9,11 +9,14 @@
 
 ## 微信订阅号
 
-**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;欢迎关注“智数精英”订阅号**   
-![欢迎关注“智数精英”订阅号](assets/me/img/idea8.jpg)
-![欢迎关注“智数精英”订阅号](assets/me/img/idea8.jpg)
-![欢迎关注“智数精英”订阅号](assets/me/img/idea8.jpg)
-![欢迎关注“智数精英”订阅号](assets/me/img/idea8.jpg)
+1. 欢迎关注“智数精英”订阅号   
+    ![欢迎关注“智数精英”订阅号](assets/me/img/idea8.jpg)
+2. 欢迎关注“智数精英”订阅号   
+    ![欢迎关注“智数精英”订阅号](assets/me/img/idea8.jpg)
+3. 欢迎关注“智数精英”订阅号   
+    ![欢迎关注“智数精英”订阅号](assets/me/img/idea8.jpg)
+4. 欢迎关注“智数精英”订阅号   
+    ![欢迎关注“智数精英”订阅号](assets/me/img/idea8.jpg)
 
 
 
