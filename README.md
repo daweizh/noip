@@ -9,7 +9,10 @@
 
 ## 微信订阅号
 
-![欢迎关注“智数精英”订阅号](assets/me/img/idea8.jpg)
+1. idea-关注中小学程序设计及相关讨论
+2. 西山征途-关注大学生学习生活
+3. 随话录
+
 ![欢迎关注“智数精英”订阅号](assets/me/img/idea8.jpg)
 ![欢迎关注“智数精英”订阅号](assets/me/img/idea8.jpg)
 ![欢迎关注“智数精英”订阅号](assets/me/img/idea8.jpg)
