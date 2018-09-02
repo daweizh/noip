@@ -1,8 +1,8 @@
 ## NOIP
-![欢迎关注“智数精英”订阅号](assets/me/img/idea8.jpg)   
+![欢迎关注“智数精英”订阅号](assets/me/img/idea8.jpg)
 **欢迎关注“智数精英”订阅号**
 
-## NOIP竞赛试题
+## 竞赛试题
 
 1. 普及组
     -[初赛试题](junior/preliminary/index.md)
