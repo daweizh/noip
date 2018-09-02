@@ -1,6 +1,6 @@
 ## NOIP
 
-**&nbsp;&nbsp;&nbsp;&nbsp;欢迎关注“智数精英”订阅号**   
+**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;欢迎关注“智数精英”订阅号**   
 ![欢迎关注“智数精英”订阅号](assets/me/img/idea8.jpg)
 
 ## 竞赛试题
