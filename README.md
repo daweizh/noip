@@ -4,6 +4,13 @@
 
 ## NOIP竞赛试题
 
+1. 普及组
+    -[初赛试题](junior/preliminary/index.md)
+    -[复赛试题](junior/repecharge/index.md)
+2. 提高组
+    -[初赛试题](senior/preliminary/index.md)
+    -[复赛试题](senior/repecharge/index.md)
+
 1. [普及组初赛](junior/preliminary/index.md)
 2. [普及组复赛](junior/repecharge/index.md)
 3. [提高组初赛](senior/preliminary/index.md)
