@@ -11,10 +11,6 @@
     -[初赛试题](senior/preliminary/index.md)
     -[复赛试题](senior/repecharge/index.md)
 
-1. [普及组初赛](junior/preliminary/index.md)
-2. [普及组复赛](junior/repecharge/index.md)
-3. [提高组初赛](senior/preliminary/index.md)
-4. [提高组复赛](senior/repecharge/index.md)
 
 
 
