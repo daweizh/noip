@@ -1,23 +1,26 @@
+## NOIP普及组C++初赛真题
 
-| 届 |在线测试 |原题下载|
-|---|---|---|
-|23|[NOIP(2017)C++普及组初赛在线测试](junior/preliminary/page/23-C++2017-10-14.html)|[下载](junior/preliminary/text/23.NOIP2017普及组初赛C++试题和答案.pdf)|
-|22|[NOIP(2016)C++普及组初赛在线测试](junior/preliminary/page/22-C++2016-10-22.html)|[下载](junior/preliminary/text/22.NOIP2016普及组初赛C++试题和答案.pdf)|
-|21|[NOIP(2015)C++普及组初赛在线测试](junior/preliminary/page/21-C++2015-10-11.html)|[下载](junior/preliminary/text/21.NOIP2015普及组初赛C++试题和答案.pdf)|
-|20|[NOIP(2014)C++普及组初赛在线测试](junior/preliminary/page/20-C++2014-10-12.html)|[下载](junior/preliminary/text/20.NOIP2014普及组初赛C++试题和答案.pdf)|
-|19|[NOIP(2013)C++普及组初赛在线测试](junior/preliminary/page/19-C++2013-10-13.html)|[下载](junior/preliminary/text/19.NOIP2013普及组初赛C++试题和答案.pdf)|
-|18|[NOIP(2012)C++普及组初赛在线测试](junior/preliminary/page/18-C++2012-10-13.html)|[下载](junior/preliminary/text/18.NOIP2012普及组初赛C++试题和答案.pdf)|
-|17|[NOIP(2011)C++普及组初赛在线测试](junior/preliminary/page/17-C++2011-10-15.html)|[下载](junior/preliminary/text/17.NOIP2011普及组初赛C++试题和答案.pdf)|
-|16|[NOIP(2010)C++普及组初赛在线测试](junior/preliminary/page/16-C++2010-10-22.html)|[下载](junior/preliminary/text/16.NOIP2010普及组初赛C++试题和答案.pdf)|
-|15|[NOIP(2009)C++普及组初赛在线测试](junior/preliminary/page/15-C++2009-10-17.html)|[下载](junior/preliminary/text/15.NOIP2009普及组初赛C++试题和答案.pdf)|
-|14|[NOIP(2008)C++普及组初赛在线测试](junior/preliminary/page/14-C++2008-10-18.html)|[下载](junior/preliminary/text/14.NOIP2008普及组初赛C++试题和答案.pdf)|
+| 届 |年份 |在线测试|原题下载|
+|---|---|---|---|
+|23|2017|[在线测试](page/23-C++2017-10-14.html)|[原题下载](paper/23.NOIP2017普及组初赛C++试题和答案.pdf)|
+|22|2016|[在线测试](page/22-C++2016-10-22.html)|[原题下载](paper/22.NOIP2016普及组初赛C++试题和答案.pdf)|
+|21|2015|[在线测试](page/21-C++2015-10-11.html)|[原题下载](paper/21.NOIP2015普及组初赛C++试题和答案.pdf)|
+|20|2014|[在线测试](page/20-C++2014-10-12.html)|[原题下载](paper/20.NOIP2014普及组初赛C++试题和答案.pdf)|
+|19|2013|[在线测试](page/19-C++2013-10-13.html)|[原题下载](paper/19.NOIP2013普及组初赛C++试题和答案.pdf)|
+|18|2012|[在线测试](page/18-C++2012-10-13.html)|[原题下载](paper/18.NOIP2012普及组初赛C++试题和答案.pdf)|
+|17|2011|[在线测试](page/17-C++2011-10-15.html)|[原题下载](paper/17.NOIP2011普及组初赛C++试题和答案.pdf)|
+|16|2010|[在线测试](page/16-C++2010-10-22.html)|[原题下载](paper/16.NOIP2010普及组初赛C++试题和答案.pdf)|
+|15|2009|[在线测试](page/15-C++2009-10-17.html)|[原题下载](paper/15.NOIP2009普及组初赛C++试题和答案.pdf)|
+|14|2008|[在线测试](page/14-C++2008-10-18.html)|[原题下载](paper/14.NOIP2008普及组初赛C++试题和答案.pdf)|
 
-## NOIP普及组复赛试题及数据
 
-| 届 |试题 |数据 | | | |
-|---|---|---|---|---|---|
-|23|[NOIP(2017)C++普及组复赛试题](junior/repecharge/2017/23.NOIP2017普及组复赛C++试题.pdf)|[1.score](junior/repecharge/2017/data/1.score.rar)|[2.librarian](junior/repecharge/2017/data/2.librarian.rar)|[3.chess](junior/repecharge/2017/data/3.chess.rar)|[4.jump](junior/repecharge/2017/data/4.jump.rar)|
-|22|[NOIP(2016)C++普及组复赛试题](junior/repecharge/2016/22.NOIP2016普及组复赛C++试题.pdf)|[1.pencil](junior/repecharge/2016/data/1.pencil.rar)|[2.date](junior/repecharge/2016/data/2.date.rar)|[3.port](junior/repecharge/2016/data/3.port.rar)|[4.magic](junior/repecharge/2016/data/4.magic.rar)|
-|21|[NOIP(2015)C++普及组复赛试题](junior/repecharge/2015/21.NOIP2015普及组复赛C++试题.pdf)|[1.coin](junior/repecharge/2015/data/1.coin.rar)|[2.mine](junior/repecharge/2015/data/2.mine.rar)|[3.sum](junior/repecharge/2015/data/3.sum.rar)|[4.salesman](junior/repecharge/2015/data/4.salesman.rar)|
-|20|[NOIP(2014)C++普及组复赛试题](junior/repecharge/2014/20.NOIP2014普及组复赛C++试题.pdf)|[1.count](junior/repecharge/2014/data/1.count.rar)|[2.ratio](junior/repecharge/2014/data/2.ratio.rar)|[3.matrix](junior/repecharge/2014/data/3.matrix.rar)|[4.magic](junior/repecharge/2014/data/4.submatrix.rar)|
-|19|[NOIP(2013)C++普及组复赛试题](junior/repecharge/2013/19.NOIP2013普及组复赛C++试题.pdf)|[1.count](junior/repecharge/2013/data/1.count.rar)|[2.expr](junior/repecharge/2013/data/2.expr.rar)|[3.number](junior/repecharge/2013/data/3.number.rar)|[4.level](junior/repecharge/2013/data/4.level.rar)|
+## w.微信订阅号
+
+1. 智数精英-关注中小学程序设计及相关讨论
+2. 随话录-记录小朋友们的成长时光
+2. 西山征途-关注大学生成长、学习和生活
+
+![欢迎关注“智数精英”订阅号](../../assets/me/img/idea8.jpg)
+![欢迎关注“随话录”订阅号](../../assets/me/img/shl8.jpg)
+![欢迎关注“西山征途”订阅号](../../assets/me/img/xszt8.jpg)
+
