@@ -3,7 +3,7 @@
 | 届 |年份 |题册|题一|题二|题三|题四|模拟|
 |---|---|---|---|
 |23|2017|[题册](2017/junior-rep-23-2017-C++.pdf)|[题一](2017/score.rar)|[题二](2017/librarian.rar)|[题三](2017/chess.rar)|[题四](2017/jump.rar)|[模拟](2017/junior-rep-23-2017-C++.rar)|
-|22|2016|[题册](2016/junior-rep-22-2016-C++.pdf)|[题一](2016/count.rar)|[题二](2016/expr.rar)|[题三](2016/number.rar)|[题四](2016/level.rar)|[模拟](2016/junior-rep-22-2016-C++.rar)|
+|22|2016|[题册](2016/junior-rep-22-2016-C++.pdf)|[题一](2016/pencil.rar)|[题二](2016/date.rar)|[题三](2016/port.rar)|[题四](2016/magic.rar)|[模拟](2016/junior-rep-22-2016-C++.rar)|
 |21|2015|[题册](2015/junior-rep-21-2015-C++.pdf)|[题一](2015/count.rar)|[题二](2015/expr.rar)|[题三](2015/number.rar)|[题四](2015/level.rar)|[模拟](2015/junior-rep-21-2015-C++.rar)|
 |20|2014|[题册](2014/junior-rep-20-2014-C++.pdf)|[题一](2014/count.rar)|[题二](2014/expr.rar)|[题三](2014/number.rar)|[题四](2014/level.rar)|[模拟](2014/junior-rep-20-2014-C++.rar)|
 |19|2013|[题册](2013/junior-rep-19-2013-C++.pdf)|[题一](2013/count.rar)|[题二](2013/expr.rar)|[题三](2013/number.rar)|[题四](2013/level.rar)|[模拟](2013/junior-rep-19-2013-C++.rar)|
