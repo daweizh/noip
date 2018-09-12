@@ -1,11 +1,11 @@
 ## NOIP
 
 1. 普及组
-    -[初赛试题](junior/preliminary/index.md)
-    -[复赛试题](junior/repecharge/index.md)
+    -[初赛试题](junior/preliminary/)
+    -[复赛试题](junior/repecharge/)
 2. 提高组
-    -[初赛试题](senior/preliminary/index.md)
-    -[复赛试题](senior/repecharge/index.md)
+    -[初赛试题](senior/preliminary/)
+    -[复赛试题](senior/repecharge/)
 
 ## w.微信订阅号
 
