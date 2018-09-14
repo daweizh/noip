@@ -121,7 +121,7 @@
 	~~~
 	![](images/judge-07.png)   
 	Ac表示执行结果正确
-10. 错误的对拍结果如下：    
+10. 错误的对拍结果如下：
 	~~~
 	noilinux@ubuntu:~/noip/junior-rep-23-2017-C++/score$ sudo sh ./score.sh
 	score1
