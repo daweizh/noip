@@ -6,6 +6,7 @@
 2. 提高组
     -[初赛试题](senior/preliminary/)
     -[复赛试题](senior/repecharge/)
+3. [noilinux-1.4.1下GUIDE-1.0.0编程过程说明](handbook/coding.md)
 
 ## w.微信订阅号
 
