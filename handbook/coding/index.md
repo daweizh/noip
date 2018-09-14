@@ -126,10 +126,10 @@
 	noilinux@ubuntu:~/noip/junior-rep-23-2017-C++/score$ sudo sh ./score.sh
 	score1
 	1c1
-	&lt; 40
+	< 40
 	---
-	&gt; 32
- 	~~~
+	> 32
+	~~~
 	![](images/judge-08.png)
 
 ## w.微信订阅号
