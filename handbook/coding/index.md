@@ -126,8 +126,9 @@
 	noilinux@ubuntu:~/noip/junior-rep-23-2017-C++/score$ sudo sh ./score.sh
 	score1
 	1c1
-	< 40
-	> 32
+	&lt; 40
+	---
+	&gt; 32
  	~~~
 	![](images/judge-08.png)
 
