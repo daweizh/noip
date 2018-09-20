@@ -227,6 +227,7 @@ int main(){
 
 ## 23.4 jump
 
+~~~
 #include <stdio.h>
 #include <iostream>
 #include <algorithm>
@@ -294,7 +295,7 @@ int main(){
     return 0;
 }
 
-
+~~~
 
 
 
