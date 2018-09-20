@@ -113,6 +113,7 @@ int main(){
 ~~~
 
 
+~~~
 #include <stdio.h>
 #include <iostream>
 using namespace std;
@@ -155,7 +156,7 @@ int main(){
     return 0;
 
 }
-
+~~~
 
 ## 23.3 chess
 
@@ -196,7 +197,6 @@ void walk(int sx,int sy,int coin,int magic){
 
         return;
 }
-
 
 int main(){
     freopen("chess.in","r",stdin);
@@ -303,7 +303,7 @@ int main(){
 
 
     
-## w.微信订阅号
+## w. 微信订阅号
 
 1. 智数精英-关注中小学程序设计及相关讨论
 2. 随话录-记录小朋友们的成长时光
@@ -315,7 +315,7 @@ int main(){
 
 ----------
 
-## b.[返回首页](../../../)
+## b. [返回首页](../../../)
     
 
 
