@@ -168,7 +168,7 @@ using namespace std;
 
 int m,n;
 int chess[105][105],cost[105][105];
-int step[4][2]={{0,-1},{0,1},{-1,0},{1,0}};
+int step[4][2]={ {0,-1},{0,1},{-1,0},{1,0} };
 
 void walk(int sx,int sy,int coin,int magic){
         if (coin < cost[sx][sy])
