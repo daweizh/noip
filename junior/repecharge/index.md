@@ -6,8 +6,6 @@
 |2017|[试题](2017/junior-rep-23-2017-C++.zip)|[题解](2017/score/)         |[题解](2017/librarian/)             |[题解](2017/chess/)         |[题解](2017/jump/)        |
 
 <!--
-
-
 |22|2016|[题册](2016/junior-rep-22-2016-C++.pdf)|[题一](2016/pencil.zip)|[题二](2016/date.zip)|[题三](2016/port.zip)|[题四](2016/magic.zip)|[模拟](2016/junior-rep-22-2016-C++.zip)||
 |21|2015|[题册](2015/junior-rep-21-2015-C++.pdf)|[题一](2015/coin.zip)|[题二](2015/mine.zip)|[题三](2015/sum.zip)|[题四](2015/salesman.zip)|[模拟](2015/junior-rep-21-2015-C++.zip)||
 |20|2014|[题册](2014/junior-rep-20-2014-C++.pdf)|[题一](2014/count.zip)|[题二](2014/ratio.zip)|[题三](2014/matrix.zip)|[题四](2014/submatrix.zip)|[模拟](2014/junior-rep-20-2014-C++.zip)||
