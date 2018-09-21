@@ -64,13 +64,13 @@ freopen("score.in","r",stdin);
 #include <iostream>
 using namespace std;
 
+int a;      //作业成绩
+int b;      //小测成绩
+int c;      //期末考试成绩
+int score;  //总成绩
+
 int main(){
     freopen("score.in","r",stdin);
-    
-    int a;      //作业成绩
-    int b;      //小测成绩
-    int c;      //期末考试成绩
-    int score;  //总成绩
     
     cin >> a >> b >> c;
     //直接用整数计算，避免小数参与计算带来的精度问题
@@ -108,14 +108,14 @@ done
 #include <iostream>
 using namespace std;
 
+int a;      //作业成绩
+int b;      //小测成绩
+int c;      //期末考试成绩
+int score;  //总成绩
+    
 int main(){
     freopen("score.in","r",stdin);
     freopen("score.out","w",stdout);
-    
-    int a;      //作业成绩
-    int b;      //小测成绩
-    int c;      //期末考试成绩
-    int score;  //总成绩
     
     cin >> a >> b >> c;
     //直接用整数计算，避免小数参与计算带来的精度问题
