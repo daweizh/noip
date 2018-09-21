@@ -6,7 +6,9 @@
 
 ## step1
 建立程序框架，熟悉编译执行过程，并把样例输出作为测试信息输出。
-~~~cpp
+~~~
+//cpp
+
 #include <stdio.h>
 #include <iostream>
 using namespace std;
@@ -20,7 +22,9 @@ int main(){
 
 ## step2
 综合分析试题描述对数据建模，找到基本的输入输出数据存储方式，并确定它们的数据类型。
-~~~cpp
+~~~
+//cpp
+
 int a;      //作业成绩
 int b;      //小测成绩
 int c;      //期末考试成绩
