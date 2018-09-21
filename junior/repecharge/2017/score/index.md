@@ -6,7 +6,7 @@
 
 ## step1
 建立程序框架，熟悉编译执行过程，并把样例输出作为测试信息输出。
-~~~
+~~~cpp
 #include <stdio.h>
 #include <iostream>
 using namespace std;
@@ -20,7 +20,7 @@ int main(){
 
 ## step2
 综合分析试题描述对数据建模，找到基本的输入输出数据存储方式，并确定它们的数据类型。
-~~~
+~~~cpp
 int a;      //作业成绩
 int b;      //小测成绩
 int c;      //期末考试成绩
@@ -29,37 +29,37 @@ int score;  //总成绩
 
 ## step3
 由于需要计算成绩的只有牛牛，确定数据的读入策略为**一次性读入**。
-~~~
+~~~cpp
 cin >> a >> b >> c;
 ~~~
 
 ## step4
 根据试题中给出的计算总成绩的方法，确定数据加工方法（算法）。
 由于所有变量都定义为int型，所以直接用整型参与计算避免精度损失。
-~~~
+~~~cpp
 score = (a*2 + b*3 + c*5)/10;
 ~~~
 注意：20%=2/10=0.2；30%=3/10=0.3；50%=5/10=0.5。
 
 ## step5
 根据【输出格式】和【输入输出样例】确定输出策略。
-~~~
+~~~cpp
 cout << score << endl;
 ~~~
 
 ## step6
 创建【输入输出样例1】中的输入文件score.in。
-~~~
+~~~cpp
 100 100 80
 ~~~
 在程序中增加输入重定向语句
-~~~
+~~~cpp
 freopen("score.in","r",stdin);
 ~~~
 
 ## step7
 完整的程序代码为如下，按**F7**键编译，按**Ctrl+F5**键执行，观察执行结果的正确性。
-~~~
+~~~cpp
 #include <stdio.h>
 #include <iostream>
 using namespace std;
@@ -103,7 +103,7 @@ done
 
 ## step9
 增加输出重定向语句，准备提交代码的最终版本，不要忘了按**F7**重新编译。
-~~~
+~~~cpp
 #include <stdio.h>
 #include <iostream>
 using namespace std;
