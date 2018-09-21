@@ -130,12 +130,12 @@ int main(){
 
 ## step10
 执行对拍程序，查看结果,Ac为通过的测试用例。
-~~~
+~~~sh
 $ cd ~/noip/junior-rep-23-2017-C++/score/
 $ sh ./score.sh
 ~~~
 执行结果如下：
-~~~
+~~~sh
 score1
 Ac
 score2
