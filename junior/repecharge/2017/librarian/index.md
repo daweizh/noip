@@ -168,7 +168,7 @@ done
 
 ## step9
 增加输出重定向语句，准备提交代码的最终版本，不要忘了按**F7**重新编译。
-~~~
+~~~cpp
 #include <stdio.h>
 #include <iostream>
 using namespace std;
