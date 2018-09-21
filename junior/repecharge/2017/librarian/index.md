@@ -217,12 +217,12 @@ int main(){
 
 ## step10
 执行对拍程序，查看结果,Ac为通过的测试用例。
-~~~com
+~~~
 $ cd ~/noip/junior-rep-23-2017-C++/librarian/
 $ sh ./librarian.sh
 ~~~
 执行结果如下：
-~~~com
+~~~
 librarian1
 Ac
 librarian2
