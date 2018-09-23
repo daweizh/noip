@@ -8,6 +8,11 @@
 |21  |[题册](2015/junior-rep-21-2015-C++.pdf)|[数据](2015/coin/coin.zip)|[数据](2015/mine/mine.zip)|[数据](2015/sum/sum.zip)|[数据](2015/salesman/salesman.zip)|
 |20  |[题册](2014/junior-rep-20-2014-C++.pdf)|[数据](2014/count/count.zip)|[数据](2014/ratio/ratio.zip)|[数据](2014/matrix/matrix.zip)|[数据](2014/submatrix/submatrix.zip)|
 |19  |[题册](2013/junior-rep-19-2013-C++.pdf)|[数据](2013/count/count.zip)|[数据](2013/expr/expr.zip)|[数据](2013/number/number.zip)|[数据](2013/level/level.zip)|
+|18  |[题册](2012/junior-rep-18-2012-C++.pdf)|[数据](2012/prime/prime.zip)|[数据](2012/treasure/treasure.zip)|[数据](2012/flower/flower.zip)|[数据](2012/culture/culture.zip)|
+|17  |[题册](2011/junior-rep-17-2011-C++.pdf)|[数据](2011/reverse/reverse.zip)|[数据](2011/stat/stat.zip)|[数据](2011/swiss/swiss.zip)|[数据](2011/exp/exp.zip)|
+|16  |[题册](2010/junior-rep-16-2010-C++.pdf)|[数据](2010/two/two.zip)|[数据](2010/water/water.zip)|[数据](2010/missile/missile.zip)|[数据](2010/sanguo/sanguo.zip)|
+|15  |[题册](2009/junior-rep-15-2009-C++.pdf)|[数据](2009/poly/poly.zip)|[数据](2009/score/score.zip)|[数据](2009/cell/cell.zip)|[数据](2009/game/game.zip)|
+|14  |[题册](2008/junior-rep-14-2008-C++.pdf)|[数据](2008/isbn/isbn.zip)|[数据](2008/seat/seat.zip)|[数据](2008/ball/ball.zip)|[数据](2008/drawing/drawing.zip)|
 
 
 
