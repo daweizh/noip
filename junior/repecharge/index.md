@@ -22,7 +22,6 @@
 |2009|[试题](2009/junior-rep-15-2009-C++.zip)|||||
 |14  |[题册](2008/junior-rep-14-2008-C++.pdf)|[数据](2008/isbn/isbn.zip)|[数据](2008/seat/seat.zip)|[数据](2008/ball/ball.zip)|[数据](2008/drawing/drawing.zip)|
 |2008|[试题](2008/junior-rep-14-2008-C++.zip)|||||
-
 |13  |[题册](2007/junior-rep-13-2007-C++.pdf)|[数据](2007/scholar/scholar.zip)|[数据](2007/group/group.zip)|[数据](2007/escape/escape.zip)|[数据](2007/hanoi/hanoi.zip)|
 |2007|[试题](2007/junior-rep-13-2007-C++.zip)|||||
 |12  |[题册](2006/junior-rep-12-2006-C++.pdf)|[数据](2006/random/random.zip)|[数据](2006/happy/happy.zip)|[数据](2006/count/count.zip)|[数据](2006/sequence/sequence.zip)|
