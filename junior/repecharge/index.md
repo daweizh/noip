@@ -5,12 +5,19 @@
 |23  |[题册](2017/junior-rep-23-2017-C++.pdf)|[数据](2017/score/score.zip)|[数据](2017/librarian/librarian.zip)|[数据](2017/chess/chess.zip)|[数据](2017/jump/jump.zip)|
 |2017|[试题](2017/junior-rep-23-2017-C++.zip)|[题解](2017/score/)         |[题解](2017/librarian/)             |[题解](2017/chess/)         |[题解](2017/jump/)        |
 |22  |[题册](2016/junior-rep-22-2016-C++.pdf)|[数据](2016/pencil/pencil.zip)|[数据](2016/date/date.zip)|[数据](2016/port/port.zip)|[数据](2016/magic/magic.zip)|
+|2016|[试题](2016/junior-rep-22-2016-C++.zip)|||||
 |21  |[题册](2015/junior-rep-21-2015-C++.pdf)|[数据](2015/coin/coin.zip)|[数据](2015/mine/mine.zip)|[数据](2015/sum/sum.zip)|[数据](2015/salesman/salesman.zip)|
+|2015|[试题](2015/junior-rep-21-2015-C++.zip)|||||
 |20  |[题册](2014/junior-rep-20-2014-C++.pdf)|[数据](2014/count/count.zip)|[数据](2014/ratio/ratio.zip)|[数据](2014/matrix/matrix.zip)|[数据](2014/submatrix/submatrix.zip)|
+|2014|[试题](2014/junior-rep-20-2014-C++.zip)|||||
 |19  |[题册](2013/junior-rep-19-2013-C++.pdf)|[数据](2013/count/count.zip)|[数据](2013/expr/expr.zip)|[数据](2013/number/number.zip)|[数据](2013/level/level.zip)|
+|2013|[试题](2013/junior-rep-19-2013-C++.zip)|||||
 |18  |[题册](2012/junior-rep-18-2012-C++.pdf)|[数据](2012/prime/prime.zip)|[数据](2012/treasure/treasure.zip)|[数据](2012/flower/flower.zip)|[数据](2012/culture/culture.zip)|
+|2012|[试题](2012/junior-rep-18-2012-C++.zip)|||||
 |17  |[题册](2011/junior-rep-17-2011-C++.pdf)|[数据](2011/reverse/reverse.zip)|[数据](2011/stat/stat.zip)|[数据](2011/swiss/swiss.zip)|[数据](2011/exp/exp.zip)|
+|2011|[试题](2011/junior-rep-17-2011-C++.zip)|||||
 |16  |[题册](2010/junior-rep-16-2010-C++.pdf)|[数据](2010/two/two.zip)|[数据](2010/water/water.zip)|[数据](2010/missile/missile.zip)|[数据](2010/sanguo/sanguo.zip)|
+|2010|[试题](2010/junior-rep-16-2010-C++.zip)|||||
 |15  |[题册](2009/junior-rep-15-2009-C++.pdf)|[数据](2009/poly/poly.zip)|[数据](2009/score/score.zip)|[数据](2009/cell/cell.zip)|[数据](2009/game/game.zip)|
 |2009|[试题](2009/junior-rep-15-2009-C++.zip)|||||
 |14  |[题册](2008/junior-rep-14-2008-C++.pdf)|[数据](2008/isbn/isbn.zip)|[数据](2008/seat/seat.zip)|[数据](2008/ball/ball.zip)|[数据](2008/drawing/drawing.zip)|
