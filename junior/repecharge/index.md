@@ -12,8 +12,23 @@
 |17  |[题册](2011/junior-rep-17-2011-C++.pdf)|[数据](2011/reverse/reverse.zip)|[数据](2011/stat/stat.zip)|[数据](2011/swiss/swiss.zip)|[数据](2011/exp/exp.zip)|
 |16  |[题册](2010/junior-rep-16-2010-C++.pdf)|[数据](2010/two/two.zip)|[数据](2010/water/water.zip)|[数据](2010/missile/missile.zip)|[数据](2010/sanguo/sanguo.zip)|
 |15  |[题册](2009/junior-rep-15-2009-C++.pdf)|[数据](2009/poly/poly.zip)|[数据](2009/score/score.zip)|[数据](2009/cell/cell.zip)|[数据](2009/game/game.zip)|
+|2009|[试题](2009/junior-rep-15-2009-C++.zip)|||||
 |14  |[题册](2008/junior-rep-14-2008-C++.pdf)|[数据](2008/isbn/isbn.zip)|[数据](2008/seat/seat.zip)|[数据](2008/ball/ball.zip)|[数据](2008/drawing/drawing.zip)|
+|2008|[试题](2008/junior-rep-14-2008-C++.zip)|||||
 
+|13  |[题册](2007/junior-rep-13-2007-C++.pdf)|[数据](2007/scholar/scholar.zip)|[数据](2007/group/group.zip)|[数据](2007/escape/escape.zip)|[数据](2007/hanoi/hanoi.zip)|
+|12  |[题册](2006/junior-rep-12-2006-C++.pdf)|[数据](2006/random/random.zip)|[数据](2006/happy/happy.zip)|[数据](2006/count/count.zip)|[数据](2006/sequence/sequence.zip)|
+|11  |[题册](2005/junior-rep-11-2005-C++.pdf)|[数据](2005/apple/apple.zip)|[数据](2005/tree/tree.zip)|[数据](2005/medic/medic.zip)|[数据](2005/circle/circle.zip)|
+|10  |[题册](2004/junior-rep-10-2004-C++.pdf)|[数据](2004/unhappy/unhappy.zip)|[数据](2004/peanuts/peanuts.zip)|[数据](2004/fbi/fbi.zip)|[数据](2004/martian/martian.zip)|
+|09  |[题册](2003/junior-rep-09-2003-C++.pdf)|[数据](2003/table/table.zip)|[数据](2003/game/game.zip)|[数据](2003/stack/stack.zip)|[数据](2003/mason/mason.zip)|
+|08  |[题册](2002/junior-rep-08-2002-C++.pdf)|[数据](2002//.zip)|[数据](2002//.zip)|[数据](2002//.zip)|[数据](2002//.zip)|
+|07  |[题册](2001/junior-rep-07-2001-C++.pdf)|[数据](2001/count/count.zip)|[数据](2001/gygb/gygb.zip)|[数据](2001/nlr/nlr.zip)|[数据](2001/pack/pack.zip)|
+|06  |[题册](2000/junior-rep-06-2000-C++.pdf)|[数据](2000/calc/calc.zip)|[数据](2000/tax/tax.zip)|[数据](2000/max/max.zip)|[数据](2000/solitaire/solitaire.zip)|
+|05  |[题册](1999/junior-rep-05-1999-C++.pdf)|[数据](1999/cator/cator.zip)|[数据](1999/huiwen/huiwen.zip)|[数据](1999/travel/travel.zip)||
+|04  |[题册](1998/junior-rep-04-1998-C++.pdf)|[数据](1998/three/three.zip)|[数据](1998/factor/factor.zip)|[数据](1998/power/power.zip)||
+|03  |[题册](1997/junior-rep-03-1997-C++.pdf)|[数据](1997//.zip)|[数据](1997//.zip)|[数据](1997//.zip)|[数据](1997//.zip)|
+|02  |[题册](1996/junior-rep-02-1996-C++.pdf)|[数据](1996//.zip)|[数据](1996//.zip)|[数据](1996//.zip)|[数据](1996//.zip)|
+|01  |[题册](1995/junior-rep-01-1995-C++.pdf)|[数据](1995//.zip)|[数据](1995//.zip)|[数据](1995//.zip)|[数据](1995//.zip)|
 
 
 ## w. 微信订阅号
