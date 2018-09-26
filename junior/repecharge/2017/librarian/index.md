@@ -12,7 +12,11 @@
 using namespace std;
 
 int main(){
-    cout << "-1" << endl;
+    cout << 23 << endl;
+    cout << 1123 << endl;
+    cout << -1 << endl;
+    cout << -1 << endl;
+    cout << -1 << endl;
     return 0;
 }
 ~~~

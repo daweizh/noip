@@ -4,6 +4,47 @@
 - 辽宁师范大学计算机与信息技术学院@大连
 - [https://daweizh.github.io/noip/](https://daweizh.github.io/noip/)  QQ:1243605845
 
+## step1
+
+~~~
+~~~
+
+## step2
+~~~
+~~~
+
+## step3
+~~~
+~~~
+
+## step4
+~~~
+~~~
+
+## step5
+~~~
+~~~
+
+## step6
+~~~
+~~~
+
+## step7
+~~~
+~~~
+
+## step8
+~~~
+~~~
+
+## step9
+~~~
+~~~
+
+## step10
+~~~
+~~~
+
 
 ## w. 微信订阅号
 
