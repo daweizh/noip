@@ -2,8 +2,8 @@
 #include <cstdio>
 using namespace std;
 
-int n,m;
-int minimum,package,price;
+int n,package,price;
+int minimum,m;
 
 int main(){
 	freopen("pencil.in","r",stdin);
