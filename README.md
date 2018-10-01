@@ -3,7 +3,8 @@
 1. 普及组
     -[初赛试题](junior/preliminary/)
     -[复赛试题](junior/repecharge/)
-3. [noilinux-1.4.1下GUIDE-1.0.0编程过程说明](handbook/coding/)
+3. [noilinux-1.4.1下GUIDE-1.0.0**编程**过程说明](handbook/coding/)
+4. [noilinux-1.4.1下GUIDE-1.0.0**解题**过程说明](handbook/answer/)
 
 <!--
 2. 提高组

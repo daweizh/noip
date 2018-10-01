@@ -42,7 +42,7 @@
 	选择 **保存** 图标，出现 **保存** 对话框，在 **File Name** 处输入 **score.cpp** ，点击 **Save** 按钮保存该文件，观察编辑窗口标题的变化。
 	![](images/guide-05.png)
 	完成全部代码
-	~~~
+	~~~cpp
     #include <stdio.h>
     #include <iostream>
     using namespace std;
@@ -65,7 +65,7 @@
 ## 3. 对拍测试
 
 1. 在GUIDE中完善刚刚执行通过的程序，增加输入/输出重定向语句。
-	~~~
+	~~~cpp
 	#include <stdio.h>
 	#include <iostream>
 	using namespace std;
@@ -90,7 +90,7 @@
 5. 鼠标右击刚刚建立的文件 **score.sh** ，在弹出菜单中选择 **打开方式**，进一步选择 **gedit** 。    
 	![](images/judge-03.png)
 6. 在gedit编辑器中输入如下shell脚本程序：
-	~~~
+	~~~sh
     #!/bin/bash
     i=1
     while [ $i -le 10 ]
@@ -110,13 +110,13 @@
 7. 选择 **应用程序**，选择 **附件**，选择 **终端** ，打开命令行终端。   
 	![](images/judge-05.png)
 8.  在命令行终端里，用 **cd** 命令修改当前工作目录 **~** 代表 **主文件夹** ，**ls** 命令列表当前目录内容。
-	~~~
+	~~~sh
 	noilinux@ubuntu:~$ cd noip/junior-rep-23-2017-C++/score/
 	noilinux@ubuntu:~/noip/junior-rep-23-2017-C++/score$ ls
 	~~~
 	![](images/judge-06.png)
 9. 在 **score** 文件夹下执行 **sudo sh ./score.sh** 命令，输入超级管理员密码 **123456** ，执行对拍脚本后，显示正确的对拍结果如下：    
-	~~~
+	~~~sh
 	noilinux@ubuntu:~/noip/junior-rep-23-2017-C++/score$ sudo sh ./score.sh
 	[sudo] password for noilinux: 
 	score1
@@ -127,7 +127,7 @@
 	![](images/judge-07.png)   
 	Ac表示执行结果正确
 10. 错误的对拍结果如下：    
-	~~~
+	~~~sh
 	noilinux@ubuntu:~/noip/junior-rep-23-2017-C++/score$ sudo sh ./score.sh
 	score1
 	1c1
