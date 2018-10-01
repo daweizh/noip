@@ -2,7 +2,7 @@
 
 - 张大为 
 - 辽宁师范大学计算机与信息技术学院
-- @大连 QQ:1243605845
+- QQ:1243605845 @大连 
 - [https://daweizh.github.io/noip/](https://daweizh.github.io/noip/)  
 
 ## step1
