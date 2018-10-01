@@ -1,8 +1,8 @@
 # 23.1 score
 
-- 张大为
+- 张大为 QQ:1243605845
 - 辽宁师范大学计算机与信息技术学院@大连
-- [https://daweizh.github.io/noip/](https://daweizh.github.io/noip/)  QQ:1243605845
+- [https://daweizh.github.io/noip/](https://daweizh.github.io/noip/)  
 
 ## step1
 
