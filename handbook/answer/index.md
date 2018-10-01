@@ -128,8 +128,7 @@ int main(){
     freopen("score.in","r",stdin);
     freopen("score.out","w",stdout);
 
-	cin >> a >> b >> c;
-	
+    cin >> a >> b >> c;
     cout << 40 << endl;
 
     return 0;
@@ -168,8 +167,8 @@ int main(){
     freopen("score.in","r",stdin);
     freopen("score.out","w",stdout);
 
-	cin >> a >> b >> c;
-	score = a*0.2 + b*0.3 + c*0.5;
+    cin >> a >> b >> c;
+    score = a*0.2 + b*0.3 + c*0.5;
 	
     cout << score << endl;
 
@@ -225,7 +224,7 @@ score10
 既然使用整数和小数的混合计算会发生数据类型转换，那能不能进行全`int`型计算呢？下面就是一种方法
 
 ~~~cpp
-score = (a*20 + b*30 +ｃ＊50) /100;
+score = (a*20 + b*30 +c*50) /100;
 ~~~
 
 完整的程序如下
@@ -241,9 +240,8 @@ int main(){
     freopen("score.in","r",stdin);
     freopen("score.out","w",stdout);
 
-	cin >> a >> b >> c;
-	score = (a*20 + b*30 + c*50)/100;
-	
+    cin >> a >> b >> c;
+    score = (a*20 + b*30 + c*50)/100;
     cout << score << endl;
 
     return 0;
@@ -292,8 +290,7 @@ int main(){
     freopen("score.in","r",stdin);
     freopen("score.out","w",stdout);
 
-	cin >> a >> b >> c;
-	
+    cin >> a >> b >> c;
     cout << a*.2 + b*.3 + c*.5 << endl;
 
     return 0;
@@ -341,8 +338,8 @@ int main(){
     freopen("score.in","r",stdin);
     freopen("score.out","w",stdout);
 
-	cin >> a >> b >> c;
-	score = a*.2 + b*.3 + c*.5;
+    cin >> a >> b >> c;
+    score = a*.2 + b*.3 + c*.5;
     cout << score << endl;
 
     return 0;
