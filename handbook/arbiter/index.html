@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>index</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+/* GitHub stylesheet for MarkdownPad (http://markdownpad.com) */
+/* Author: Nicolas Hery - http://nicolashery.com */
+/* Version: b13fe65ca28d2e568c6ed5d7f06581183df8f2ff */
+/* Source: https://github.com/nicolahery/markdownpad-github */
+
+/* RESET
+=============================================================================*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* BODY
+=============================================================================*/
+
+body {
+  font-family: Helvetica, arial, freesans, clean, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #333;
+  background-color: #fff;
+  padding: 20px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+body>*:first-child {
+  margin-top: 0 !important;
+}
+
+body>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* BLOCKS
+=============================================================================*/
+
+p, blockquote, ul, ol, dl, table, pre {
+  margin: 15px 0;
+}
+
+/* HEADERS
+=============================================================================*/
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 tt, h1 code, h2 tt, h2 code, h3 tt, h3 code, h4 tt, h4 code, h5 tt, h5 code, h6 tt, h6 code {
+  font-size: inherit;
+}
+
+h1 {
+  font-size: 28px;
+  color: #000;
+}
+
+h2 {
+  font-size: 24px;
+  border-bottom: 1px solid #ccc;
+  color: #000;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+h6 {
+  color: #777;
+  font-size: 14px;
+}
+
+body>h2:first-child, body>h1:first-child, body>h1:first-child+h2, body>h3:first-child, body>h4:first-child, body>h5:first-child, body>h6:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+h1+p, h2+p, h3+p, h4+p, h5+p, h6+p {
+  margin-top: 10px;
+}
+
+/* LINKS
+=============================================================================*/
+
+a {
+  color: #4183C4;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* LISTS
+=============================================================================*/
+
+ul, ol {
+  padding-left: 30px;
+}
+
+ul li > :first-child, 
+ol li > :first-child, 
+ul li ul:first-of-type, 
+ol li ol:first-of-type, 
+ul li ol:first-of-type, 
+ol li ul:first-of-type {
+  margin-top: 0px;
+}
+
+ul ul, ul ol, ol ol, ol ul {
+  margin-bottom: 0;
+}
+
+dl {
+  padding: 0;
+}
+
+dl dt {
+  font-size: 14px;
+  font-weight: bold;
+  font-style: italic;
+  padding: 0;
+  margin: 15px 0 5px;
+}
+
+dl dt:first-child {
+  padding: 0;
+}
+
+dl dt>:first-child {
+  margin-top: 0px;
+}
+
+dl dt>:last-child {
+  margin-bottom: 0px;
+}
+
+dl dd {
+  margin: 0 0 15px;
+  padding: 0 15px;
+}
+
+dl dd>:first-child {
+  margin-top: 0px;
+}
+
+dl dd>:last-child {
+  margin-bottom: 0px;
+}
+
+/* CODE
+=============================================================================*/
+
+pre, code, tt {
+  font-size: 12px;
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
+}
+
+code, tt {
+  margin: 0 0px;
+  padding: 0px 0px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px;
+}
+
+pre>code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent;
+}
+
+pre {
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px;
+}
+
+pre code, pre tt {
+  background-color: transparent;
+  border: none;
+}
+
+kbd {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #DDDDDD;
+    background-image: linear-gradient(#F1F1F1, #DDDDDD);
+    background-repeat: repeat-x;
+    border-color: #DDDDDD #CCCCCC #CCCCCC #DDDDDD;
+    border-image: none;
+    border-radius: 2px 2px 2px 2px;
+    border-style: solid;
+    border-width: 1px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 10px;
+    padding: 1px 4px;
+}
+
+/* QUOTES
+=============================================================================*/
+
+blockquote {
+  border-left: 4px solid #DDD;
+  padding: 0 15px;
+  color: #777;
+}
+
+blockquote>:first-child {
+  margin-top: 0px;
+}
+
+blockquote>:last-child {
+  margin-bottom: 0px;
+}
+
+/* HORIZONTAL RULES
+=============================================================================*/
+
+hr {
+  clear: both;
+  margin: 15px 0;
+  height: 0px;
+  overflow: hidden;
+  border: none;
+  background: transparent;
+  border-bottom: 4px solid #ddd;
+  padding: 0;
+}
+
+/* TABLES
+=============================================================================*/
+table {
+	width:100%
+}
+
+table th {
+  font-weight: bold;
+}
+
+table th, table td {
+  border: 1px solid #ccc;
+  padding: 6px 13px;
+}
+
+table tr {
+  border-top: 1px solid #ccc;
+  background-color: #fff;
+}
+
+table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+/* IMAGES
+=============================================================================*/
+
+img {
+  max-width: 100%
+}
+</style>
+</head>
+<body>
+<h1>noilinux-1.4.1下Arbiter使用说明</h1>
+<ul>
+<li>张大为 QQ:1243605845 @大连</li>
+<li>辽宁师范大学计算机与信息技术学院</li>
+<li><a href="https://daweizh.github.io/noip/">https://daweizh.github.io/noip/</a>  </li>
+</ul>
+<p>本说明以 NOIP 2017年第23届普及组复赛为例，
+讲解随noilinux-1.4.1安装的Arbiter评测系统单机版的使用方法。</p>
+<h2>step1 新建测评</h2>
+<ol>
+<li>
+在<strong>主文件夹</strong>下创建文件夹<strong>arbiter</strong> ，在<strong>arbiter</strong> 文件夹下创建文件夹<strong>2017</strong> 。
+<pre><code>/home/noilinux/arbiter/
+└── 2017
+</code></pre>
+
+</li>
+<li>
+选择<strong>应用程序</strong> -&gt; <strong>编程</strong> -&gt; <strong>Arbiter评测系统</strong> 打开Arbiter评测系统。 <br />
+<img src="images/arbiter-1.png" />
+</li>
+<li>
+点击窗口下方<strong>NEW</strong>按钮  <br />
+<img src="images/arbiter-2.png" />
+</li>
+<li>
+新建比赛  <br />
+<img src="images/arbiter-3.png" />
+<ul>
+<li>输入比赛名称<strong>noip-23-2017</strong></li>
+<li>选择准备好的竞赛目录<strong>/home/noilinux/arbiter/2017/</strong></li>
+<li>点击确定</li>
+</ul>
+</li>
+</ol>
+<h2>step2 添加考试</h2>
+<ol>
+<li>
+鼠标右击<strong>试题概要</strong> 下方的空白处，点击<strong>添加考试</strong>  <br />
+<img src="images/arbiter-4.png" />
+</li>
+<li>
+鼠标右击<strong>第1场--机试</strong> ，点击<strong>添加试题</strong> <br />
+<img src="images/arbiter-5.png" />
+</li>
+<li>
+完善考试数据  <br />
+<img src="images/arbiter-6.png" />
+<ul>
+<li>修改试题名称为<strong>score</strong></li>
+<li>修改<strong>测试点数量</strong>与实际测试点相符</li>
+<li>比较方式选择<strong>字符串比较</strong>和<strong>全文完全直接比较（不过滤）</strong></li>
+<li>保留<strong>C++</strong>勾选，按题目要求填写编译选项为<strong>-lm</strong></li>
+</ul>
+</li>
+<li>
+添加试题librarian  <br />
+<img src="images/arbiter-7.png" />
+</li>
+<li>
+添加试题chess  <br />
+<img src="images/arbiter-8.png" />
+</li>
+<li>
+添加试题jump   <br />
+<img src="images/arbiter-9.png" />
+</li>
+<li>
+点击<strong>第1场--机试</strong>，浏览试题列表  <br />
+<img src="images/arbiter-10.png" />
+</li>
+</ol>
+<h2>step3 添加选手</h2>
+<ol>
+<li>
+选择<strong>试题评测</strong> -&gt; <strong>添加选手</strong>  <br />
+<img src="images/arbiter-11.png" />
+<ul>
+<li>姓名输入自己的英文名BangDe</li>
+<li>编号为自己的考号AU-007</li>
+<li>点击确定</li>
+</ul>
+</li>
+<li>
+<p>选择<strong>第1场评测</strong> ，在选手列表中出现待评测试题  <br />
+<img src="images/arbiter-12.png" /></p>
+</li>
+<li>
+<p>选择<strong>文件</strong>，<strong>保存</strong>，建立并保存Arbiter的基本配置及相关数据，关闭Arbiter
+<img src="images/arbiter-13.png" /></p>
+</li>
+</ol>
+<h2>step4 准备评测数据</h2>
+<ol>
+<li>
+打开<strong>主文件夹/arbiter/2017</strong>文件夹  <br />
+<img src="images/arbiter-14.png" />
+</li>
+<li>
+evaldata 存放本考试数据  <br />
+<img src="images/arbiter-15.png" />
+<pre><code>/home/noilinux/arbiter/
+└── 2017
+    ├── evaldata
+    │   ├── chess10.ans
+    │   ├── chess10.in
+    │   ├── chess11.ans
+    │   ├── chess11.in
+    │   ├── chess12.ans
+    │   ├── chess12.in
+    │   ├── chess13.ans
+    │   ├── chess13.in
+    │   ├── chess14.ans
+    │   ├── chess14.in
+    │   ├── chess15.ans
+    │   ├── chess15.in
+    │   ├── chess16.ans
+    │   ├── chess16.in
+    │   ├── chess17.ans
+    │   ├── chess17.in
+    │   ├── chess18.ans
+    │   ├── chess18.in
+    │   ├── chess19.ans
+    │   ├── chess19.in
+    │   ├── chess1.ans
+    │   ├── chess1.in
+    │   ├── chess20.ans
+    │   ├── chess20.in
+    │   ├── chess2.ans
+    │   ├── chess2.in
+    │   ├── chess3.ans
+    │   ├── chess3.in
+    │   ├── chess4.ans
+    │   ├── chess4.in
+    │   ├── chess5.ans
+    │   ├── chess5.in
+    │   ├── chess6.ans
+    │   ├── chess6.in
+    │   ├── chess7.ans
+    │   ├── chess7.in
+    │   ├── chess8.ans
+    │   ├── chess8.in
+    │   ├── chess9.ans
+    │   ├── chess9.in
+    │   ├── jump10.ans
+    │   ├── jump10.in
+    │   ├── jump1.ans
+    │   ├── jump1.in
+    │   ├── jump2.ans
+    │   ├── jump2.in
+    │   ├── jump3.ans
+    │   ├── jump3.in
+    │   ├── jump4.ans
+    │   ├── jump4.in
+    │   ├── jump5.ans
+    │   ├── jump5.in
+    │   ├── jump6.ans
+    │   ├── jump6.in
+    │   ├── jump7.ans
+    │   ├── jump7.in
+    │   ├── jump8.ans
+    │   ├── jump8.in
+    │   ├── jump9.ans
+    │   ├── jump9.in
+    │   ├── librarian10.ans
+    │   ├── librarian10.in
+    │   ├── librarian1.ans
+    │   ├── librarian1.in
+    │   ├── librarian2.ans
+    │   ├── librarian2.in
+    │   ├── librarian3.ans
+    │   ├── librarian3.in
+    │   ├── librarian4.ans
+    │   ├── librarian4.in
+    │   ├── librarian5.ans
+    │   ├── librarian5.in
+    │   ├── librarian6.ans
+    │   ├── librarian6.in
+    │   ├── librarian7.ans
+    │   ├── librarian7.in
+    │   ├── librarian8.ans
+    │   ├── librarian8.in
+    │   ├── librarian9.ans
+    │   ├── librarian9.in
+    │   ├── score10.ans
+    │   ├── score10.in
+    │   ├── score1.ans
+    │   ├── score1.in
+    │   ├── score2.ans
+    │   ├── score2.in
+    │   ├── score3.ans
+    │   ├── score3.in
+    │   ├── score4.ans
+    │   ├── score4.in
+    │   ├── score5.ans
+    │   ├── score5.in
+    │   ├── score6.ans
+    │   ├── score6.in
+    │   ├── score7.ans
+    │   ├── score7.in
+    │   ├── score8.ans
+    │   ├── score8.in
+    │   ├── score9.ans
+    │   └── score9.in
+    └── setup.cfg
+</code></pre>
+
+</li>
+<li>
+players存放考生试题       <br />
+<img src="images/arbiter-16.png" />
+<pre><code>/home/noilinux/arbiter/
+└── 2017
+    ├── players
+    │   └── AU-007
+    │       ├── chess
+    │       │   ├── chess
+    │       │   ├── chess10.ans
+    │       │   ├── chess10.in
+    │       │   ├── chess11.ans
+    │       │   ├── chess11.in
+    │       │   ├── chess12.ans
+    │       │   ├── chess12.in
+    │       │   ├── chess13.ans
+    │       │   ├── chess13.in
+    │       │   ├── chess14.ans
+    │       │   ├── chess14.in
+    │       │   ├── chess15.ans
+    │       │   ├── chess15.in
+    │       │   ├── chess16.ans
+    │       │   ├── chess16.in
+    │       │   ├── chess17.ans
+    │       │   ├── chess17.in
+    │       │   ├── chess18.ans
+    │       │   ├── chess18.in
+    │       │   ├── chess19.ans
+    │       │   ├── chess19.in
+    │       │   ├── chess1.ans
+    │       │   ├── chess1.in
+    │       │   ├── chess20.ans
+    │       │   ├── chess20.in
+    │       │   ├── chess2.ans
+    │       │   ├── chess2.in
+    │       │   ├── chess3.ans
+    │       │   ├── chess3.in
+    │       │   ├── chess4.ans
+    │       │   ├── chess4.in
+    │       │   ├── chess5.ans
+    │       │   ├── chess5.in
+    │       │   ├── chess6.ans
+    │       │   ├── chess6.in
+    │       │   ├── chess7.ans
+    │       │   ├── chess7.in
+    │       │   ├── chess8.ans
+    │       │   ├── chess8.in
+    │       │   ├── chess9.ans
+    │       │   ├── chess9.in
+    │       │   ├── chess.bak
+    │       │   ├── chess.cpp
+    │       │   ├── chess.in
+    │       │   ├── chess.out
+    │       │   ├── chess.sh
+    │       │   └── chess.sh~
+    │       ├── jump
+    │       │   ├── jump
+    │       │   ├── jump10.ans
+    │       │   ├── jump10.in
+    │       │   ├── jump1.ans
+    │       │   ├── jump1.in
+    │       │   ├── jump2.ans
+    │       │   ├── jump2.in
+    │       │   ├── jump3.ans
+    │       │   ├── jump3.in
+    │       │   ├── jump4.ans
+    │       │   ├── jump4.in
+    │       │   ├── jump5.ans
+    │       │   ├── jump5.in
+    │       │   ├── jump6.ans
+    │       │   ├── jump6.in
+    │       │   ├── jump7.ans
+    │       │   ├── jump7.in
+    │       │   ├── jump8.ans
+    │       │   ├── jump8.in
+    │       │   ├── jump9.ans
+    │       │   ├── jump9.in
+    │       │   ├── jump.bak
+    │       │   ├── jump.cpp
+    │       │   ├── jump.dat
+    │       │   ├── jump.in
+    │       │   ├── jump.out
+    │       │   ├── jump.sh
+    │       │   └── jump.sh~
+    │       ├── librarian
+    │       │   ├── librarian
+    │       │   ├── librarian10.ans
+    │       │   ├── librarian10.in
+    │       │   ├── librarian1.ans
+    │       │   ├── librarian1.in
+    │       │   ├── librarian2.ans
+    │       │   ├── librarian2.in
+    │       │   ├── librarian3.ans
+    │       │   ├── librarian3.in
+    │       │   ├── librarian4.ans
+    │       │   ├── librarian4.in
+    │       │   ├── librarian5.ans
+    │       │   ├── librarian5.in
+    │       │   ├── librarian6.ans
+    │       │   ├── librarian6.in
+    │       │   ├── librarian7.ans
+    │       │   ├── librarian7.in
+    │       │   ├── librarian8.ans
+    │       │   ├── librarian8.in
+    │       │   ├── librarian9.ans
+    │       │   ├── librarian9.in
+    │       │   ├── librarian.cpp
+    │       │   ├── librarian.in
+    │       │   ├── librarian.out
+    │       │   ├── librarian.sh
+    │       │   └── librarian.sh~
+    │       ├── score
+    │       │   ├── score
+    │       │   ├── score10.ans
+    │       │   ├── score10.in
+    │       │   ├── score1.ans
+    │       │   ├── score1.in
+    │       │   ├── score2.ans
+    │       │   ├── score2.in
+    │       │   ├── score3.ans
+    │       │   ├── score3.in
+    │       │   ├── score4.ans
+    │       │   ├── score4.in
+    │       │   ├── score5.ans
+    │       │   ├── score5.in
+    │       │   ├── score6.ans
+    │       │   ├── score6.in
+    │       │   ├── score7.ans
+    │       │   ├── score7.in
+    │       │   ├── score8.ans
+    │       │   ├── score8.in
+    │       │   ├── score9.ans
+    │       │   ├── score9.in
+    │       │   ├── score.cpp
+    │       │   ├── score.in
+    │       │   ├── score.out
+    │       │   ├── score.sh
+    │       │   └── score.sh~
+    │       └── test-paper.pdf
+    └── setup.cfg
+</code></pre>
+
+</li>
+</ol>
+<h2>step5 评测考试</h2>
+<ol>
+<li>
+重新打开Arbiter评测系统，选择<strong>OPEN</strong>按钮  <br />
+<img src="images/arbiter-17.png" />
+</li>
+<li>
+选择setup.cfg配置文件   <br />
+<img src="images/arbiter-18.png" />
+</li>
+<li>
+选择<strong>评测第1场</strong>，双击选手，<strong>查看选手程序</strong>
+<img src="images/arbiter-19.png" />
+</li>
+<li>
+选择评测考试  <br />
+<img src="images/arbiter-20.png" />
+<ul>
+<li>选择<strong>评测第1场</strong></li>
+<li><strong>勾选</strong>BangDe</li>
+<li>选择<strong>评测选定选手</strong></li>
+<li>可以选择具体试题，也可默认所有试题</li>
+<li>点击<strong>确定</strong></li>
+</ul>
+</li>
+<li>
+出现评测完成，发现librarian得0分  <br />
+<img src="images/arbiter-21.png" />
+</li>
+</ol>
+<h2>step6 查看评测结果</h2>
+<ol>
+<li>
+进入<strong>主文件夹/arbiter/2017/result/day1/AU-007/</strong>   <br />
+<img src="images/arbiter-22.png" />
+</li>
+<li>
+鼠标右击<strong>AU-007.result</strong>文件并用<strong>gedit<strong>打开，发现</strong>librarian编译失败</strong>，进一步检查可知，不存在librarian.cpp源程序文件。  <br />
+<img src="images/arbiter-23.png" />
+</li>
+<li>
+提供librarian.cpp到<strong>主文件夹/arbiter/2017/players/AU-007/librarian</strong>下，重新评测，全部通过评测  <br />
+<img src="images/arbiter-24.png" />
+</li>
+</ol>
+<h2>step7 调试评测联动</h2>
+<p>打开GUIDE编程环境，并将工作目录指向选手目录，这样就可以边调试程序便进行评测了。</p>
+<p><img src="images/arbiter-25.png" /></p>
+<h2>w.微信订阅号</h2>
+<ol>
+<li>智数精英-关注中小学程序设计及相关讨论</li>
+<li>随话录-记录小朋友们的成长时光</li>
+<li>西山征途-关注大学生成长、学习和生活</li>
+</ol>
+<p><img src="../../assets/me/img/idea8.jpg" alt="欢迎关注“智数精英”订阅号" />
+<img src="../../assets/me/img/shl8.jpg" alt="欢迎关注“随话录”订阅号" />
+<img src="../../assets/me/img/xszt8.jpg" alt="欢迎关注“西山征途”订阅号" /></p>
+<hr />
+<h2>b.<a href="../../">返回首页</a></h2>
+
+</body>
+</html>
+<!-- This document was created with MarkdownPad, the Markdown editor for Windows (http://markdownpad.com) -->

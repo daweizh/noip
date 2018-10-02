@@ -1,8 +1,8 @@
 # noilinux-1.4.1下GUIDE-1.0.0解题过程说明
 
-- 张大为
-- 辽宁师范大学计算机与信息技术学院@大连
-- [https://daweizh.github.io/noip/](https://daweizh.github.io/noip/)  QQ:1243605845
+- 张大为 QQ:1243605845 @大连
+- 辽宁师范大学计算机与信息技术学院
+- [https://daweizh.github.io/noip/](https://daweizh.github.io/noip/)  
 
 
 本说明以 NOIP 2017年第23届普及组 复赛试题score为例，讲解上机答题的基本过程。

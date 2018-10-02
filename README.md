@@ -5,6 +5,7 @@
     -[复赛试题](junior/repecharge/)
 3. [noilinux-1.4.1下GUIDE-1.0.0**编程**过程说明](handbook/coding/)
 4. [noilinux-1.4.1下GUIDE-1.0.0**解题**过程说明](handbook/answer/)
+5. [noilinux-1.4.1下Arbiter使用说明](handbook/arbiter/)
 
 <!--
 2. 提高组
