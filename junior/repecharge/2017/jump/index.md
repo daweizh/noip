@@ -1,25 +1,61 @@
 # 23.4 jump
 
-- 张大为
-- 辽宁师范大学计算机与信息技术学院@大连
-- [https://daweizh.github.io/noip/](https://daweizh.github.io/noip/)  QQ:1243605845
+- 张大为 QQ:1243605845 @大连
+- 辽宁师范大学计算机与信息技术学院
+- [https://daweizh.github.io/noip/](https://daweizh.github.io/noip/) 
 
 ## step1
 
-建立程序框架，准备可以提交的最小版本。
+以jump1.ans作为输出内容，建立最小可提交程序框架。
 
-~~~cpp
-#include<cstdio>
-#include<iostream>
+~~~
+#include <cstdio>
+#include <iostream>
 using namespace std;
 
 int main(){
+    freopen("jump.in","r",stdin);
+    freopen("jump.out","w",stdout);
+    
+    cout << 87 << endl;
 
-    cout << -1 << endl;;
-
+    fclose(stdout);
+    fclose(stdin);
+    
     return 0;
 }
 ~~~
+
+## step2
+
+编写对拍程序，通过测试点1。
+
+~~~sh
+#!/bin/bash
+i=1
+while [ $i -le 10 ]
+do
+    echo jump$i
+    cp -f jump$i.in jump.in
+    ./jump
+    if diff jump$i.ans jump.out ; then
+        echo Ac
+    fi
+    i=$(($i+1))
+done
+~~~
+
+执行对拍程序，观测测试结果。
+
+~~~sh
+$ cd ~/noip/2017/jump/
+$ sh ./jump.sh 
+jump1
+Ac
+~~~
+
+只有jump1测试数据通过，可得10分。
+
 
 ## step2 
 

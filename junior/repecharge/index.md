@@ -7,7 +7,7 @@
 |||[源码](https://github.com/daweizh/noip/tree/master/junior/repecharge/2017/score)|[源码](https://github.com/daweizh/noip/tree/master/junior/repecharge/2017/librarian)|[源码](https://github.com/daweizh/noip/tree/master/junior/repecharge/2017/chess)|[源码](https://github.com/daweizh/noip/tree/master/junior/repecharge/2017/jump)|
 |22  |[题册](2016/junior-rep-22-2016-C++.pdf)|[数据](2016/pencil/pencil.zip)|[数据](2016/date/date.zip)|[数据](2016/port/port.zip)|[数据](2016/magic/magic.zip)|
 |2016|[试题](2016/junior-rep-22-2016-C++.zip)|[题解](2016/pencil/)||||
-|||[源码](https://github.com/daweizh/noip/tree/master/junior/repecharge/2016/pencil/)|[源码](https://github.com/daweizh/noip/tree/master/junior/repecharge/2016/date/)|[源码](https://github.com/daweizh/noip/tree/master/junior/repecharge/2016/port/)|[源码](https://github.com/daweizh/noip/tree/master/junior/repecharge/2016/magic/)|
+|[测评](2016/junior-rep-22-2016-arbiter.zip)|[测试](2016/junior-sim-22-2016-C++.zip)|[源码](https://github.com/daweizh/noip/tree/master/junior/repecharge/2016/pencil/)|[源码](https://github.com/daweizh/noip/tree/master/junior/repecharge/2016/date/)|[源码](https://github.com/daweizh/noip/tree/master/junior/repecharge/2016/port/)|[源码](https://github.com/daweizh/noip/tree/master/junior/repecharge/2016/magic/)|
 |21  |[题册](2015/junior-rep-21-2015-C++.pdf)|[数据](2015/coin/coin.zip)|[数据](2015/mine/mine.zip)|[数据](2015/sum/sum.zip)|[数据](2015/salesman/salesman.zip)|
 |2015|[试题](2015/junior-rep-21-2015-C++.zip)|[题解](2015/coin/)||||
 |||[源码](https://github.com/daweizh/noip/tree/master/junior/repecharge/2015/)|[源码](https://github.com/daweizh/noip/tree/master/junior/repecharge/2015/)|[源码](https://github.com/daweizh/noip/tree/master/junior/repecharge/2015/)|[源码](https://github.com/daweizh/noip/tree/master/junior/repecharge/2015/)|
@@ -31,7 +31,7 @@
 |||[源码](https://github.com/daweizh/noip/tree/master/junior/repecharge/2009/)|[源码](https://github.com/daweizh/noip/tree/master/junior/repecharge/2009/)|[源码](https://github.com/daweizh/noip/tree/master/junior/repecharge/2009/)|[源码](https://github.com/daweizh/noip/tree/master/junior/repecharge/2009/)|
 |14  |[题册](2008/junior-rep-14-2008-C++.pdf)|[数据](2008/isbn/isbn.zip)|[数据](2008/seat/seat.zip)|[数据](2008/ball/ball.zip)|[数据](2008/drawing/drawing.zip)|
 |2008|[试题](2008/junior-rep-14-2008-C++.zip)|||||
-|||[源码](https://github.com/daweizh/noip/tree/master/junior/repecharge/2008/)|[源码](https://github.com/daweizh/noip/tree/master/junior/repecharge/2008/)|[源码](https://github.com/daweizh/noip/tree/master/junior/repecharge/2008/)|[源码](https://github.com/daweizh/noip/tree/master/junior/repecharge/2008/)|
+|[ttt](2008/2008.zip)|[密码](2008/password.txt)|[源码](https://github.com/daweizh/noip/tree/master/junior/repecharge/2008/)|[源码](https://github.com/daweizh/noip/tree/master/junior/repecharge/2008/)|[源码](https://github.com/daweizh/noip/tree/master/junior/repecharge/2008/)|[源码](https://github.com/daweizh/noip/tree/master/junior/repecharge/2008/)|
 |13  |[题册](2007/junior-rep-13-2007-C++.pdf)|[数据](2007/scholar/scholar.zip)|[数据](2007/group/group.zip)|[数据](2007/escape/escape.zip)|[数据](2007/hanoi/hanoi.zip)|
 |2007|[试题](2007/junior-rep-13-2007-C++.zip)|||||
 |||[源码](https://github.com/daweizh/noip/tree/master/junior/repecharge/2007/)|[源码](https://github.com/daweizh/noip/tree/master/junior/repecharge/2007/)|[源码](https://github.com/daweizh/noip/tree/master/junior/repecharge/2007/)|[源码](https://github.com/daweizh/noip/tree/master/junior/repecharge/2007/)|

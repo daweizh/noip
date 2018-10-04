@@ -1,9 +1,57 @@
-# 23.3 chess
+# 18.1 prime
 
-- 张大为
-- 辽宁师范大学计算机与信息技术学院@大连
-- [https://daweizh.github.io/noip/](https://daweizh.github.io/noip/)  QQ:1243605845
+- 张大为 QQ:1243605845 @大连
+- 辽宁师范大学计算机与信息技术学院
+- [https://daweizh.github.io/noip/](https://daweizh.github.io/noip/) 
 
+## step1
+
+用测试数据prime1.ans的数据作为输出，编写主程序框架。
+
+~~~
+#include <iostream>
+#include <cstdio>
+using namespace std;
+
+int main(){
+    freopen("prime.in","r",stdin);
+    freopen("prime.out","w",stdout);
+
+    cout << 14 << endl;
+
+    return 0;
+}
+~~~
+
+## step2
+
+编写对拍程序，通过测试点1。
+
+~~~sh
+#!/bin/bash
+i=1
+while [ $i -le 10 ]
+do
+    echo score$i
+    cp -f score$i.in score.in
+    ./score
+    if diff score$i.ans score.out ; then
+        echo Ac
+    fi
+    i=$(($i+1))
+done
+~~~
+
+执行对拍程序，观测测试结果。
+
+~~~sh
+$ cd ~/noip/2017/score/
+$ sh ./score.sh 
+score1
+Ac
+~~~
+
+只有score1测试数据通过，可得10分。
 
 ## w. 微信订阅号
 

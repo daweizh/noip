@@ -19,6 +19,9 @@ int main(){
 
     cout << 40 << endl;
 
+    fclose(stdout);
+    fclose(stdin);
+
     return 0;
 }
 ~~~
@@ -70,12 +73,16 @@ int main(){
     freopen("score.out","w",stdout);
     
     cin >> a >> b >> c;
-    
     cout << 40 << endl;
+
+    fclose(stdout);
+    fclose(stdin);
 
     return 0;
 }
 ~~~
+
+可以通过设置断点的方法观察读到数据的具体情况。
 
 ## step4
 
@@ -96,6 +103,9 @@ int main(){
         cin >> a >> b >> c;
         cout << a*.2 + b*.3 + c*.5 << endl;
             
+        fclose(stdout);
+        fclose(stdin);
+
         return 0;
     }
     ~~~
@@ -113,8 +123,10 @@ int main(){
         
         cin >> a >> b >> c;
         score = (a*2 + b * 3 + c *5) / 10;
-        
         cout << score << endl;
+
+        fclose(stdout);
+        fclose(stdin);
             
         return 0;
     }
@@ -135,6 +147,9 @@ int main(){
         cin >> a >> b >> c;
         score = a*.2 + b*.3 + c*.5;
         cout << score << endl;
+
+        fclose(stdout);
+        fclose(stdin);
     
         return 0;
     }

@@ -1,23 +1,60 @@
 # 23.3 chess
 
-- 张大为
-- 辽宁师范大学计算机与信息技术学院@大连
-- [https://daweizh.github.io/noip/](https://daweizh.github.io/noip/)  QQ:1243605845
+- 张大为 QQ:1243605845 @大连
+- 辽宁师范大学计算机与信息技术学院
+- [https://daweizh.github.io/noip/](https://daweizh.github.io/noip/) 
 
 ## step1
 
-建立程序框架，准备可以提交的最小版本。
+以chess1.ans作为输出内容，建立最小可提交程序框架。
 
-~~~cpp
+~~~
 #include <stdio.h>
 #include <iostream>
 using namespace std;
 
 int main(){
-    cout << -1 << endl;
+    freopen("chess.in","r",stdin);
+    freopen("chess.out","w",stdout);
+
+    cout << 0 << endl;
+
+    fclose(stdout);
+    fclose(stdin);
+
     return 0;
 }
 ~~~
+
+## step2
+
+编写对拍程序，通过测试点1。
+
+~~~sh
+#!/bin/bash
+i=1
+while [ $i -le 20 ]
+do
+    echo chess$i
+    cp -f chess$i.in chess.in
+    ./chess
+    if diff chess$i.ans chess.out ; then
+        echo Ac
+    fi
+    i=$(($i+1))
+done
+~~~
+
+执行对拍程序，观测测试结果。
+
+~~~sh
+$ cd ~/noip/2017/chess/
+$ sh ./chess.sh 
+chess1
+Ac
+~~~
+
+只有chess1测试数据通过，可得5分。
 
 ## step2
 
