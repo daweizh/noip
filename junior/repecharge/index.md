@@ -16,15 +16,16 @@
 |**21**  |[数一](2015/coin/coin.zip)|[数二](2015/mine/mine.zip)|[数三](2015/sum/sum.zip)|[数四](2015/salesman/salesman.zip)|
 |**源码** |[码一](https://github.com/daweizh/noip/tree/master/junior/repecharge/2015/)|[码二](https://github.com/daweizh/noip/tree/master/junior/repecharge/2015/)|[码三](https://github.com/daweizh/noip/tree/master/junior/repecharge/2015/)|[码四](https://github.com/daweizh/noip/tree/master/junior/repecharge/2015/)|
 |**2015**|[解一](2015/coin/)|[解二](2015/mine/)|[解三](2015/sum/)|[解四](2015/salesman/)|
+||||||
+|**试题** |[题册](2014/junior-rep-20-2014-C++.pdf)|[考题](2014/junior-rep-20-2014-C++.zip)|[试考](2014/junior-sim-20-2014-C++.zip)|[评测](2014/junior-rep-20-2014-arbiter.zip)|
+|**20**  |[数一](2014/count/count.zip)|[数二](2014/ratio/ratio.zip)|[数三](2014/matrix/matrix.zip)|[数四](2014/submatrix/submatrix.zip)|
+|**源码** |[码一](https://github.com/daweizh/noip/tree/master/junior/repecharge/2014/)|[码二](https://github.com/daweizh/noip/tree/master/junior/repecharge/2014/)|[码三](https://github.com/daweizh/noip/tree/master/junior/repecharge/2014/)|[码四](https://github.com/daweizh/noip/tree/master/junior/repecharge/2014/)|
+|**2014**|[解一](2014/count/)|[解二](2014/ratio/)|[解一](2014/matrix/)|[解一](2014/submatrix/)|
 
 
 <!--
 
 
-|20  |[题册](2014/junior-rep-20-2014-C++.pdf)|[数据](2014/count/count.zip)|[数据](2014/ratio/ratio.zip)|[数据](2014/matrix/matrix.zip)|[数据](2014/submatrix/submatrix.zip)|
-|2014|[试题](2014/junior-rep-20-2014-C++.zip)|[题解](2014/count/)||||
-|[评测](2014/junior-rep-20-2014-arbiter.zip)|[试考](2014/junior-sim-20-2014-C++.zip)|[源码](https://github.com/daweizh/noip/tree/master/junior/repecharge/2014/)|[源码](https://github.com/daweizh/noip/tree/master/junior/repecharge/2014/)|[源码](https://github.com/daweizh/noip/tree/master/junior/repecharge/2014/)|[源码](https://github.com/daweizh/noip/tree/master/junior/repecharge/2014/)|
-|试题|||||
 
 |19  |[题册](2013/junior-rep-19-2013-C++.pdf)|[数据](2013/count/count.zip)|[数据](2013/expr/expr.zip)|[数据](2013/number/number.zip)|[数据](2013/level/level.zip)|
 |2013|[试题](2013/junior-rep-19-2013-C++.zip)|[题解](2013/count/)||||
