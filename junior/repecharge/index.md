@@ -9,7 +9,7 @@
 |试题|[题册](2016/junior-rep-22-2016-C++.pdf)|[考题](2016/junior-rep-22-2016-C++.zip)|[试考](2016/junior-sim-22-2016-C++.zip)|[评测](2016/junior-rep-22-2016-arbiter.zip)|
 |22|[数一](2016/pencil/pencil.zip)|[数二](2016/date/date.zip)|[数三](2016/port/port.zip)|[数四](2016/magic/magic.zip)|
 |源码|[码一](https://github.com/daweizh/noip/tree/master/junior/repecharge/2016/pencil/)|[码二](https://github.com/daweizh/noip/tree/master/junior/repecharge/2016/date/)|[码三](https://github.com/daweizh/noip/tree/master/junior/repecharge/2016/port/)|[码四](https://github.com/daweizh/noip/tree/master/junior/repecharge/2016/magic/)|
-|2016|[解一](2016/pencil/)|[解二](2016/date/)|[解三](2016/port/)|[解四](2016/magic/)|
+|-2016-|[解一](2016/pencil/)|[解二](2016/date/)|[解三](2016/port/)|[解四](2016/magic/)|
 
 
 <!--
