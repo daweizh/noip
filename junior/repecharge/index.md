@@ -31,6 +31,11 @@
 |**18**  |[数一](2012/prime/prime.zip)|[数二](2012/treasure/treasure.zip)|[数三](2012/flower/flower.zip)|[数四](2012/culture/culture.zip)|
 |**源码** |[码一](https://github.com/daweizh/noip/tree/master/junior/repecharge/2012/)|[码二](https://github.com/daweizh/noip/tree/master/junior/repecharge/2012/)|[码三](https://github.com/daweizh/noip/tree/master/junior/repecharge/2012/)|[码四](https://github.com/daweizh/noip/tree/master/junior/repecharge/2012/)|
 |**2012**|[解一](2012/prime/)|[解二](2012/treasure/)|[解三](2012/flower/)|[解四](2012/culture/)|
+||||||
+|**试题** |[题册](2011/junior-rep-17-2011-C++.pdf)|[考题](2011/junior-rep-17-2011-C++.zip)|[试考](2011/junior-sim-17-2011-C++.zip)|[评测](2011/junior-rep-17-2011-arbiter.zip)|
+|**17**  |[数一](2011/reverse/reverse.zip)|[数二](2011/stat/stat.zip)|[数三](2011/swiss/swiss.zip)|[数四](2011/exp/exp.zip)|
+|**源码** |[码一](https://github.com/daweizh/noip/tree/master/junior/repecharge/2011/)|[码二](https://github.com/daweizh/noip/tree/master/junior/repecharge/2011/)|[码三](https://github.com/daweizh/noip/tree/master/junior/repecharge/2011/)|[码四](https://github.com/daweizh/noip/tree/master/junior/repecharge/2011/)|
+|**2011**|[解一](2011/reverse/)|[解二](2011/atat/)|[解三](2011/swiss/)|[解四](2011/exp/)|
 
 
 <!--
@@ -39,10 +44,6 @@
 
 
 
-|17  |[题册](2011/junior-rep-17-2011-C++.pdf)|[数据](2011/reverse/reverse.zip)|[数据](2011/stat/stat.zip)|[数据](2011/swiss/swiss.zip)|[数据](2011/exp/exp.zip)|
-|2011|[试题](2011/junior-rep-17-2011-C++.zip)|[题解](2011/reverse/)||||
-|[评测](2011/junior-rep-17-2011-arbiter.zip)|[试考](2011/junior-sim-17-2011-C++.zip)|[源码](https://github.com/daweizh/noip/tree/master/junior/repecharge/2011/)|[源码](https://github.com/daweizh/noip/tree/master/junior/repecharge/2011/)|[源码](https://github.com/daweizh/noip/tree/master/junior/repecharge/2011/)|[源码](https://github.com/daweizh/noip/tree/master/junior/repecharge/2011/)|
-|试题|||||
 
 |16  |[题册](2010/junior-rep-16-2010-C++.pdf)|[数据](2010/two/two.zip)|[数据](2010/water/water.zip)|[数据](2010/missile/missile.zip)|[数据](2010/sanguo/sanguo.zip)|
 |2010|[试题](2010/junior-rep-16-2010-C++.zip)|[题解](2010/two/)||||
