@@ -2,10 +2,10 @@
 
 | 届年 |题一|题二|题三|题四|
 |----|---|---|---|---|
-|23  |[数据](2017/score/score.zip)|[数据](2017/librarian/librarian.zip)|[数据](2017/chess/chess.zip)|[数据](2017/jump/jump.zip)|
-|2017|[题解](2017/score/)         |[题解](2017/librarian/)             |[题解](2017/chess/)         |[题解](2017/jump/)        |
-|    |[源码](https://github.com/daweizh/noip/tree/master/junior/repecharge/2017/score)|[源码](https://github.com/daweizh/noip/tree/master/junior/repecharge/2017/librarian)|[源码](https://github.com/daweizh/noip/tree/master/junior/repecharge/2017/chess)|[源码](https://github.com/daweizh/noip/tree/master/junior/repecharge/2017/jump)|
 |试题|[题册](2017/junior-rep-23-2017-C++.pdf)|[考题](2017/junior-rep-23-2017-C++.zip)|[试考](2017/junior-sim-23-2017-C++.zip)|[评测](2017/junior-rep-23-2017-arbiter.zip)|
+|23  |[数一](2017/score/score.zip)|[数二](2017/librarian/librarian.zip)|[数三](2017/chess/chess.zip)|[数三](2017/jump/jump.zip)|
+|2017|[解一](2017/score/)         |[解二](2017/librarian/)             |[解三](2017/chess/)         |[解三](2017/jump/)        |
+|源码|[码一](https://github.com/daweizh/noip/tree/master/junior/repecharge/2017/score)|[码二](https://github.com/daweizh/noip/tree/master/junior/repecharge/2017/librarian)|[码三](https://github.com/daweizh/noip/tree/master/junior/repecharge/2017/chess)|[码四](https://github.com/daweizh/noip/tree/master/junior/repecharge/2017/jump)|
 
 <!--
 |22  |[题册](2016/junior-rep-22-2016-C++.pdf)|[数据](2016/pencil/pencil.zip)|[数据](2016/date/date.zip)|[数据](2016/port/port.zip)|[数据](2016/magic/magic.zip)|
