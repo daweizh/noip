@@ -20,12 +20,17 @@
 |**试题** |[题册](2014/junior-rep-20-2014-C++.pdf)|[考题](2014/junior-rep-20-2014-C++.zip)|[试考](2014/junior-sim-20-2014-C++.zip)|[评测](2014/junior-rep-20-2014-arbiter.zip)|
 |**20**  |[数一](2014/count/count.zip)|[数二](2014/ratio/ratio.zip)|[数三](2014/matrix/matrix.zip)|[数四](2014/submatrix/submatrix.zip)|
 |**源码** |[码一](https://github.com/daweizh/noip/tree/master/junior/repecharge/2014/)|[码二](https://github.com/daweizh/noip/tree/master/junior/repecharge/2014/)|[码三](https://github.com/daweizh/noip/tree/master/junior/repecharge/2014/)|[码四](https://github.com/daweizh/noip/tree/master/junior/repecharge/2014/)|
-|**2014**|[解一](2014/count/)|[解二](2014/ratio/)|[解一](2014/matrix/)|[解一](2014/submatrix/)|
+|**2014**|[解一](2014/count/)|[解二](2014/ratio/)|[解三](2014/matrix/)|[解四](2014/submatrix/)|
 ||||||
 |**试题** |[题册](2013/junior-rep-19-2013-C++.pdf)|[考题](2013/junior-rep-19-2013-C++.zip)|[试考](2013/junior-sim-19-2013-C++.zip)|[评测](2013/junior-rep-19-2013-arbiter.zip)|
 |**19**  |[数一](2013/count/count.zip)|[数二](2013/expr/expr.zip)|[数三](2013/number/number.zip)|[数四](2013/level/level.zip)|
 |**源码** |[码一](https://github.com/daweizh/noip/tree/master/junior/repecharge/2013/)|[码二](https://github.com/daweizh/noip/tree/master/junior/repecharge/2013/)|[码三](https://github.com/daweizh/noip/tree/master/junior/repecharge/2013/)|[码四](https://github.com/daweizh/noip/tree/master/junior/repecharge/2013/)|
 |**2013**|[解一](2013/count/)|[解二](2013/expr/)|[解三](2013/number/)|[解四](2013/level/)|
+||||||
+|**试题** |[题册](2012/junior-rep-18-2012-C++.pdf)|[考题](2012/junior-rep-18-2012-C++.zip)|[试考](2012/junior-sim-18-2012-C++.zip)|[评测](2012/junior-rep-18-2012-arbiter.zip)|
+|**18**  |[数一](2012/prime/prime.zip)|[数二](2012/treasure/treasure.zip)|[数三](2012/flower/flower.zip)|[数四](2012/culture/culture.zip)|
+|**源码** |[码一](https://github.com/daweizh/noip/tree/master/junior/repecharge/2012/)|[码二](https://github.com/daweizh/noip/tree/master/junior/repecharge/2012/)|[码三](https://github.com/daweizh/noip/tree/master/junior/repecharge/2012/)|[码四](https://github.com/daweizh/noip/tree/master/junior/repecharge/2012/)|
+|**2012**|[解一](2012/prime/)|[解二](2012/treasure/)|[解三](2012/flower/)|[解四](2012/culture/)|
 
 
 <!--
@@ -33,10 +38,6 @@
 
 
 
-|18  |[题册](2012/junior-rep-18-2012-C++.pdf)|[数据](2012/prime/prime.zip)|[数据](2012/treasure/treasure.zip)|[数据](2012/flower/flower.zip)|[数据](2012/culture/culture.zip)|
-|2012|[试题](2012/junior-rep-18-2012-C++.zip)|[题解](2012/prime/)||||
-|[评测](2012/junior-rep-18-2012-arbiter.zip)|[试考](2012/junior-sim-18-2012-C++.zip)|[源码](https://github.com/daweizh/noip/tree/master/junior/repecharge/2012/)|[源码](https://github.com/daweizh/noip/tree/master/junior/repecharge/2012/)|[源码](https://github.com/daweizh/noip/tree/master/junior/repecharge/2012/)|[源码](https://github.com/daweizh/noip/tree/master/junior/repecharge/2012/)|
-|试题|||||
 
 |17  |[题册](2011/junior-rep-17-2011-C++.pdf)|[数据](2011/reverse/reverse.zip)|[数据](2011/stat/stat.zip)|[数据](2011/swiss/swiss.zip)|[数据](2011/exp/exp.zip)|
 |2011|[试题](2011/junior-rep-17-2011-C++.zip)|[题解](2011/reverse/)||||
