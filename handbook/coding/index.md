@@ -79,6 +79,9 @@
 		cin >> a >> b >> c;
 		cout <<  a * 0.2 + b*0.3 + c*0.4 << endl;
 		
+		fclose(stdout);
+		fclose(stdin);
+		
 		return 0;
 	}
 	~~~

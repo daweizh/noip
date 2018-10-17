@@ -54,7 +54,6 @@
 	- 点击确定
 2. 选择**第1场评测** ，在选手列表中出现待评测试题    
 	![](images/arbiter-12.png)
-
 3. 选择**文件**，**保存**，建立并保存Arbiter的基本配置及相关数据，关闭Arbiter
 	![](images/arbiter-13.png)
 

@@ -22,6 +22,9 @@ int main(){
 
     cout << 40 << endl;
 
+    fclose(stdout);
+    fclose(stdin);
+    
     return 0;
 }
 ~~~
@@ -131,6 +134,9 @@ int main(){
     cin >> a >> b >> c;
     cout << 40 << endl;
 
+    fclose(stdout);
+    fclose(stdin);
+    
     return 0;
 }
 ~~~
@@ -172,6 +178,9 @@ int main(){
 	
     cout << score << endl;
 
+    fclose(stdout);
+    fclose(stdin);
+    
     return 0;
 }
 ~~~
@@ -244,6 +253,9 @@ int main(){
     score = (a*20 + b*30 + c*50)/100;
     cout << score << endl;
 
+    fclose(stdout);
+    fclose(stdin);
+    
     return 0;
 }
 ~~~
@@ -293,6 +305,9 @@ int main(){
     cin >> a >> b >> c;
     cout << a*.2 + b*.3 + c*.5 << endl;
 
+    fclose(stdout);
+    fclose(stdin);
+    
     return 0;
 }
 ~~~
@@ -342,6 +357,9 @@ int main(){
     score = a*.2 + b*.3 + c*.5;
     cout << score << endl;
 
+    fclose(stdout);
+    fclose(stdin);
+    
     return 0;
 }
 ~~~
