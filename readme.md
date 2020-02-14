@@ -5,18 +5,19 @@
     <tr>
       <th style="border:0px;text-align:left;width:50px;">00.</th>
       <th style="border:0px; border-bottom:1px dashed red;width:100%;">
-        <a href='00/1.intro.html'>1.intro</a>,
-        <a href='00/2.level.html'>2.level</a>,
-        <a href='00/3.pts.html'>3.pts</a>,
-        <a href='00/4.resource.html'>4.resource</a>
+        <a href='handout/00/1.intro.html'>1.intro</a>,
+        <a href='handout/00/2.resource.html'>2.resource</a>
       </th>
       <th style="border:0px;white-space:nowrap;">
-        <a href='/.html'>E</a>,
-        <a href='/.html'>O</a>,
-        <a href='/.html'>L</a>,
-        <a href='/.html'>N</a>
+        <a href='handout/00/example.html'>E</a>,
+        <a href='handout/00/openjudge.html'>O</a>,
+        <a href='handout/00/luogu.html'>L</a>,
+        <a href='handout/00/notes.html'>N</a>
       </th>
-    </tr><tr>
+    </tr>
+<!--       
+    
+    <tr>
       <th style="border:0px;text-align:left;width:50px;">01.</th>
       <th style="border:0px; border-bottom:1px dashed red;width:100%;">
         <a href='01/1.tong11.html'>1.tong11</a>,
@@ -141,7 +142,7 @@
         <a href='/.html'>L</a>,
         <a href='/.html'>N</a>
       </th>
-      </tr>
+      </tr> -->
     </table>
 
 2. 软件工具
