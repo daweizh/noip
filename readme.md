@@ -9,10 +9,8 @@
         <a href='handout/00/2.resource.html'>2.resource</a>
       </th>
       <th style="border:0px;white-space:nowrap;">
-        <a href='handout/00/example.html'>E</a>,
-        <a href='handout/00/openjudge.html'>O</a>,
-        <a href='handout/00/luogu.html'>L</a>,
-        <a href='handout/00/notes.html'>N</a>
+        <a href='handout/00/example.html'>E</a>,<a href='handout/00/openjudge.html'>O</a>,
+        <a href='handout/00/luogu.html'>L</a>,<a href='handout/00/notes.html'>N</a>
       </th>
     </tr>
 <!--       
