@@ -4,7 +4,7 @@
     <table style="border:0px;width:100%;">
     <tr>
       <th style="border:0px;text-align:left;width:50px;">00.</th>
-      <th style="border:0px; border-bottom:1px dashed red;text-align:right;width:100%;">
+      <th style="border:0px; border-bottom:1px dashed red;width:100%;">
         <a href='00/1.intro.html'>1.intro</a>,
         <a href='00/2.level.html'>2.level</a>,
         <a href='00/3.pts.html'>3.pts</a>,
@@ -16,7 +16,7 @@
       <th style="border:0px;"><a href='/.html'>D</a></th>
     </tr><tr>
       <th style="border:0px;text-align:left;width:50px;">01.</th>
-      <th style="border:0px; border-bottom:1px dashed red;text-align:right;width:100%;">
+      <th style="border:0px; border-bottom:1px dashed red;width:100%;">
         <a href='01/1.tong11.html'>1.tong11</a>,
         <a href='01/2.organ.html'>2.organ</a>,
         <a href='01/3.method.html'>3.method</a>,
@@ -28,7 +28,7 @@
       <th style="border:0px;"><a href='/.html'>D</a></th>
     </tr><tr>
       <th style="border:0px;text-align:left;width:50px;">02.</th>
-      <th style="border:0px; border-bottom:1px dashed red;text-align:right;width:100%;">
+      <th style="border:0px; border-bottom:1px dashed red;width:100%;">
         <a href='02/1.program.html'>1.program</a>,
         <a href='02/2.project.html'>2.project</a>,
         <a href='02/3.example.html'>3.example</a>,
@@ -40,7 +40,7 @@
       <th style="border:0px;"><a href='/.html'>D</a></th>
     </tr><tr>
       <th style="border:0px;text-align:left;width:50px;">03.</th>
-      <th style="border:0px; border-bottom:1px dashed red;text-align:right;width:100%;">
+      <th style="border:0px; border-bottom:1px dashed red;width:100%;">
         <a href='03/1.game.html'>1.game</a>,
         <a href='03/2.core.html'>2.core</a>,
         <a href='03/3.example.html'>3.example</a>,
@@ -52,7 +52,7 @@
       <th style="border:0px;"><a href='/.html'>D</a></th>
     </tr><tr>
       <th style="border:0px;text-align:left;width:50px;">04.</th>
-      <th style="border:0px; border-bottom:1px dashed red;text-align:right;width:100%;">
+      <th style="border:0px; border-bottom:1px dashed red;width:100%;">
         <a href='04/1.settings.html'>1.settings</a>,
         <a href='04/2.params.html'>2.params</a>,
         <a href='04/3.example.html'>3.example</a>,
@@ -64,7 +64,7 @@
       <th style="border:0px;"><a href='/.html'>D</a></th>
     </tr><tr>
       <th style="border:0px;text-align:left;width:50px;">05.</th>
-      <th style="border:0px; border-bottom:1px dashed red;text-align:right;width:100%;">
+      <th style="border:0px; border-bottom:1px dashed red;width:100%;">
         <a href='05/1.display.html'>1.display</a>,
         <a href='05/2.detail.html'>2.detail</a>,
         <a href='05/3.example.html'>3.example</a>,
@@ -76,7 +76,7 @@
       <th style="border:0px;"><a href='/.html'>D</a></th>
     </tr><tr>
       <th style="border:0px;text-align:left;width:50px;">06.</th>
-      <th style="border:0px; border-bottom:1px dashed red;text-align:right;width:100%;">
+      <th style="border:0px; border-bottom:1px dashed red;width:100%;">
         <a href='06/1.sort.html'>1.sort</a>,
         <a href='06/2.practice.html'>2.practice</a>,
         <a href='06/3.example.html'>3.example</a>,
@@ -88,7 +88,7 @@
       <th style="border:0px;"><a href='/.html'>D</a></th>
     </tr><tr>
       <th style="border:0px;text-align:left;width:50px;">07.</th>
-      <th style="border:0px; border-bottom:1px dashed red;text-align:right;width:100%;">
+      <th style="border:0px; border-bottom:1px dashed red;width:100%;">
           <a href='07/1.concept.html'>1.concept</a>,
           <a href='07/2.number.html'>2.number</a>,
           <a href='07/3.example.html'>3.example</a>,
@@ -101,7 +101,7 @@
       </tr>
       <tr>
       <th style="border:0px;text-align:left;width:50px;">08.</th>
-      <th style="border:0px; border-bottom:1px dashed red;text-align:right;width:100%;">
+      <th style="border:0px; border-bottom:1px dashed red;width:100%;">
           <a href='08/1.recurrence.html'>1.rrence</a>,
           <a href='08/2.recursion.html'>2.rrsion</a>,
           <a href='08/3.example.html'>3.example</a>,
@@ -114,7 +114,7 @@
       </tr>
       <tr>
       <th style="border:0px;text-align:left;width:50px;">09.</th>
-      <th style="border:0px; border-bottom:1px dashed red;text-align:right;width:100%;">
+      <th style="border:0px; border-bottom:1px dashed red;width:100%;">
       <a href='09/3.example.html'>3.example</a>
       </th>
       <th style="border:0px;"><a href='/.html'>A</a></th>
@@ -129,14 +129,14 @@
     <tr>
       <th style="border:0px;width:50px;">00.</th>
       <th style="border:0px;width:100%;">Devcpp</th>
-      <th style="border:0px;width:50px;"><a href='/.html'>下载</a></th>
-      <th style="border:0px;width:50px;"><a href='/.html'>官网</a></th>
+      <th style="border:0px;white-space:nowrap;"><a href='/.html'>下载</a></th>
+      <th style="border:0px;white-space:nowrap;"><a href='/.html'>官网</a></th>
     </tr>
     <tr>
       <th style="border:0px;width:50px;">00.</th>
       <th style="border:0px;width:100%;">Devcpp</th>
-      <th style="border:0px;width:50px;"><a href='/.html'>下载</a></th>
-      <th style="border:0px;width:50px;"><a href='/.html'>官网</a></th>
+      <th style="border:0px;white-space:nowrap;"><a href='/.html'>下载</a></th>
+      <th style="border:0px;white-space:nowrap;"><a href='/.html'>官网</a></th>
     </tr>
     </table>
 
