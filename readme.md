@@ -11,10 +11,10 @@
         <a href='00/4.resource.html'>4.resource</a>
       </th>
       <th style="border:0px;white-space:nowrap;">
-        <a href='/.html'>A</a>,
-        <a href='/.html'>B</a>,
-        <a href='/.html'>C</a>,
-        <a href='/.html'>D</a>
+        <a href='/.html'>E</a>,
+        <a href='/.html'>O</a>,
+        <a href='/.html'>L</a>,
+        <a href='/.html'>N</a>
       </th>
     </tr><tr>
       <th style="border:0px;text-align:left;width:50px;">01.</th>
@@ -25,10 +25,10 @@
         <a href='01/4.devcpp.html'>4.devcpp</a>
       </th>
       <th style="border:0px;white-space:nowrap;">
-        <a href='/.html'>A</a>,
-        <a href='/.html'>B</a>,
-        <a href='/.html'>C</a>,
-        <a href='/.html'>D</a>
+        <a href='/.html'>E</a>,
+        <a href='/.html'>O</a>,
+        <a href='/.html'>L</a>,
+        <a href='/.html'>N</a>
       </th>
     </tr><tr>
       <th style="border:0px;text-align:left;width:50px;">02.</th>
@@ -39,10 +39,10 @@
         <a href='02/4.junior-2018-title.html'>4.title</a>
       </th>
       <th style="border:0px;white-space:nowrap;">
-        <a href='/.html'>A</a>,
-        <a href='/.html'>B</a>,
-        <a href='/.html'>C</a>,
-        <a href='/.html'>D</a>
+        <a href='/.html'>E</a>,
+        <a href='/.html'>O</a>,
+        <a href='/.html'>L</a>,
+        <a href='/.html'>N</a>
       </th>
     </tr><tr>
       <th style="border:0px;text-align:left;width:50px;">03.</th>
@@ -53,10 +53,10 @@
         <a href='03/4.junior-2017-score.html'>4.score</a>
       </th>
       <th style="border:0px;white-space:nowrap;">
-        <a href='/.html'>A</a>,
-        <a href='/.html'>B</a>,
-        <a href='/.html'>C</a>,
-        <a href='/.html'>D</a>
+        <a href='/.html'>E</a>,
+        <a href='/.html'>O</a>,
+        <a href='/.html'>L</a>,
+        <a href='/.html'>N</a>
       </th>
     </tr><tr>
       <th style="border:0px;text-align:left;width:50px;">04.</th>
@@ -67,10 +67,10 @@
         <a href='04/4.junior-2016-pencil.html'>4.pencil</a>
       </th>
       <th style="border:0px;white-space:nowrap;">
-        <a href='/.html'>A</a>,
-        <a href='/.html'>B</a>,
-        <a href='/.html'>C</a>,
-        <a href='/.html'>D</a>
+        <a href='/.html'>E</a>,
+        <a href='/.html'>O</a>,
+        <a href='/.html'>L</a>,
+        <a href='/.html'>N</a>
       </th>
     </tr><tr>
       <th style="border:0px;text-align:left;width:50px;">05.</th>
@@ -81,10 +81,10 @@
         <a href='05/4.junior-2015-coin.html'>4.coin</a>
       </th>
       <th style="border:0px;white-space:nowrap;">
-        <a href='/.html'>A</a>,
-        <a href='/.html'>B</a>,
-        <a href='/.html'>C</a>,
-        <a href='/.html'>D</a>
+        <a href='/.html'>E</a>,
+        <a href='/.html'>O</a>,
+        <a href='/.html'>L</a>,
+        <a href='/.html'>N</a>
       </th>
     </tr><tr>
       <th style="border:0px;text-align:left;width:50px;">06.</th>
@@ -95,10 +95,10 @@
         <a href='06/4.junior-2014-count.html'>4.count</a>
       </th>
       <th style="border:0px;white-space:nowrap;">
-        <a href='/.html'>A</a>,
-        <a href='/.html'>B</a>,
-        <a href='/.html'>C</a>,
-        <a href='/.html'>D</a>
+        <a href='/.html'>E</a>,
+        <a href='/.html'>O</a>,
+        <a href='/.html'>L</a>,
+        <a href='/.html'>N</a>
       </th>
     </tr><tr>
       <th style="border:0px;text-align:left;width:50px;">07.</th>
@@ -109,10 +109,10 @@
           <a href='07/4.junior-2013-count.html'>4.count</a>
       </th>
       <th style="border:0px;white-space:nowrap;">
-        <a href='/.html'>A</a>,
-        <a href='/.html'>B</a>,
-        <a href='/.html'>C</a>,
-        <a href='/.html'>D</a>
+        <a href='/.html'>E</a>,
+        <a href='/.html'>O</a>,
+        <a href='/.html'>L</a>,
+        <a href='/.html'>N</a>
       </th>
       </tr>
       <tr>
@@ -124,10 +124,10 @@
           <a href='08/4.junior-2006-random-2007-scholar-2009-score.html'>4.rnd-shl-scr</a>
       </th>
       <th style="border:0px;white-space:nowrap;">
-        <a href='/.html'>A</a>,
-        <a href='/.html'>B</a>,
-        <a href='/.html'>C</a>,
-        <a href='/.html'>D</a>
+        <a href='/.html'>E</a>,
+        <a href='/.html'>O</a>,
+        <a href='/.html'>L</a>,
+        <a href='/.html'>N</a>
       </th>
       </tr>
       <tr>
@@ -136,10 +136,10 @@
       <a href='09/3.example.html'>3.example</a>
       </th>
       <th style="border:0px;white-space:nowrap;">
-        <a href='/.html'>A</a>,
-        <a href='/.html'>B</a>,
-        <a href='/.html'>C</a>,
-        <a href='/.html'>D</a>
+        <a href='/.html'>E</a>,
+        <a href='/.html'>O</a>,
+        <a href='/.html'>L</a>,
+        <a href='/.html'>N</a>
       </th>
       </tr>
     </table>
