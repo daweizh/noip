@@ -5,8 +5,8 @@
     <tr>
       <th style="border:0px;text-align:left;width:50px;">00.</th>
       <th style="border:0px; border-bottom:1px dashed red;width:100%;">
-        <a href='handout/00/1.intro.html'>1.intro</a>,
-        <a href='handout/00/2.resource.html'>2.resource</a>
+        <a href='handout/00/1.intro.html'>intro</a>,
+        <a href='handout/00/2.resource.html'>resource</a>
       </th>
       <th style="border:0px;white-space:nowrap;">
         <a href='handout/00/example.html'>E</a>,<a href='handout/00/openjudge.html'>O</a>,
@@ -16,10 +16,10 @@
     <tr>
       <th style="border:0px;text-align:left;width:50px;">01.</th>
       <th style="border:0px; border-bottom:1px dashed red;width:100%;">
-        <a href='handout/01/1.tong11.html'>1.tong11</a>,
-        <a href='handout/01/2.organ.html'>2.organ</a>,
-        <a href='handout/01/3.method.html'>3.method</a>,
-        <a href='handout/01/4.devcpp.html'>4.devcpp</a>
+        <a href='handout/01/1.tong11.html'>tong11</a>,
+        <a href='handout/01/2.organ.html'>organ</a>,
+        <a href='handout/01/3.method.html'>method</a>,
+        <a href='handout/01/4.devcpp.html'>devcpp</a>
       </th>
       <th style="border:0px;white-space:nowrap;">
         <a href='handout/01/example.html'>E</a>,<a href='handout/01/openjudge.html'>O</a>,
