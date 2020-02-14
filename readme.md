@@ -129,14 +129,14 @@
     <tr>
       <th style="border:0px;width:50px;">00.</th>
       <th style="border:0px;width:100%;">Devcpp</th>
-      <th style="border:0px;"><a href='/.html'>下载</a></th>
-      <th style="border:0px;"><a href='/.html'>官网</a></th>
+      <th style="border:0px;width:50px;"><a href='/.html'>下载</a></th>
+      <th style="border:0px;width:50px;"><a href='/.html'>官网</a></th>
     </tr>
     <tr>
       <th style="border:0px;width:50px;">00.</th>
       <th style="border:0px;width:100%;">Devcpp</th>
-      <th style="border:0px;"><a href='/.html'>下载</a></th>
-      <th style="border:0px;"><a href='/.html'>官网</a></th>
+      <th style="border:0px;width:50px;"><a href='/.html'>下载</a></th>
+      <th style="border:0px;width:50px;"><a href='/.html'>官网</a></th>
     </tr>
     </table>
 
