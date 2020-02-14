@@ -10,10 +10,12 @@
         <a href='00/3.pts.html'>3.pts</a>,
         <a href='00/4.resource.html'>4.resource</a>
       </th>
-      <th style="border:0px;"><a href='/.html'>A</a></th>
-      <th style="border:0px;"><a href='/.html'>B</a></th>
-      <th style="border:0px;"><a href='/.html'>C</a></th>
-      <th style="border:0px;"><a href='/.html'>D</a></th>
+      <th style="border:0px;white-space:nowrap;">
+        <a href='/.html'>A</a>|
+        <a href='/.html'>B</a>|
+        <a href='/.html'>C</a>|
+        <a href='/.html'>D</a>
+      </th>
     </tr><tr>
       <th style="border:0px;text-align:left;width:50px;">01.</th>
       <th style="border:0px; border-bottom:1px dashed red;width:100%;">
@@ -22,10 +24,12 @@
         <a href='01/3.method.html'>3.method</a>,
         <a href='01/4.devcpp.html'>4.devcpp</a>
       </th>
-      <th style="border:0px;"><a href='/.html'>A</a></th>
-      <th style="border:0px;"><a href='/.html'>B</a></th>
-      <th style="border:0px;"><a href='/.html'>C</a></th>
-      <th style="border:0px;"><a href='/.html'>D</a></th>
+      <th style="border:0px;white-space:nowrap;">
+        <a href='/.html'>A</a>|
+        <a href='/.html'>B</a>|
+        <a href='/.html'>C</a>|
+        <a href='/.html'>D</a>
+      </th>
     </tr><tr>
       <th style="border:0px;text-align:left;width:50px;">02.</th>
       <th style="border:0px; border-bottom:1px dashed red;width:100%;">
@@ -34,10 +38,12 @@
         <a href='02/3.example.html'>3.example</a>,
         <a href='02/4.junior-2018-title.html'>4.title</a>
       </th>
-      <th style="border:0px;"><a href='/.html'>A</a></th>
-      <th style="border:0px;"><a href='/.html'>B</a></th>
-      <th style="border:0px;"><a href='/.html'>C</a></th>
-      <th style="border:0px;"><a href='/.html'>D</a></th>
+      <th style="border:0px;white-space:nowrap;">
+        <a href='/.html'>A</a>|
+        <a href='/.html'>B</a>|
+        <a href='/.html'>C</a>|
+        <a href='/.html'>D</a>
+      </th>
     </tr><tr>
       <th style="border:0px;text-align:left;width:50px;">03.</th>
       <th style="border:0px; border-bottom:1px dashed red;width:100%;">
@@ -46,10 +52,12 @@
         <a href='03/3.example.html'>3.example</a>,
         <a href='03/4.junior-2017-score.html'>4.score</a>
       </th>
-      <th style="border:0px;"><a href='/.html'>A</a></th>
-      <th style="border:0px;"><a href='/.html'>B</a></th>
-      <th style="border:0px;"><a href='/.html'>C</a></th>
-      <th style="border:0px;"><a href='/.html'>D</a></th>
+      <th style="border:0px;white-space:nowrap;">
+        <a href='/.html'>A</a>|
+        <a href='/.html'>B</a>|
+        <a href='/.html'>C</a>|
+        <a href='/.html'>D</a>
+      </th>
     </tr><tr>
       <th style="border:0px;text-align:left;width:50px;">04.</th>
       <th style="border:0px; border-bottom:1px dashed red;width:100%;">
@@ -58,10 +66,12 @@
         <a href='04/3.example.html'>3.example</a>,
         <a href='04/4.junior-2016-pencil.html'>4.pencil</a>
       </th>
-      <th style="border:0px;"><a href='/.html'>A</a></th>
-      <th style="border:0px;"><a href='/.html'>B</a></th>
-      <th style="border:0px;"><a href='/.html'>C</a></th>
-      <th style="border:0px;"><a href='/.html'>D</a></th>
+      <th style="border:0px;white-space:nowrap;">
+        <a href='/.html'>A</a>|
+        <a href='/.html'>B</a>|
+        <a href='/.html'>C</a>|
+        <a href='/.html'>D</a>
+      </th>
     </tr><tr>
       <th style="border:0px;text-align:left;width:50px;">05.</th>
       <th style="border:0px; border-bottom:1px dashed red;width:100%;">
@@ -70,10 +80,12 @@
         <a href='05/3.example.html'>3.example</a>,
         <a href='05/4.junior-2015-coin.html'>4.coin</a>
       </th>
-      <th style="border:0px;"><a href='/.html'>A</a></th>
-      <th style="border:0px;"><a href='/.html'>B</a></th>
-      <th style="border:0px;"><a href='/.html'>C</a></th>
-      <th style="border:0px;"><a href='/.html'>D</a></th>
+      <th style="border:0px;white-space:nowrap;">
+        <a href='/.html'>A</a>|
+        <a href='/.html'>B</a>|
+        <a href='/.html'>C</a>|
+        <a href='/.html'>D</a>
+      </th>
     </tr><tr>
       <th style="border:0px;text-align:left;width:50px;">06.</th>
       <th style="border:0px; border-bottom:1px dashed red;width:100%;">
@@ -82,10 +94,12 @@
         <a href='06/3.example.html'>3.example</a>,
         <a href='06/4.junior-2014-count.html'>4.count</a>
       </th>
-      <th style="border:0px;"><a href='/.html'>A</a></th>
-      <th style="border:0px;"><a href='/.html'>B</a></th>
-      <th style="border:0px;"><a href='/.html'>C</a></th>
-      <th style="border:0px;"><a href='/.html'>D</a></th>
+      <th style="border:0px;white-space:nowrap;">
+        <a href='/.html'>A</a>|
+        <a href='/.html'>B</a>|
+        <a href='/.html'>C</a>|
+        <a href='/.html'>D</a>
+      </th>
     </tr><tr>
       <th style="border:0px;text-align:left;width:50px;">07.</th>
       <th style="border:0px; border-bottom:1px dashed red;width:100%;">
@@ -94,10 +108,12 @@
           <a href='07/3.example.html'>3.example</a>,
           <a href='07/4.junior-2013-count.html'>4.count</a>
       </th>
-      <th style="border:0px;"><a href='/.html'>A</a></th>
-      <th style="border:0px;"><a href='/.html'>B</a></th>
-      <th style="border:0px;"><a href='/.html'>C</a></th>
-      <th style="border:0px;"><a href='/.html'>D</a></th>
+      <th style="border:0px;white-space:nowrap;">
+        <a href='/.html'>A</a>|
+        <a href='/.html'>B</a>|
+        <a href='/.html'>C</a>|
+        <a href='/.html'>D</a>
+      </th>
       </tr>
       <tr>
       <th style="border:0px;text-align:left;width:50px;">08.</th>
@@ -107,36 +123,54 @@
           <a href='08/3.example.html'>3.example</a>,
           <a href='08/4.junior-2006-random-2007-scholar-2009-score.html'>4.rnd-shl-scr</a>
       </th>
-      <th style="border:0px;"><a href='/.html'>A</a></th>
-      <th style="border:0px;"><a href='/.html'>B</a></th>
-      <th style="border:0px;"><a href='/.html'>C</a></th>
-      <th style="border:0px;"><a href='/.html'>D</a></th>
+      <th style="border:0px;white-space:nowrap;">
+        <a href='/.html'>A</a>|
+        <a href='/.html'>B</a>|
+        <a href='/.html'>C</a>|
+        <a href='/.html'>D</a>
+      </th>
       </tr>
       <tr>
       <th style="border:0px;text-align:left;width:50px;">09.</th>
       <th style="border:0px; border-bottom:1px dashed red;width:100%;">
       <a href='09/3.example.html'>3.example</a>
       </th>
-      <th style="border:0px;"><a href='/.html'>A</a></th>
-      <th style="border:0px;"><a href='/.html'>B</a></th>
-      <th style="border:0px;"><a href='/.html'>C</a></th>
-      <th style="border:0px;"><a href='/.html'>D</a></th>
+      <th style="border:0px;white-space:nowrap;">
+        <a href='/.html'>A</a>|
+        <a href='/.html'>B</a>|
+        <a href='/.html'>C</a>|
+        <a href='/.html'>D</a>
+      </th>
       </tr>
     </table>
 
 2. 软件工具
     <table style="border:0px;width:100%;">
     <tr>
-      <th style="border:0px;width:50px;">00.</th>
-      <th style="border:0px;width:100%;">Devcpp</th>
-      <th style="border:0px;white-space:nowrap;"><a href='/.html'>下载</a></th>
-      <th style="border:0px;white-space:nowrap;"><a href='/.html'>官网</a></th>
+      <th style="border:0px;text-align:left;width:50px;">00.</th>
+      <th style="border:0px; border-bottom:1px dashed red;width:100%;">
+        <a href='00/1.intro.html'>1.intro</a>,
+        <a href='00/2.level.html'>2.level</a>,
+        <a href='00/3.pts.html'>3.pts</a>,
+        <a href='00/4.resource.html'>4.resource</a>
+      </th>
+      <th style="border:0px;white-space:nowrap;">
+        <a href='/.html'>下载</a>|
+        <a href='/.html'>官网</a>
+      </th>
     </tr>
     <tr>
-      <th style="border:0px;width:50px;">00.</th>
-      <th style="border:0px;width:100%;">Devcpp</th>
-      <th style="border:0px;white-space:nowrap;"><a href='/.html'>下载</a></th>
-      <th style="border:0px;white-space:nowrap;"><a href='/.html'>官网</a></th>
+      <th style="border:0px;text-align:left;width:50px;">01.</th>
+      <th style="border:0px; border-bottom:1px dashed red;width:100%;">
+        <a href='00/1.intro.html'>1.intro</a>,
+        <a href='00/2.level.html'>2.level</a>,
+        <a href='00/3.pts.html'>3.pts</a>,
+        <a href='00/4.resource.html'>4.resource</a>
+      </th>
+      <th style="border:0px;white-space:nowrap;">
+        <a href='/.html'>下载</a>|
+        <a href='/.html'>官网</a>
+      </th>
     </tr>
     </table>
 
