@@ -29,8 +29,8 @@
     <tr>
       <th style="border:0px;text-align:left;width:50px;">02.</th>
       <th style="border:0px; border-bottom:1px dashed red;width:100%;">
-        <a href='handout/02/1.intro.html'></a>,
-        <a href='handout/02/2.resource.html'></a>
+        <a href='handout/02/1.program.html'>program</a>,
+        <a href='handout/02/2.project.html'>project</a>
       </th>
       <th style="border:0px;white-space:nowrap;">
         <a href='handout/02/example.html'>E</a>,<a href='handout/02/openjudge.html'>O</a>,
@@ -40,14 +40,15 @@
     <tr>
       <th style="border:0px;text-align:left;width:50px;">03.</th>
       <th style="border:0px; border-bottom:1px dashed red;width:100%;">
-        <a href='handout/03/1.intro.html'></a>,
-        <a href='handout/03/2.resource.html'></a>
+        <a href='handout/03/1.game.html'>game</a>,
+        <a href='handout/03/2.core.html'>core</a>
       </th>
       <th style="border:0px;white-space:nowrap;">
         <a href='handout/03/example.html'>E</a>,<a href='handout/03/openjudge.html'>O</a>,
         <a href='handout/03/luogu.html'>L</a>,<a href='handout/03/notes.html'>N</a>
       </th>
     </tr>
+    
     <tr>
       <th style="border:0px;text-align:left;width:50px;">04.</th>
       <th style="border:0px; border-bottom:1px dashed red;width:100%;">
