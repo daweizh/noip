@@ -26,136 +26,122 @@
         <a href='handout/01/luogu.html'>L</a>,<a href='handout/01/notes.html'>N</a>
       </th>
     </tr>
-<!--       
-    
     <tr>
-      <th style="border:0px;text-align:left;width:50px;">01.</th>
-      <th style="border:0px; border-bottom:1px dashed red;width:100%;">
-        <a href='01/1.tong11.html'>1.tong11</a>,
-        <a href='01/2.organ.html'>2.organ</a>,
-        <a href='01/3.method.html'>3.method</a>,
-        <a href='01/4.devcpp.html'>4.devcpp</a>
-      </th>
-      <th style="border:0px;white-space:nowrap;">
-        <a href='/.html'>E</a>,
-        <a href='/.html'>O</a>,
-        <a href='/.html'>L</a>,
-        <a href='/.html'>N</a>
-      </th>
-    </tr><tr>
       <th style="border:0px;text-align:left;width:50px;">02.</th>
       <th style="border:0px; border-bottom:1px dashed red;width:100%;">
-        <a href='02/1.program.html'>1.program</a>,
-        <a href='02/2.project.html'>2.project</a>,
-        <a href='02/3.example.html'>3.example</a>,
-        <a href='02/4.junior-2018-title.html'>4.title</a>
+        <a href='handout/02/1.intro.html'></a>,
+        <a href='handout/02/2.resource.html'></a>
       </th>
       <th style="border:0px;white-space:nowrap;">
-        <a href='/.html'>E</a>,
-        <a href='/.html'>O</a>,
-        <a href='/.html'>L</a>,
-        <a href='/.html'>N</a>
+        <a href='handout/02/example.html'>E</a>,<a href='handout/02/openjudge.html'>O</a>,
+        <a href='handout/02/luogu.html'>L</a>,<a href='handout/02/notes.html'>N</a>
       </th>
-    </tr><tr>
+    </tr>
+    <tr>
       <th style="border:0px;text-align:left;width:50px;">03.</th>
       <th style="border:0px; border-bottom:1px dashed red;width:100%;">
-        <a href='03/1.game.html'>1.game</a>,
-        <a href='03/2.core.html'>2.core</a>,
-        <a href='03/3.example.html'>3.example</a>,
-        <a href='03/4.junior-2017-score.html'>4.score</a>
+        <a href='handout/03/1.intro.html'></a>,
+        <a href='handout/03/2.resource.html'></a>
       </th>
       <th style="border:0px;white-space:nowrap;">
-        <a href='/.html'>E</a>,
-        <a href='/.html'>O</a>,
-        <a href='/.html'>L</a>,
-        <a href='/.html'>N</a>
+        <a href='handout/03/example.html'>E</a>,<a href='handout/03/openjudge.html'>O</a>,
+        <a href='handout/03/luogu.html'>L</a>,<a href='handout/03/notes.html'>N</a>
       </th>
-    </tr><tr>
+    </tr>
+    <tr>
       <th style="border:0px;text-align:left;width:50px;">04.</th>
       <th style="border:0px; border-bottom:1px dashed red;width:100%;">
-        <a href='04/1.settings.html'>1.settings</a>,
-        <a href='04/2.params.html'>2.params</a>,
-        <a href='04/3.example.html'>3.example</a>,
-        <a href='04/4.junior-2016-pencil.html'>4.pencil</a>
+        <a href='handout/04/1.intro.html'></a>,
+        <a href='handout/04/2.resource.html'></a>
       </th>
       <th style="border:0px;white-space:nowrap;">
-        <a href='/.html'>E</a>,
-        <a href='/.html'>O</a>,
-        <a href='/.html'>L</a>,
-        <a href='/.html'>N</a>
+        <a href='handout/04/example.html'>E</a>,<a href='handout/04/openjudge.html'>O</a>,
+        <a href='handout/04/luogu.html'>L</a>,<a href='handout/04/notes.html'>N</a>
       </th>
-    </tr><tr>
+    </tr>
+    <tr>
       <th style="border:0px;text-align:left;width:50px;">05.</th>
       <th style="border:0px; border-bottom:1px dashed red;width:100%;">
-        <a href='05/1.display.html'>1.display</a>,
-        <a href='05/2.detail.html'>2.detail</a>,
-        <a href='05/3.example.html'>3.example</a>,
-        <a href='05/4.junior-2015-coin.html'>4.coin</a>
+        <a href='handout/05/1.intro.html'></a>,
+        <a href='handout/05/2.resource.html'></a>
       </th>
       <th style="border:0px;white-space:nowrap;">
-        <a href='/.html'>E</a>,
-        <a href='/.html'>O</a>,
-        <a href='/.html'>L</a>,
-        <a href='/.html'>N</a>
+        <a href='handout/05/example.html'>E</a>,<a href='handout/05/openjudge.html'>O</a>,
+        <a href='handout/05/luogu.html'>L</a>,<a href='handout/05/notes.html'>N</a>
       </th>
-    </tr><tr>
+    </tr>
+    <tr>
       <th style="border:0px;text-align:left;width:50px;">06.</th>
       <th style="border:0px; border-bottom:1px dashed red;width:100%;">
-        <a href='06/1.sort.html'>1.sort</a>,
-        <a href='06/2.practice.html'>2.practice</a>,
-        <a href='06/3.example.html'>3.example</a>,
-        <a href='06/4.junior-2014-count.html'>4.count</a>
+        <a href='handout/06/1.intro.html'></a>,
+        <a href='handout/06/2.resource.html'></a>
       </th>
       <th style="border:0px;white-space:nowrap;">
-        <a href='/.html'>E</a>,
-        <a href='/.html'>O</a>,
-        <a href='/.html'>L</a>,
-        <a href='/.html'>N</a>
+        <a href='handout/06/example.html'>E</a>,<a href='handout/06/openjudge.html'>O</a>,
+        <a href='handout/06/luogu.html'>L</a>,<a href='handout/06/notes.html'>N</a>
       </th>
-    </tr><tr>
+    </tr>
+    <tr>
       <th style="border:0px;text-align:left;width:50px;">07.</th>
       <th style="border:0px; border-bottom:1px dashed red;width:100%;">
-          <a href='07/1.concept.html'>1.concept</a>,
-          <a href='07/2.number.html'>2.number</a>,
-          <a href='07/3.example.html'>3.example</a>,
-          <a href='07/4.junior-2013-count.html'>4.count</a>
+        <a href='handout/07/1.intro.html'></a>,
+        <a href='handout/07/2.resource.html'></a>
       </th>
       <th style="border:0px;white-space:nowrap;">
-        <a href='/.html'>E</a>,
-        <a href='/.html'>O</a>,
-        <a href='/.html'>L</a>,
-        <a href='/.html'>N</a>
+        <a href='handout/07/example.html'>E</a>,<a href='handout/07/openjudge.html'>O</a>,
+        <a href='handout/07/luogu.html'>L</a>,<a href='handout/07/notes.html'>N</a>
       </th>
-      </tr>
-      <tr>
+    </tr>
+    <tr>
       <th style="border:0px;text-align:left;width:50px;">08.</th>
       <th style="border:0px; border-bottom:1px dashed red;width:100%;">
-          <a href='08/1.recurrence.html'>1.rrence</a>,
-          <a href='08/2.recursion.html'>2.rrsion</a>,
-          <a href='08/3.example.html'>3.example</a>,
-          <a href='08/4.junior-2006-random-2007-scholar-2009-score.html'>4.rnd-shl-scr</a>
+        <a href='handout/08/1.intro.html'></a>,
+        <a href='handout/08/2.resource.html'></a>
       </th>
       <th style="border:0px;white-space:nowrap;">
-        <a href='/.html'>E</a>,
-        <a href='/.html'>O</a>,
-        <a href='/.html'>L</a>,
-        <a href='/.html'>N</a>
+        <a href='handout/08/example.html'>E</a>,<a href='handout/08/openjudge.html'>O</a>,
+        <a href='handout/08/luogu.html'>L</a>,<a href='handout/08/notes.html'>N</a>
       </th>
-      </tr>
-      <tr>
+    </tr>
+    <tr>
       <th style="border:0px;text-align:left;width:50px;">09.</th>
       <th style="border:0px; border-bottom:1px dashed red;width:100%;">
-      <a href='09/3.example.html'>3.example</a>
+        <a href='handout/09/1.intro.html'></a>,
+        <a href='handout/09/2.resource.html'></a>
       </th>
       <th style="border:0px;white-space:nowrap;">
-        <a href='/.html'>E</a>,
-        <a href='/.html'>O</a>,
-        <a href='/.html'>L</a>,
-        <a href='/.html'>N</a>
+        <a href='handout/09/example.html'>E</a>,<a href='handout/09/openjudge.html'>O</a>,
+        <a href='handout/09/luogu.html'>L</a>,<a href='handout/09/notes.html'>N</a>
       </th>
-      </tr> -->
+    </tr>
+    <tr>
+      <th style="border:0px;text-align:left;width:50px;">10.</th>
+      <th style="border:0px; border-bottom:1px dashed red;width:100%;">
+        <a href='handout/10/1.intro.html'></a>,
+        <a href='handout/10/2.resource.html'></a>
+      </th>
+      <th style="border:0px;white-space:nowrap;">
+        <a href='handout/10/example.html'>E</a>,<a href='handout/10/openjudge.html'>O</a>,
+        <a href='handout/10/luogu.html'>L</a>,<a href='handout/10/notes.html'>N</a>
+      </th>
+    </tr>
+    <tr>
+      <th style="border:0px;text-align:left;width:50px;">11.</th>
+      <th style="border:0px; border-bottom:1px dashed red;width:100%;">
+        <a href='handout/11/1.intro.html'></a>,
+        <a href='handout/11/2.resource.html'></a>
+      </th>
+      <th style="border:0px;white-space:nowrap;">
+        <a href='handout/11/example.html'>E</a>,<a href='handout/11/openjudge.html'>O</a>,
+        <a href='handout/11/luogu.html'>L</a>,<a href='handout/11/notes.html'>N</a>
+      </th>
+    </tr>
+    <tr>
+      <th style="border:0px;text-align:left;width:50px;">注</th>
+      <td style="border:0px;text-align:right;width:100%;">(<b>E</b>)xample,(<b>O</b>)nlineJudge,(<b>L</b>)uogu,(<b>N</b>)otes</td>
+      <th style="border:0px;white-space:nowrap;">点击查看</th>
+    </tr>
     </table>
-
 2. 软件工具
     <table style="border:0px;width:100%;">
     <tr>
