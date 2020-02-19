@@ -343,35 +343,32 @@ pre[data-line] .line-highlight[data-end]:after {
 <span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span>
 
 <span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-	<span class="token keyword">int</span> n<span class="token punctuation">,</span>m<span class="token punctuation">,</span>mincost<span class="token punctuation">,</span>pk<span class="token punctuation">,</span>pr<span class="token punctuation">;</span>
-	cin <span class="token operator">&gt;&gt;</span> n<span class="token punctuation">;</span>
-	mincost <span class="token operator">=</span> n <span class="token operator">*</span> <span class="token number">10000</span><span class="token punctuation">;</span>
-	
-	<span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> i<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">;</span>i<span class="token operator">&lt;</span><span class="token number">3</span><span class="token punctuation">;</span>i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-		cin <span class="token operator">&gt;&gt;</span> pk <span class="token operator">&gt;&gt;</span> pr<span class="token punctuation">;</span>
-		<span class="token keyword">if</span><span class="token punctuation">(</span>n<span class="token operator">%</span>pk<span class="token operator">==</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-			m <span class="token operator">=</span> n<span class="token operator">/</span>pk <span class="token operator">*</span> pr<span class="token punctuation">;</span>
-		<span class="token punctuation">}</span><span class="token keyword">else</span><span class="token punctuation">{</span>
-			m <span class="token operator">=</span> <span class="token punctuation">(</span>n<span class="token operator">/</span>pk <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token operator">*</span> pr<span class="token punctuation">;</span>
-		<span class="token punctuation">}</span>
-		<span class="token keyword">if</span><span class="token punctuation">(</span>m <span class="token operator">&lt;</span> mincost<span class="token punctuation">)</span><span class="token punctuation">{</span>
-			mincost <span class="token operator">=</span> m<span class="token punctuation">;</span>
-		<span class="token punctuation">}</span>
-	<span class="token punctuation">}</span>
+    <span class="token keyword">int</span> n<span class="token punctuation">,</span>m<span class="token punctuation">,</span>mincost<span class="token punctuation">,</span>pk<span class="token punctuation">,</span>pr<span class="token punctuation">;</span>
 
-	cout <span class="token operator">&lt;&lt;</span> mincost <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
-	
-	<span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+    cin <span class="token operator">&gt;&gt;</span> n<span class="token punctuation">;</span>
+    mincost <span class="token operator">=</span> n <span class="token operator">*</span> <span class="token number">10000</span><span class="token punctuation">;</span>
+    <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> i<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">;</span>i<span class="token operator">&lt;</span><span class="token number">3</span><span class="token punctuation">;</span>i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        cin <span class="token operator">&gt;&gt;</span> pk <span class="token operator">&gt;&gt;</span> pr<span class="token punctuation">;</span>
+        <span class="token keyword">if</span><span class="token punctuation">(</span>n<span class="token operator">%</span>pk<span class="token operator">==</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+            m <span class="token operator">=</span> n<span class="token operator">/</span>pk <span class="token operator">*</span> pr<span class="token punctuation">;</span>
+        <span class="token punctuation">}</span><span class="token keyword">else</span><span class="token punctuation">{</span>
+            m <span class="token operator">=</span> <span class="token punctuation">(</span>n<span class="token operator">/</span>pk <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token operator">*</span> pr<span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+        <span class="token keyword">if</span><span class="token punctuation">(</span>m <span class="token operator">&lt;</span> mincost<span class="token punctuation">)</span><span class="token punctuation">{</span>
+            mincost <span class="token operator">=</span> m<span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+    cout <span class="token operator">&lt;&lt;</span> mincost <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+    
+    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span>
-<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></pre></li>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></pre></li>
 </ul>
 <h2 class="mume-header" id="%E5%8F%82%E8%80%83%E7%BD%91%E5%9D%80">&#x53C2;&#x8003;&#x7F51;&#x5740;</h2>
 
 <ol>
 <li><a href="https://www.luogu.com.cn">https://www.luogu.com.cn</a></li>
 </ol>
-<h2 class="mume-header" id="%E7%BC%96%E8%BE%91%E6%95%B4%E7%90%86">&#x7F16;&#x8F91;&#x6574;&#x7406;</h2>
-
 <p>&#x8FBD;&#x5B81;&#x5E08;&#x8303;&#x5927;&#x5B66; &#x2022; &#x5F20;&#x5927;&#x4E3A;@<a href="https://daweizh.github.io/noip/">https://daweizh.github.io/noip/</a></p>
 
       </div>
@@ -387,7 +384,6 @@ pre[data-line] .line-highlight[data-end]:after {
 <li><a href="#%E5%AD%90%E4%BB%BB%E5%8A%A1">&#x5B50;&#x4EFB;&#x52A1;</a></li>
 <li><a href="#%E5%8F%82%E8%80%83%E4%BB%A3%E7%A0%81">&#x53C2;&#x8003;&#x4EE3;&#x7801;</a></li>
 <li><a href="#%E5%8F%82%E8%80%83%E7%BD%91%E5%9D%80">&#x53C2;&#x8003;&#x7F51;&#x5740;</a></li>
-<li><a href="#%E7%BC%96%E8%BE%91%E6%95%B4%E7%90%86">&#x7F16;&#x8F91;&#x6574;&#x7406;</a></li>
 </ul>
 </li>
 </ul>

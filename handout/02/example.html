@@ -267,13 +267,12 @@ pre[data-line] .line-highlight[data-end]:after {
 <span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span>
 
 <span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-	
-	<span class="token keyword">char</span> ch <span class="token operator">=</span> <span class="token function">getchar</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-	cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;input=&quot;</span> <span class="token operator">&lt;&lt;</span> ch <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
-	
-	<span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+    <span class="token keyword">char</span> ch <span class="token operator">=</span> <span class="token function">getchar</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;input=&quot;</span> <span class="token operator">&lt;&lt;</span> ch <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+    
+    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span> 
-<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></pre></li>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></pre></li>
 </ul>
 <h2 class="mume-header" id="example-129">Example 1.2.9</h2>
 
@@ -284,14 +283,14 @@ pre[data-line] .line-highlight[data-end]:after {
 <span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span>
 
 <span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-	<span class="token keyword">char</span> c<span class="token operator">=</span><span class="token string">&apos;B&apos;</span><span class="token punctuation">;</span>
-	
-	<span class="token function">putchar</span><span class="token punctuation">(</span>c<span class="token punctuation">)</span><span class="token punctuation">;</span>
-	<span class="token function">putchar</span><span class="token punctuation">(</span><span class="token string">&apos;\x42&apos;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-	<span class="token function">putchar</span><span class="token punctuation">(</span><span class="token number">0x42</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-	<span class="token function">putchar</span><span class="token punctuation">(</span><span class="token number">66</span><span class="token punctuation">)</span><span class="token punctuation">;</span>	
-	
-	<span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+    <span class="token keyword">char</span> c<span class="token operator">=</span><span class="token string">&apos;B&apos;</span><span class="token punctuation">;</span>
+    
+    <span class="token function">putchar</span><span class="token punctuation">(</span>c<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">putchar</span><span class="token punctuation">(</span><span class="token string">&apos;\x42&apos;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">putchar</span><span class="token punctuation">(</span><span class="token number">0x42</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">putchar</span><span class="token punctuation">(</span><span class="token number">66</span><span class="token punctuation">)</span><span class="token punctuation">;</span>	
+    
+    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span> 
 <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></pre></li>
 </ul>
@@ -305,17 +304,17 @@ pre[data-line] .line-highlight[data-end]:after {
 <span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span>
 
 <span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-	<span class="token keyword">int</span> a<span class="token punctuation">,</span>b<span class="token punctuation">,</span>c<span class="token punctuation">,</span>d<span class="token punctuation">,</span>e<span class="token punctuation">;</span>
-	
-	<span class="token function">scanf</span><span class="token punctuation">(</span><span class="token string">&quot;%d%d%d%d%d&quot;</span><span class="token punctuation">,</span><span class="token operator">&amp;</span>a<span class="token punctuation">,</span><span class="token operator">&amp;</span>b<span class="token punctuation">,</span><span class="token operator">&amp;</span>c<span class="token punctuation">,</span><span class="token operator">&amp;</span>d<span class="token punctuation">,</span><span class="token operator">&amp;</span>e<span class="token punctuation">)</span><span class="token punctuation">;</span>
-	a<span class="token operator">=</span>a<span class="token operator">/</span><span class="token number">3</span><span class="token punctuation">;</span>b<span class="token operator">=</span>b<span class="token operator">+</span>a<span class="token punctuation">;</span>e<span class="token operator">=</span>e<span class="token operator">+</span>a<span class="token punctuation">;</span>	
-	b<span class="token operator">=</span>b<span class="token operator">/</span><span class="token number">3</span><span class="token punctuation">;</span>c<span class="token operator">=</span>c<span class="token operator">+</span>b<span class="token punctuation">;</span>a<span class="token operator">=</span>a<span class="token operator">+</span>b<span class="token punctuation">;</span>	
-	c<span class="token operator">=</span>c<span class="token operator">/</span><span class="token number">3</span><span class="token punctuation">;</span>d<span class="token operator">=</span>d<span class="token operator">+</span>c<span class="token punctuation">;</span>b<span class="token operator">=</span>b<span class="token operator">+</span>c<span class="token punctuation">;</span>	
-	d<span class="token operator">=</span>d<span class="token operator">/</span><span class="token number">3</span><span class="token punctuation">;</span>e<span class="token operator">=</span>e<span class="token operator">+</span>d<span class="token punctuation">;</span>c<span class="token operator">=</span>c<span class="token operator">+</span>d<span class="token punctuation">;</span>	
-	e<span class="token operator">=</span>e<span class="token operator">/</span><span class="token number">3</span><span class="token punctuation">;</span>a<span class="token operator">=</span>a<span class="token operator">+</span>e<span class="token punctuation">;</span>d<span class="token operator">=</span>d<span class="token operator">+</span>e<span class="token punctuation">;</span>	
-	<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">&quot;%5d%5d%5d%5d%5d\n&quot;</span><span class="token punctuation">,</span>a<span class="token punctuation">,</span>b<span class="token punctuation">,</span>c<span class="token punctuation">,</span>d<span class="token punctuation">,</span>e<span class="token punctuation">)</span><span class="token punctuation">;</span>
-	
-	<span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+    <span class="token keyword">int</span> a<span class="token punctuation">,</span>b<span class="token punctuation">,</span>c<span class="token punctuation">,</span>d<span class="token punctuation">,</span>e<span class="token punctuation">;</span>
+    
+    <span class="token function">scanf</span><span class="token punctuation">(</span><span class="token string">&quot;%d%d%d%d%d&quot;</span><span class="token punctuation">,</span><span class="token operator">&amp;</span>a<span class="token punctuation">,</span><span class="token operator">&amp;</span>b<span class="token punctuation">,</span><span class="token operator">&amp;</span>c<span class="token punctuation">,</span><span class="token operator">&amp;</span>d<span class="token punctuation">,</span><span class="token operator">&amp;</span>e<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    a<span class="token operator">=</span>a<span class="token operator">/</span><span class="token number">3</span><span class="token punctuation">;</span>b<span class="token operator">=</span>b<span class="token operator">+</span>a<span class="token punctuation">;</span>e<span class="token operator">=</span>e<span class="token operator">+</span>a<span class="token punctuation">;</span>	
+    b<span class="token operator">=</span>b<span class="token operator">/</span><span class="token number">3</span><span class="token punctuation">;</span>c<span class="token operator">=</span>c<span class="token operator">+</span>b<span class="token punctuation">;</span>a<span class="token operator">=</span>a<span class="token operator">+</span>b<span class="token punctuation">;</span>	
+    c<span class="token operator">=</span>c<span class="token operator">/</span><span class="token number">3</span><span class="token punctuation">;</span>d<span class="token operator">=</span>d<span class="token operator">+</span>c<span class="token punctuation">;</span>b<span class="token operator">=</span>b<span class="token operator">+</span>c<span class="token punctuation">;</span>	
+    d<span class="token operator">=</span>d<span class="token operator">/</span><span class="token number">3</span><span class="token punctuation">;</span>e<span class="token operator">=</span>e<span class="token operator">+</span>d<span class="token punctuation">;</span>c<span class="token operator">=</span>c<span class="token operator">+</span>d<span class="token punctuation">;</span>	
+    e<span class="token operator">=</span>e<span class="token operator">/</span><span class="token number">3</span><span class="token punctuation">;</span>a<span class="token operator">=</span>a<span class="token operator">+</span>e<span class="token punctuation">;</span>d<span class="token operator">=</span>d<span class="token operator">+</span>e<span class="token punctuation">;</span>	
+    <span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">&quot;%5d%5d%5d%5d%5d\n&quot;</span><span class="token punctuation">,</span>a<span class="token punctuation">,</span>b<span class="token punctuation">,</span>c<span class="token punctuation">,</span>d<span class="token punctuation">,</span>e<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    
+    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span> 
 <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></pre></li>
 </ul>
@@ -328,16 +327,16 @@ pre[data-line] .line-highlight[data-end]:after {
 <span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span>
 
 <span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-	<span class="token keyword">int</span> m<span class="token punctuation">;</span>
-	
-	cin <span class="token operator">&gt;&gt;</span> m<span class="token punctuation">;</span>
-	<span class="token keyword">int</span> a <span class="token operator">=</span> m<span class="token operator">/</span><span class="token number">100</span><span class="token punctuation">;</span>
-	<span class="token keyword">int</span> b <span class="token operator">=</span> <span class="token punctuation">(</span>m<span class="token operator">/</span><span class="token number">10</span><span class="token punctuation">)</span><span class="token operator">%</span><span class="token number">10</span><span class="token punctuation">;</span>
-	<span class="token keyword">int</span> c <span class="token operator">=</span> m <span class="token operator">%</span> <span class="token number">10</span><span class="token punctuation">;</span>
-	<span class="token keyword">int</span> n <span class="token operator">=</span> c<span class="token operator">*</span><span class="token number">100</span><span class="token operator">+</span>b<span class="token operator">*</span><span class="token number">10</span><span class="token operator">+</span>a<span class="token punctuation">;</span>
-	cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;n=&quot;</span> <span class="token operator">&lt;&lt;</span> n <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span> 
-	
-	<span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+    <span class="token keyword">int</span> m<span class="token punctuation">;</span>
+    
+    cin <span class="token operator">&gt;&gt;</span> m<span class="token punctuation">;</span>
+    <span class="token keyword">int</span> a <span class="token operator">=</span> m<span class="token operator">/</span><span class="token number">100</span><span class="token punctuation">;</span>
+    <span class="token keyword">int</span> b <span class="token operator">=</span> <span class="token punctuation">(</span>m<span class="token operator">/</span><span class="token number">10</span><span class="token punctuation">)</span><span class="token operator">%</span><span class="token number">10</span><span class="token punctuation">;</span>
+    <span class="token keyword">int</span> c <span class="token operator">=</span> m <span class="token operator">%</span> <span class="token number">10</span><span class="token punctuation">;</span>
+    <span class="token keyword">int</span> n <span class="token operator">=</span> c<span class="token operator">*</span><span class="token number">100</span><span class="token operator">+</span>b<span class="token operator">*</span><span class="token number">10</span><span class="token operator">+</span>a<span class="token punctuation">;</span>
+    cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;n=&quot;</span> <span class="token operator">&lt;&lt;</span> n <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span> 
+    
+    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span> 
 <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></pre></li>
 </ul>
@@ -350,12 +349,12 @@ pre[data-line] .line-highlight[data-end]:after {
 <span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span>
 
 <span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-	<span class="token keyword">int</span> x<span class="token punctuation">,</span>y<span class="token punctuation">;</span>
-	
-	cin <span class="token operator">&gt;&gt;</span> x <span class="token operator">&gt;&gt;</span> y<span class="token punctuation">;</span>
-	cout <span class="token operator">&lt;&lt;</span> <span class="token keyword">float</span><span class="token punctuation">(</span>x<span class="token operator">*</span><span class="token number">87</span> <span class="token operator">+</span> y<span class="token operator">*</span><span class="token number">85</span><span class="token punctuation">)</span><span class="token operator">/</span><span class="token punctuation">(</span>x<span class="token operator">+</span>y<span class="token punctuation">)</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span> 
-	
-	<span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+    <span class="token keyword">int</span> x<span class="token punctuation">,</span>y<span class="token punctuation">;</span>
+    
+    cin <span class="token operator">&gt;&gt;</span> x <span class="token operator">&gt;&gt;</span> y<span class="token punctuation">;</span>
+    cout <span class="token operator">&lt;&lt;</span> <span class="token keyword">float</span><span class="token punctuation">(</span>x<span class="token operator">*</span><span class="token number">87</span> <span class="token operator">+</span> y<span class="token operator">*</span><span class="token number">85</span><span class="token punctuation">)</span><span class="token operator">/</span><span class="token punctuation">(</span>x<span class="token operator">+</span>y<span class="token punctuation">)</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span> 
+    
+    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span> 
 <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></pre></li>
 </ul>
@@ -368,15 +367,15 @@ pre[data-line] .line-highlight[data-end]:after {
 <span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span>
 
 <span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-	<span class="token keyword">float</span> scAll <span class="token operator">=</span> <span class="token number">6</span><span class="token operator">*</span><span class="token number">9.6</span><span class="token punctuation">;</span>
-	<span class="token keyword">float</span> scHigh <span class="token operator">=</span> <span class="token number">5</span> <span class="token operator">*</span> <span class="token number">9.4</span><span class="token punctuation">;</span>
-	<span class="token keyword">float</span> scLow <span class="token operator">=</span> <span class="token number">5</span> <span class="token operator">*</span> <span class="token number">9.8</span><span class="token punctuation">;</span>
-	<span class="token keyword">float</span> high <span class="token operator">=</span> scAll <span class="token operator">-</span> scHigh<span class="token punctuation">;</span>
-	<span class="token keyword">float</span> low <span class="token operator">=</span> scAll <span class="token operator">-</span> scLow<span class="token punctuation">;</span>
-	<span class="token keyword">float</span> ans <span class="token operator">=</span> <span class="token punctuation">(</span>scAll <span class="token operator">-</span> high <span class="token operator">-</span>low<span class="token punctuation">)</span> <span class="token operator">/</span> <span class="token number">4</span><span class="token punctuation">;</span>
-	<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">&quot;%5.2f \n&quot;</span><span class="token punctuation">,</span>ans<span class="token punctuation">)</span><span class="token punctuation">;</span>	
-	
-	<span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+    <span class="token keyword">float</span> scAll <span class="token operator">=</span> <span class="token number">6</span><span class="token operator">*</span><span class="token number">9.6</span><span class="token punctuation">;</span>
+    <span class="token keyword">float</span> scHigh <span class="token operator">=</span> <span class="token number">5</span> <span class="token operator">*</span> <span class="token number">9.4</span><span class="token punctuation">;</span>
+    <span class="token keyword">float</span> scLow <span class="token operator">=</span> <span class="token number">5</span> <span class="token operator">*</span> <span class="token number">9.8</span><span class="token punctuation">;</span>
+    <span class="token keyword">float</span> high <span class="token operator">=</span> scAll <span class="token operator">-</span> scHigh<span class="token punctuation">;</span>
+    <span class="token keyword">float</span> low <span class="token operator">=</span> scAll <span class="token operator">-</span> scLow<span class="token punctuation">;</span>
+    <span class="token keyword">float</span> ans <span class="token operator">=</span> <span class="token punctuation">(</span>scAll <span class="token operator">-</span> high <span class="token operator">-</span>low<span class="token punctuation">)</span> <span class="token operator">/</span> <span class="token number">4</span><span class="token punctuation">;</span>
+    <span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">&quot;%5.2f \n&quot;</span><span class="token punctuation">,</span>ans<span class="token punctuation">)</span><span class="token punctuation">;</span>	
+    
+    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span> 
 <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></pre></li>
 </ul>
@@ -392,14 +391,14 @@ pre[data-line] .line-highlight[data-end]:after {
 <span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span>
 
 <span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-	<span class="token keyword">float</span> a<span class="token punctuation">,</span>b<span class="token punctuation">,</span>c<span class="token punctuation">;</span>
-	
-	<span class="token function">scanf</span><span class="token punctuation">(</span><span class="token string">&quot;%f%f%f&quot;</span><span class="token punctuation">,</span><span class="token operator">&amp;</span>a<span class="token punctuation">,</span><span class="token operator">&amp;</span>b<span class="token punctuation">,</span><span class="token operator">&amp;</span>c<span class="token punctuation">)</span><span class="token punctuation">;</span>
-	<span class="token keyword">float</span> p <span class="token operator">=</span> <span class="token punctuation">(</span>a<span class="token operator">+</span>b<span class="token operator">+</span>c<span class="token punctuation">)</span><span class="token operator">/</span><span class="token number">2</span><span class="token punctuation">;</span>
-	<span class="token keyword">float</span> s <span class="token operator">=</span> <span class="token function">sqrt</span><span class="token punctuation">(</span>p<span class="token operator">*</span><span class="token punctuation">(</span>p<span class="token operator">-</span>a<span class="token punctuation">)</span><span class="token operator">*</span><span class="token punctuation">(</span>p<span class="token operator">-</span>b<span class="token punctuation">)</span><span class="token operator">*</span><span class="token punctuation">(</span>p<span class="token operator">-</span>c<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-	<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">&quot;%0.3f\n&quot;</span><span class="token punctuation">,</span>s<span class="token punctuation">)</span><span class="token punctuation">;</span>	
-	
-	<span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+    <span class="token keyword">float</span> a<span class="token punctuation">,</span>b<span class="token punctuation">,</span>c<span class="token punctuation">;</span>
+    
+    <span class="token function">scanf</span><span class="token punctuation">(</span><span class="token string">&quot;%f%f%f&quot;</span><span class="token punctuation">,</span><span class="token operator">&amp;</span>a<span class="token punctuation">,</span><span class="token operator">&amp;</span>b<span class="token punctuation">,</span><span class="token operator">&amp;</span>c<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">float</span> p <span class="token operator">=</span> <span class="token punctuation">(</span>a<span class="token operator">+</span>b<span class="token operator">+</span>c<span class="token punctuation">)</span><span class="token operator">/</span><span class="token number">2</span><span class="token punctuation">;</span>
+    <span class="token keyword">float</span> s <span class="token operator">=</span> <span class="token function">sqrt</span><span class="token punctuation">(</span>p<span class="token operator">*</span><span class="token punctuation">(</span>p<span class="token operator">-</span>a<span class="token punctuation">)</span><span class="token operator">*</span><span class="token punctuation">(</span>p<span class="token operator">-</span>b<span class="token punctuation">)</span><span class="token operator">*</span><span class="token punctuation">(</span>p<span class="token operator">-</span>c<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">&quot;%0.3f\n&quot;</span><span class="token punctuation">,</span>s<span class="token punctuation">)</span><span class="token punctuation">;</span>	
+    
+    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span> 
 <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></pre></li>
 </ul>
@@ -412,23 +411,23 @@ pre[data-line] .line-highlight[data-end]:after {
 <span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span>
 
 <span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-	<span class="token keyword">int</span> a<span class="token operator">=</span><span class="token number">8</span><span class="token punctuation">,</span>b<span class="token operator">=</span><span class="token number">8</span><span class="token punctuation">,</span>c<span class="token operator">=</span><span class="token number">8</span><span class="token punctuation">;</span>
-	
-	a<span class="token operator">/=</span><span class="token number">2</span><span class="token punctuation">;</span>
-	b<span class="token operator">/=</span><span class="token number">2</span><span class="token punctuation">;</span>
-	c<span class="token operator">=</span>a<span class="token operator">+</span>b<span class="token operator">+</span>c<span class="token punctuation">;</span>
-	
-	a<span class="token operator">/=</span><span class="token number">2</span><span class="token punctuation">;</span>
-	c<span class="token operator">/=</span><span class="token number">2</span><span class="token punctuation">;</span>
-	b<span class="token operator">=</span>a<span class="token operator">+</span>b<span class="token operator">+</span>c<span class="token punctuation">;</span>
+    <span class="token keyword">int</span> a<span class="token operator">=</span><span class="token number">8</span><span class="token punctuation">,</span>b<span class="token operator">=</span><span class="token number">8</span><span class="token punctuation">,</span>c<span class="token operator">=</span><span class="token number">8</span><span class="token punctuation">;</span>
+    
+    a<span class="token operator">/=</span><span class="token number">2</span><span class="token punctuation">;</span>
+    b<span class="token operator">/=</span><span class="token number">2</span><span class="token punctuation">;</span>
+    c<span class="token operator">=</span>a<span class="token operator">+</span>b<span class="token operator">+</span>c<span class="token punctuation">;</span>
+    
+    a<span class="token operator">/=</span><span class="token number">2</span><span class="token punctuation">;</span>
+    c<span class="token operator">/=</span><span class="token number">2</span><span class="token punctuation">;</span>
+    b<span class="token operator">=</span>a<span class="token operator">+</span>b<span class="token operator">+</span>c<span class="token punctuation">;</span>
 
-	b<span class="token operator">/=</span><span class="token number">2</span><span class="token punctuation">;</span>
-	c<span class="token operator">/=</span><span class="token number">2</span><span class="token punctuation">;</span>
-	a<span class="token operator">=</span>a<span class="token operator">+</span>b<span class="token operator">+</span>c<span class="token punctuation">;</span>
-	
-	<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">&quot;a=%-5d,b=%-5d,c=%-5d \n&quot;</span><span class="token punctuation">,</span>a<span class="token punctuation">,</span>b<span class="token punctuation">,</span>c<span class="token punctuation">)</span><span class="token punctuation">;</span>
-	
-	<span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+    b<span class="token operator">/=</span><span class="token number">2</span><span class="token punctuation">;</span>
+    c<span class="token operator">/=</span><span class="token number">2</span><span class="token punctuation">;</span>
+    a<span class="token operator">=</span>a<span class="token operator">+</span>b<span class="token operator">+</span>c<span class="token punctuation">;</span>
+    
+    <span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">&quot;a=%-5d,b=%-5d,c=%-5d \n&quot;</span><span class="token punctuation">,</span>a<span class="token punctuation">,</span>b<span class="token punctuation">,</span>c<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    
+    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span> 
 <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></pre></li>
 </ul>
@@ -446,15 +445,15 @@ pre[data-line] .line-highlight[data-end]:after {
 <span class="token macro property">#<span class="token directive keyword">define</span> C 2</span>
 
 <span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-	<span class="token keyword">int</span> d <span class="token operator">=</span> B<span class="token operator">*</span>B <span class="token operator">-</span> <span class="token number">4</span><span class="token operator">*</span>A<span class="token operator">*</span>C<span class="token punctuation">;</span>
-	<span class="token keyword">float</span> x1<span class="token punctuation">,</span>x2<span class="token punctuation">;</span>
-	
-	x1 <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token operator">-</span>B<span class="token operator">+</span><span class="token function">sqrt</span><span class="token punctuation">(</span>d<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token operator">/</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token operator">*</span>A<span class="token punctuation">)</span><span class="token punctuation">;</span>
-	x2 <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token operator">-</span>B<span class="token operator">-</span><span class="token function">sqrt</span><span class="token punctuation">(</span>d<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token operator">/</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token operator">*</span>A<span class="token punctuation">)</span><span class="token punctuation">;</span>
-	
-	<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">&quot;x1=%-8.3f,x2=%-8.3f \n&quot;</span><span class="token punctuation">,</span>x1<span class="token punctuation">,</span>x2<span class="token punctuation">)</span><span class="token punctuation">;</span>
-	
-	<span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+    <span class="token keyword">int</span> d <span class="token operator">=</span> B<span class="token operator">*</span>B <span class="token operator">-</span> <span class="token number">4</span><span class="token operator">*</span>A<span class="token operator">*</span>C<span class="token punctuation">;</span>
+    <span class="token keyword">float</span> x1<span class="token punctuation">,</span>x2<span class="token punctuation">;</span>
+    
+    x1 <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token operator">-</span>B<span class="token operator">+</span><span class="token function">sqrt</span><span class="token punctuation">(</span>d<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token operator">/</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token operator">*</span>A<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    x2 <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token operator">-</span>B<span class="token operator">-</span><span class="token function">sqrt</span><span class="token punctuation">(</span>d<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token operator">/</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token operator">*</span>A<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    
+    <span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">&quot;x1=%-8.3f,x2=%-8.3f \n&quot;</span><span class="token punctuation">,</span>x1<span class="token punctuation">,</span>x2<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    
+    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span> 
 <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></pre></li>
 </ul>

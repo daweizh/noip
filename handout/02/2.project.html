@@ -281,27 +281,27 @@ pre[data-line] .line-highlight[data-end]:after {
 <p>&#x53EF;&#x6267;&#x884C;&#x7A0B;&#x5E8F;&#x540D; &#x53C2;&#x6570;&#x5217;&#x8868;&#xFF08;&#x7528;&#x7A7A;&#x683C;&#x5206;&#x5F00;&#xFF09;</p>
 </blockquote>
 <p>&#x4F8B;&#x5982;</p>
-<pre data-role="codeBlock" data-info="shell {.line-numbers}" class="language-shell line-numbers">arith.exe hello world&#xFF01;
-<span aria-hidden="true" class="line-numbers-rows"><span></span></span></pre><p>&#x53EF;&#x6267;&#x884C;&#x7A0B;&#x5E8F;arith.exe&#x540E;&#x9762;&#x8DDF;&#x968F;&#x4E24;&#x4E2A;&#x53C2;&#x6570;hello&#x548C;world!&#xFF0C;&#x7A7A;&#x683C;&#x662F;&#x4ED6;&#x4EEC;&#x7684;&#x5206;&#x9694;&#x7B26;&#x3002;</p>
+<pre data-role="codeBlock" data-info="shell" class="language-shell">arith.exe hello world&#xFF01;
+</pre><p>&#x53EF;&#x6267;&#x884C;&#x7A0B;&#x5E8F;arith.exe&#x540E;&#x9762;&#x8DDF;&#x968F;&#x4E24;&#x4E2A;&#x53C2;&#x6570;hello&#x548C;world!&#xFF0C;&#x7A7A;&#x683C;&#x662F;&#x4ED6;&#x4EEC;&#x7684;&#x5206;&#x9694;&#x7B26;&#x3002;</p>
 <p>&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x5982;&#x4E0B;&#x7A0B;&#x5E8F;&#x8BFB;&#x53D6;&#x547D;&#x4EE4;&#x884C;&#x53C2;&#x6570;&#xFF0C;&#x5E76;&#x663E;&#x793A;&#x4ED6;&#x4EEC;&#x3002;</p>
 <pre data-role="codeBlock" data-info="c++ {.line-numbers}" class="language-cpp line-numbers"><span class="token macro property">#<span class="token directive keyword">include</span> <span class="token string">&lt;iostream&gt;</span></span>
 <span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span>
 
 <span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token keyword">int</span> argc<span class="token punctuation">,</span> <span class="token keyword">char</span><span class="token operator">*</span><span class="token operator">*</span> argv<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-	
-	cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;argc=&quot;</span> <span class="token operator">&lt;&lt;</span> argc <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
-	
-	<span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> i<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">;</span>i<span class="token operator">&lt;</span>argc<span class="token punctuation">;</span>i<span class="token operator">++</span><span class="token punctuation">)</span>
-		cout <span class="token operator">&lt;&lt;</span> argv<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
-				
-	<span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+    
+    cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;argc=&quot;</span> <span class="token operator">&lt;&lt;</span> argc <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+    
+    <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> i<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">;</span>i<span class="token operator">&lt;</span>argc<span class="token punctuation">;</span>i<span class="token operator">++</span><span class="token punctuation">)</span>
+      cout <span class="token operator">&lt;&lt;</span> argv<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+          
+    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span>
 <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></pre><p>&#x8F93;&#x51FA;&#x7684;&#x5185;&#x5BB9;&#x662F;</p>
-<pre data-role="codeBlock" data-info="shell {.line-numbers}" class="language-shell line-numbers">argc<span class="token operator">=</span>3
+<pre data-role="codeBlock" data-info="shell" class="language-shell">argc<span class="token operator">=</span>3
 arith.exe
 hello
 world&#xFF01;
-<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></pre><p>argc=3&#xFF1F;&#x6CA1;&#x770B;&#x9519;&#xFF0C;&#x786E;&#x5B9E;&#x662F;3&#xFF0C;&#x53EF;&#x884C;&#x6267;&#x884C;&#x7A0B;&#x5E8F;&#x540D;&#x81EA;&#x5DF1;&#x4E5F;&#x662F;&#x8F93;&#x5165;&#x53C2;&#x6570;&#x7684;&#x4E00;&#x90E8;&#x5206;&#xFF0C;&#x800C;&#x4E14;&#x662F;&#x7B2C;&#x4E00;&#x4E2A;&#x3002;</p>
+</pre><p>argc=3&#xFF1F;&#x6CA1;&#x770B;&#x9519;&#xFF0C;&#x786E;&#x5B9E;&#x662F;3&#xFF0C;&#x53EF;&#x884C;&#x6267;&#x884C;&#x7A0B;&#x5E8F;&#x540D;&#x81EA;&#x5DF1;&#x4E5F;&#x662F;&#x8F93;&#x5165;&#x53C2;&#x6570;&#x7684;&#x4E00;&#x90E8;&#x5206;&#xFF0C;&#x800C;&#x4E14;&#x662F;&#x7B2C;&#x4E00;&#x4E2A;&#x3002;</p>
 <h2 class="mume-header" id="%E5%86%99%E6%88%91%E4%BB%AC%E8%87%AA%E5%B7%B1%E7%9A%84%E5%A4%B4%E6%96%87%E4%BB%B6">&#x5199;&#x6211;&#x4EEC;&#x81EA;&#x5DF1;&#x7684;&#x5934;&#x6587;&#x4EF6;</h2>
 
 <p>.h&#x6587;&#x4EF6;&#x53C8;&#x53EB;&#x5934;&#x6587;&#x4EF6;&#xFF0C;&#x653E;&#x5728;&#x7A0B;&#x5E8F;&#x5F00;&#x59CB;&#x7684;&#x5730;&#x65B9;&#x7528;#include&#x6307;&#x4EE4;&#x5F15;&#x5165;&#x7684;&#xFF0C;&#x6709;&#x4E24;&#x79CD;&#x5F15;&#x5165;&#x65B9;&#x6CD5;&#xFF1A;</p>
@@ -324,13 +324,13 @@ world&#xFF01;
 <pre data-role="codeBlock" data-info="c++ {.line-numbers}" class="language-cpp line-numbers"><span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span>
 
 <span class="token keyword">void</span> <span class="token function">help</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-	cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;Usage: arith.exe [--help]|[--disp h|v]|[--numb 20]&quot;</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
-	cout <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
-	cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;--help :display help&quot;</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
-	cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;--disp :show problem model. You can select h(horizontal)  or v(vertical)&quot;</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
-	cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;--numb :problem number&quot;</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
-	cout <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
-	<span class="token keyword">return</span> <span class="token punctuation">;</span>	
+    cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;Usage: arith.exe [--help]|[--disp h|v]|[--numb 20]&quot;</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+    cout <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+    cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;--help :display help&quot;</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+    cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;--disp :show problem model. You can select h(horizontal)  or v(vertical)&quot;</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+    cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;--numb :problem number&quot;</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+    cout <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+    <span class="token keyword">return</span> <span class="token punctuation">;</span>	
 <span class="token punctuation">}</span>
 <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></pre><p>&#x4FDD;&#x5B58;&#x6210;Header files&#x683C;&#x5F0F;</p>
 <p><img src="images/07.png" alt></p>
@@ -340,10 +340,10 @@ world&#xFF01;
 <span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span>
 
 <span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token keyword">int</span> argc<span class="token punctuation">,</span> <span class="token keyword">char</span><span class="token operator">*</span><span class="token operator">*</span> argv<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-	
-	<span class="token function">help</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>	
-				
-	<span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+    
+    <span class="token function">help</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>	
+          
+    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span>
 <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></pre><p>&#x6267;&#x884C;&#x7ED3;&#x679C;&#x5982;&#x4E0B;&#xFF1A;</p>
 <p><img src="images/08.png" alt></p>

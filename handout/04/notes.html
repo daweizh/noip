@@ -1,5 +1,5 @@
 <!DOCTYPE html><html><head>
-      <title>luogu</title>
+      <title>notes</title>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       
@@ -258,132 +258,184 @@ pre[data-line] .line-highlight[data-end]:after {
     </head>
     <body for="html-export">
       <div class="mume markdown-preview  ">
-      <h1 class="mume-header" id="pencil">Pencil</h1>
+      <h1 class="mume-header" id="04">04</h1>
 
-<p>NOIP2016&#x5E74;&#x666E;&#x53CA;&#x7EC4;&#x7B2C;&#x4E00;&#x9898;&#x3002;</p>
-<h2 class="mume-header" id="%E9%97%AE%E9%A2%98%E6%8F%8F%E8%BF%B0">&#x95EE;&#x9898;&#x63CF;&#x8FF0;</h2>
-
-<p>P&#x8001;&#x5E08;&#x9700;&#x8981;&#x53BB;&#x5546;&#x5E97;&#x4E70;n&#x652F;&#x94C5;&#x7B14;&#x4F5C;&#x4E3A;&#x5C0F;&#x670B;&#x53CB;&#x4EEC;&#x53C2;&#x52A0;NOIP&#x7684;&#x793C;&#x7269;&#x3002;&#x5979;&#x53D1;&#x73B0;&#x5546;&#x5E97;&#x4E00;&#x5171;&#x6709;3&#x79CD;&#x5305;&#x88C5;&#x7684;&#x94C5;&#x7B14;&#xFF0C;&#x4E0D;&#x540C;&#x5305;&#x88C5;&#x5185;&#x7684;&#x94C5;&#x7B14;&#x6570;&#x91CF;&#x6709;&#x53EF;&#x80FD;&#x4E0D;&#x540C;&#xFF0C;&#x4EF7;&#x683C;&#x4E5F;&#x6709;&#x53EF;&#x80FD;&#x4E0D;&#x540C;&#x3002;&#x4E3A;&#x4E86;&#x516C;&#x5E73;&#x8D77;&#x89C1;&#xFF0C;P&#x8001;&#x5E08;&#x51B3;&#x5B9A;&#x53EA;&#x4E70;&#x540C;&#x4E00;&#x79CD;&#x5305;&#x88C5;&#x7684;&#x94C5;&#x7B14;&#x3002;</p>
-<p>&#x5546;&#x5E97;&#x4E0D;&#x5141;&#x8BB8;&#x5C06;&#x94C5;&#x7B14;&#x7684;&#x5305;&#x88C5;&#x62C6;&#x5F00;&#xFF0C;&#x56E0;&#x6B64;P&#x8001;&#x5E08;&#x53EF;&#x80FD;&#x9700;&#x8981;&#x8D2D;&#x4E70;&#x8D85;&#x8FC7;n&#x652F;&#x94C5;&#x7B14;&#x624D;&#x591F;&#x7ED9;&#x5C0F;&#x670B;&#x53CB;&#x4EEC;&#x53D1;&#x793C;&#x7269;&#x3002;</p>
-<p>&#x73B0;&#x5728;P&#x8001;&#x5E08;&#x60F3;&#x77E5;&#x9053;&#xFF0C;&#x5728;&#x5546;&#x5E97;&#x6BCF;&#x79CD;&#x5305;&#x88C5;&#x7684;&#x6570;&#x91CF;&#x90FD;&#x8DB3;&#x591F;&#x7684;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;&#x8981;&#x4E70;&#x591F;&#x81F3;&#x5C11;n&#x652F;&#x94C5;&#x7B14;&#x6700;&#x5C11;&#x9700;&#x8981;&#x82B1;&#x8D39;&#x591A;&#x5C11;&#x94B1;&#x3002;</p>
-<h2 class="mume-header" id="%E8%BE%93%E5%85%A5%E6%A0%BC%E5%BC%8F">&#x8F93;&#x5165;&#x683C;&#x5F0F;</h2>
-
-<ul>
-<li>&#x4ECE;&#x6587;&#x4EF6;pencil.in&#x4E2D;&#x8BFB;&#x5165;&#x6570;&#x636E;</li>
-<li>&#x8F93;&#x5165;&#x7684;&#x7B2C;&#x4E00;&#x884C;&#x5305;&#x542B;&#x4E00;&#x4E2A;&#x6B63;&#x6574;&#x6570;n&#xFF0C;&#x8868;&#x793A;&#x9700;&#x8981;&#x7684;&#x94C5;&#x7B14;&#x6570;&#x91CF;&#x3002;</li>
-<li>&#x63A5;&#x4E0B;&#x6765;&#x4E09;&#x884C;&#xFF0C;&#x6BCF;&#x884C;&#x7528;&#x4E24;&#x4E2A;&#x6B63;&#x6574;&#x6570;&#x63CF;&#x8FF0;&#x4E00;&#x79CD;&#x5305;&#x88C5;&#x7684;&#x94C5;&#x7B14;&#xFF1A;&#x5176;&#x4E2D;&#x7B2C;&#x4E00;&#x4E2A;&#x6574;&#x6570;&#x8868;&#x793A;&#x8FD9;&#x79CD;&#x5305;&#x88C5;&#x5185;&#x94C5;&#x7B14;&#x7684;&#x6570;&#x91CF;&#xFF0C;&#x7B2C;&#x4E8C;&#x4E2A;&#x6574;&#x6570;&#x8868;&#x793A;&#x8FD9;&#x79CD;&#x5305;&#x88C5;&#x7684;&#x4EF7;&#x683C;&#x3002;</li>
-<li>&#x4FDD;&#x8BC1;&#x6240;&#x6709;&#x7684;7&#x4E2A;&#x6570;&#x90FD;&#x662F;&#x4E0D;&#x8D85;&#x8FC7;10000&#x7684;&#x6B63;&#x6574;&#x6570;&#x3002;</li>
-</ul>
-<h2 class="mume-header" id="%E8%BE%93%E5%87%BA%E6%A0%BC%E5%BC%8F">&#x8F93;&#x51FA;&#x683C;&#x5F0F;</h2>
-
-<ul>
-<li>&#x8F93;&#x51FA;&#x5230;&#x6587;&#x4EF6;pencil.out&#x4E2D;</li>
-<li>&#x8F93;&#x51FA;&#x4E00;&#x884C;&#x4E00;&#x4E2A;&#x6574;&#x6570;&#xFF0C;&#x8868;&#x793A;P&#x8001;&#x5E08;&#x6700;&#x5C11;&#x9700;&#x8981;&#x82B1;&#x8D39;&#x7684;&#x94B1;&#x3002;</li>
-</ul>
-<h2 class="mume-header" id="%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA%E6%A0%B7%E4%BE%8B1">&#x8F93;&#x5165;&#x8F93;&#x51FA;&#x6837;&#x4F8B;1</h2>
-
-<table>
-<tbody><tr><th>&#x8F93;&#x5165;</th><th>&#x8F93;&#x51FA;</th></tr>
-<tr><td>
-57<br>
-2 2<br>
-50 30<br>
-30 27
-</td><td valign="top">
-54
-</td></tr>
-</tbody></table>
-<p>&#x94C5;&#x7B14;&#x7684;&#x4E09;&#x79CD;&#x5305;&#x88C5;&#x5206;&#x522B;&#x662F;&#xFF1A;</p>
-<ul>
-<li>2&#x652F;&#x88C5;&#xFF0C;&#x4EF7;&#x683C;&#x4E3A;2;</li>
-<li>50&#x652F;&#x88C5;&#xFF0C;&#x4EF7;&#x683C;&#x4E3A;30;</li>
-<li>30&#x652F;&#x88C5;&#xFF0C;&#x4EF7;&#x683C;&#x4E3A;27&#x3002;</li>
-</ul>
-<p>P&#x8001;&#x5E08;&#x9700;&#x8981;&#x8D2D;&#x4E70;&#x81F3;&#x5C11;57&#x652F;&#x94C5;&#x7B14;&#x3002;</p>
-<p>&#x5982;&#x679C;&#x5979;&#x9009;&#x62E9;&#x8D2D;&#x4E70;&#x7B2C;&#x4E00;&#x79CD;&#x5305;&#x88C5;&#xFF0C;&#x90A3;&#x4E48;&#x5979;&#x9700;&#x8981;&#x8D2D;&#x4E70;29&#x4EFD;&#xFF0C;&#x5171;&#x8BA1;2&#xD7;29=58&#x652F;&#xFF0C;&#x9700;&#x8981;&#x82B1;&#x8D39;&#x7684;&#x94B1;&#x4E3A;2&#xD7;29=58&#x3002;</p>
-<p>&#x5B9E;&#x9645;&#x4E0A;&#xFF0C;P&#x8001;&#x5E08;&#x4F1A;&#x9009;&#x62E9;&#x8D2D;&#x4E70;&#x7B2C;&#x4E09;&#x79CD;&#x5305;&#x88C5;&#xFF0C;&#x8FD9;&#x6837;&#x9700;&#x8981;&#x4E70;2&#x4EFD;&#x3002;&#x867D;&#x7136;&#x6700;&#x540E;&#x4E70;&#x5230;&#x7684;&#x94C5;&#x7B14;&#x6570;&#x91CF;&#x66F4;&#x591A;&#x4E86;&#xFF0C;&#x4E3A;30&#xD7;2=60&#x652F;&#xFF0C;&#x4F46;&#x82B1;&#x8D39;&#x5374;&#x51CF;&#x5C11;&#x4E3A;27&#xD7;2=54&#xFF0C;&#x6BD4;&#x7B2C;&#x4E00;&#x79CD;&#x5C11;&#x3002;</p>
-<p>&#x5BF9;&#x4E8E;&#x7B2C;&#x4E8C;&#x79CD;&#x5305;&#x88C5;&#xFF0C;&#x867D;&#x7136;&#x6BCF;&#x652F;&#x94C5;&#x7B14;&#x7684;&#x4EF7;&#x683C;&#x662F;&#x6700;&#x4F4E;&#x7684;&#xFF0C;&#x4F46;&#x8981;&#x591F;&#x53D1;&#x5FC5;&#x987B;&#x4E70;2&#x4EFD;&#xFF0C;&#x5B9E;&#x9645;&#x7684;&#x82B1;&#x8D39;&#x8FBE;&#x5230;&#x4E86;30&#xD7;2=60&#xFF0C;&#x56E0;&#x6B64;P&#x8001;&#x5E08;&#x4E5F;&#x4E0D;&#x4F1A;&#x9009;&#x62E9;&#x3002;</p>
-<p>&#x6240;&#x4EE5;&#x6700;&#x540E;&#x8F93;&#x51FA;&#x7684;&#x7B54;&#x6848;&#x662F;54&#x3002;</p>
-<h2 class="mume-header" id="%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA%E6%A0%B7%E4%BE%8B2">&#x8F93;&#x5165;&#x8F93;&#x51FA;&#x6837;&#x4F8B;2</h2>
-
-<table>
-<tbody><tr><th>&#x8F93;&#x5165;</th><th>&#x8F93;&#x51FA;</th></tr>
-<tr><td>
-9998<br>
-128 233<br>
-128 2333<br>
-128 666
-</td><td valign="top">
-18407
-</td></tr>
-</tbody></table>
-<h2 class="mume-header" id="%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA%E6%A0%B7%E4%BE%8B3">&#x8F93;&#x5165;&#x8F93;&#x51FA;&#x6837;&#x4F8B;3</h2>
-
-<table>
-<tbody><tr><th>&#x8F93;&#x5165;</th><th>&#x8F93;&#x51FA;</th></tr>
-<tr><td>
-9999<br>
-101 1111<br>
-1 9999<br>
-1111 9999
-</td><td valign="top">
-89991
-</td></tr>
-</tbody></table>
-<h2 class="mume-header" id="%E5%AD%90%E4%BB%BB%E5%8A%A1">&#x5B50;&#x4EFB;&#x52A1;</h2>
-
-<p>&#x5B50;&#x4EFB;&#x52A1;&#x4F1A;&#x7ED9;&#x51FA;&#x90E8;&#x5206;&#x6D4B;&#x8BD5;&#x6570;&#x636E;&#x7684;&#x7279;&#x70B9;&#x3002;&#x5982;&#x679C;&#x4F60;&#x5728;&#x89E3;&#x51B3;&#x9898;&#x76EE;&#x4E2D;&#x9047;&#x5230;&#x4E86;&#x56F0;&#x96BE;&#xFF0C;&#x53EF;&#x4EE5;&#x5C1D;&#x8BD5;&#x53EA;&#x89E3;&#x51B3;&#x4E00;&#x90E8;&#x5206;&#x6D4B;&#x8BD5;&#x6570;&#x636E;&#x3002;</p>
-<p>&#x6BCF;&#x4E2A;&#x6D4B;&#x8BD5;&#x70B9;&#x7684;&#x6570;&#x636E;&#x89C4;&#x6A21;&#x53CA;&#x7279;&#x70B9;&#x5982;&#x4E0B;&#x8868;&#xFF1A;</p>
-<p><img src="images/challenge-1.png" alt></p>
-<p>&#x4E0A;&#x8868;&#x4E2D;&#x201C;&#x6574;&#x500D;&#x6570;&#x201D;&#x7684;&#x610F;&#x4E49;&#x4E3A;&#xFF1A;&#x82E5;&#x4E3A;&#x221A;&#xFF0C;&#x8868;&#x793A;&#x5BF9;&#x5E94;&#x6570;&#x636E;&#x6240;&#x9700;&#x8981;&#x7684;&#x94C5;&#x7B14;&#x6570;&#x91CF;n&#x2014;&#x5B9A;&#x662F;&#x6BCF;&#x79CD;&#x5305;&#x88C5;&#x94C5;&#x7B14;&#x6570;&#x91CF;&#x7684;&#x6574;&#x500D;&#x6570;&#xFF08;&#x8FD9;&#x610F;&#x5473;&#x7740;&#x4E00;&#x5B9A;&#x53EF;&#x4EE5;&#x4E0D;&#x7528;&#x591A;&#x4E70;&#x94C5;&#x7B14;)&#x3002;</p>
-<h2 class="mume-header" id="%E5%8F%82%E8%80%83%E4%BB%A3%E7%A0%81">&#x53C2;&#x8003;&#x4EE3;&#x7801;</h2>
-
-<ul>
-<li><label onclick="doShow(this)" style="cursor:pointer;">[+]</label><pre data-role="codeBlock" data-info="c++ {.line-numbers .fold}" class="language-cpp line-numbers fold"><span class="token macro property">#<span class="token directive keyword">include</span> <span class="token string">&lt;iostream&gt;</span></span>
-<span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span>
-
-<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-    <span class="token keyword">int</span> n<span class="token punctuation">,</span>m<span class="token punctuation">,</span>mincost<span class="token punctuation">,</span>pk<span class="token punctuation">,</span>pr<span class="token punctuation">;</span>
-
-    cin <span class="token operator">&gt;&gt;</span> n<span class="token punctuation">;</span>
-    mincost <span class="token operator">=</span> n <span class="token operator">*</span> <span class="token number">10000</span><span class="token punctuation">;</span>
-    <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> i<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">;</span>i<span class="token operator">&lt;</span><span class="token number">3</span><span class="token punctuation">;</span>i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-        cin <span class="token operator">&gt;&gt;</span> pk <span class="token operator">&gt;&gt;</span> pr<span class="token punctuation">;</span>
-        <span class="token keyword">if</span><span class="token punctuation">(</span>n<span class="token operator">%</span>pk<span class="token operator">==</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-            m <span class="token operator">=</span> n<span class="token operator">/</span>pk <span class="token operator">*</span> pr<span class="token punctuation">;</span>
-        <span class="token punctuation">}</span><span class="token keyword">else</span><span class="token punctuation">{</span>
-            m <span class="token operator">=</span> <span class="token punctuation">(</span>n<span class="token operator">/</span>pk <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token operator">*</span> pr<span class="token punctuation">;</span>
-        <span class="token punctuation">}</span>
-        <span class="token keyword">if</span><span class="token punctuation">(</span>m <span class="token operator">&lt;</span> mincost<span class="token punctuation">)</span><span class="token punctuation">{</span>
-            mincost <span class="token operator">=</span> m<span class="token punctuation">;</span>
-        <span class="token punctuation">}</span>
-    <span class="token punctuation">}</span>
-    cout <span class="token operator">&lt;&lt;</span> mincost <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
-    
-    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span>
-<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></pre></li>
-</ul>
-<h2 class="mume-header" id="%E5%8F%82%E8%80%83%E7%BD%91%E5%9D%80">&#x53C2;&#x8003;&#x7F51;&#x5740;</h2>
+<p>&#x8FBD;&#x5B81;&#x5E08;&#x8303;&#x5927;&#x5B66; &#x2022; &#x5F20;&#x5927;&#x4E3A;@<a href="https://daweizh.github.io/noip/">https://daweizh.github.io/noip/</a></p>
+<h2 class="mume-header" id="%E7%9F%A5%E8%AF%86%E8%AE%B2%E8%A7%A3">&#x77E5;&#x8BC6;&#x8BB2;&#x89E3;</h2>
 
 <ol>
-<li><a href="https://www.luogu.com.cn">https://www.luogu.com.cn</a></li>
+<li>&#x5B66;&#x4E60;&#x6E38;&#x620F;&#x8BBE;&#x7F6E;&#x65B9;&#x6CD5;</li>
+<li>&#x5B66;&#x4E60;&#x6E38;&#x620F;&#x4F20;&#x53C2;&#x65B9;&#x6CD5;</li>
 </ol>
-<p>&#x8FBD;&#x5B81;&#x5E08;&#x8303;&#x5927;&#x5B66; &#x2022; &#x5F20;&#x5927;&#x4E3A;@<a href="https://daweizh.github.io/noip/">https://daweizh.github.io/noip/</a></p>
+<h2 class="mume-header" id="%E4%B8%80%E6%9C%AC%E9%80%9A">&#x4E00;&#x672C;&#x901A;</h2>
+
+<ol>
+<li>C++&#x8BED;&#x8A00;&#x7A0B;&#x5E8F;&#x7ED3;&#x6784;</li>
+<li>&#x8D4B;&#x503C;&#x8BED;&#x53E5;</li>
+<li>&#x8FD0;&#x7B97;&#x7B26;&#x548C;&#x8868;&#x8FBE;&#x5F0F;</li>
+<li>&#x5E38;&#x91CF;&#x548C;&#x53D8;&#x91CF;</li>
+<li>&#x6807;&#x51C6;&#x6570;&#x636E;&#x7C7B;&#x578B; &#x221A;</li>
+<li>&#x6570;&#x636E;&#x8F93;&#x5165;&#x8F93;&#x51FA; &#x221A;</li>
+</ol>
+<h2 class="mume-header" id="noiopenjudgecn">noi.openjudge.cn</h2>
+
+<ol>
+<li>[&#x221A;]&#x7F16;&#x7A0B;&#x57FA;&#x7840;&#x4E4B;&#x8F93;&#x5165;&#x8F93;&#x51FA;(1.1)&#xFF0C;&#x5171;10&#x9898;</li>
+<li>[&#x221A;]&#x7F16;&#x7A0B;&#x57FA;&#x7840;&#x4E4B;&#x53D8;&#x91CF;&#x5B9A;&#x4E49;&#x3001;&#x8D4B;&#x503C;&#x53CA;&#x8F6C;&#x6362;(1.2)&#xFF0C;&#x5171;10&#x9898;</li>
+<li>&#x7F16;&#x7A0B;&#x57FA;&#x7840;&#x4E4B;&#x7B97;&#x672F;&#x8868;&#x8FBE;&#x5F0F;&#x4E0E;&#x987A;&#x5E8F;&#x6267;&#x884C;(1.3)&#xFF0C;&#x5171;20&#x9898;</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>01</th>
+<th>02</th>
+<th>03</th>
+<th>04</th>
+<th>05</th>
+<th>06</th>
+<th>07</th>
+<th>08</th>
+<th>09</th>
+<th>10</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>&#x221A;</td>
+<td>&#x221A;</td>
+<td>&#x221A;</td>
+<td>&#x221A;</td>
+<td>&#x221A;</td>
+<td>&#x221A;</td>
+<td>&#x221A;</td>
+<td>&#x221A;</td>
+<td>&#x221A;</td>
+<td>&#x221A;</td>
+</tr>
+</tbody>
+</table>
+<ol start="4">
+<li>&#x5C0F;&#x5B66;&#x5965;&#x6570;&#xFF0C;&#x5171;20&#x9898;</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>7647</th>
+<th>7648</th>
+<th>7649</th>
+<th>7650</th>
+<th>7651</th>
+<th>7652</th>
+<th>7653</th>
+<th>7654</th>
+<th>7655</th>
+<th>7656</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>&#xD7;</td>
+<td>&#xD7;</td>
+<td>&#xD7;</td>
+<td>&#xD7;</td>
+<td>&#xD7;</td>
+<td>&#xD7;</td>
+<td>&#x221A;</td>
+<td>&#xD7;</td>
+<td>&#xD7;</td>
+<td>&#xD7;</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>7657</th>
+<th>7826</th>
+<th>7827</th>
+<th>7828</th>
+<th>7829</th>
+<th>7830</th>
+<th>7831</th>
+<th>7832</th>
+<th>7833</th>
+<th>7834</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>&#xD7;</td>
+<td>&#xD7;</td>
+<td>&#xD7;</td>
+<td>&#xD7;</td>
+<td>&#xD7;</td>
+<td>&#xD7;</td>
+<td>&#xD7;</td>
+<td>&#xD7;</td>
+<td>&#xD7;</td>
+<td>&#xD7;</td>
+</tr>
+</tbody>
+</table>
+<h2 class="mume-header" id="juniorcsp">junior.csp</h2>
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2019</td>
+<td>&#xD7;</td>
+<td>&#xD7;</td>
+<td>&#xD7;</td>
+<td>&#xD7;</td>
+</tr>
+<tr>
+<td>2018</td>
+<td>title</td>
+<td>&#xD7;</td>
+<td>&#xD7;</td>
+<td>&#xD7;</td>
+</tr>
+<tr>
+<td>2018</td>
+<td>score</td>
+<td>&#xD7;</td>
+<td>&#xD7;</td>
+<td>&#xD7;</td>
+</tr>
+<tr>
+<td>2017</td>
+<td>&#xD7;</td>
+<td>&#xD7;</td>
+<td>&#xD7;</td>
+<td>&#xD7;</td>
+</tr>
+<tr>
+<td>2016</td>
+<td>pencil</td>
+<td>&#xD7;</td>
+<td>&#xD7;</td>
+<td>&#xD7;</td>
+</tr>
+</tbody>
+</table>
 
       </div>
       <div class="md-sidebar-toc"><ul>
-<li><a href="#pencil">Pencil</a>
+<li><a href="#04">04</a>
 <ul>
-<li><a href="#%E9%97%AE%E9%A2%98%E6%8F%8F%E8%BF%B0">&#x95EE;&#x9898;&#x63CF;&#x8FF0;</a></li>
-<li><a href="#%E8%BE%93%E5%85%A5%E6%A0%BC%E5%BC%8F">&#x8F93;&#x5165;&#x683C;&#x5F0F;</a></li>
-<li><a href="#%E8%BE%93%E5%87%BA%E6%A0%BC%E5%BC%8F">&#x8F93;&#x51FA;&#x683C;&#x5F0F;</a></li>
-<li><a href="#%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA%E6%A0%B7%E4%BE%8B1">&#x8F93;&#x5165;&#x8F93;&#x51FA;&#x6837;&#x4F8B;1</a></li>
-<li><a href="#%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA%E6%A0%B7%E4%BE%8B2">&#x8F93;&#x5165;&#x8F93;&#x51FA;&#x6837;&#x4F8B;2</a></li>
-<li><a href="#%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA%E6%A0%B7%E4%BE%8B3">&#x8F93;&#x5165;&#x8F93;&#x51FA;&#x6837;&#x4F8B;3</a></li>
-<li><a href="#%E5%AD%90%E4%BB%BB%E5%8A%A1">&#x5B50;&#x4EFB;&#x52A1;</a></li>
-<li><a href="#%E5%8F%82%E8%80%83%E4%BB%A3%E7%A0%81">&#x53C2;&#x8003;&#x4EE3;&#x7801;</a></li>
-<li><a href="#%E5%8F%82%E8%80%83%E7%BD%91%E5%9D%80">&#x53C2;&#x8003;&#x7F51;&#x5740;</a></li>
+<li><a href="#%E7%9F%A5%E8%AF%86%E8%AE%B2%E8%A7%A3">&#x77E5;&#x8BC6;&#x8BB2;&#x89E3;</a></li>
+<li><a href="#%E4%B8%80%E6%9C%AC%E9%80%9A">&#x4E00;&#x672C;&#x901A;</a></li>
+<li><a href="#noiopenjudgecn">noi.openjudge.cn</a></li>
+<li><a href="#juniorcsp">junior.csp</a></li>
 </ul>
 </li>
 </ul>

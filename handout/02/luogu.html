@@ -326,19 +326,19 @@ pre[data-line] .line-highlight[data-end]:after {
 <span class="token macro property">#<span class="token directive keyword">include</span> <span class="token string">&lt;cstdio&gt;</span>       </span><span class="token comment">//&#x5FC5;&#x987B;&#x5199;&#xFF0C;&#x7167;&#x6284;</span>
 <span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span>    <span class="token comment">//&#x5FC5;&#x987B;&#x5199;&#xFF0C;&#x7167;&#x6284;</span>
 
-<span class="token keyword">char</span> c<span class="token punctuation">;</span>			<span class="token comment">//&#x5B9A;&#x4E49;&#x4E00;&#x4E2A;&#x5B57;&#x7B26;&#x53D8;&#x91CF;&#xFF0C;&#x53D8;&#x91CF;&#x5C31;&#x662F;&#x7528;&#x6765;&#x88C5;&#x5185;&#x5BB9;&#x7684;&#x201C;&#x7B50;&#x201D; </span>
-<span class="token keyword">int</span> ans <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>	<span class="token comment">//&#x5B9A;&#x4E49;&#x4E00;&#x4E2A;&#x6574;&#x578B;&#x53D8;&#x91CF;&#xFF0C;&#x53D8;&#x91CF;&#x7684;&#x7C7B;&#x578B;&#x4E0D;&#x540C;&#xFF0C;&#x80FD;&#x88C5;&#x5185;&#x5BB9;&#x7684;&#x591A;&#x5C11;&#x548C;&#x6027;&#x8D28;&#x4E5F;&#x4E0D;&#x540C; </span>
+<span class="token keyword">char</span> c<span class="token punctuation">;</span>         <span class="token comment">//&#x5B9A;&#x4E49;&#x4E00;&#x4E2A;&#x5B57;&#x7B26;&#x53D8;&#x91CF;&#xFF0C;&#x53D8;&#x91CF;&#x5C31;&#x662F;&#x7528;&#x6765;&#x88C5;&#x5185;&#x5BB9;&#x7684;&#x201C;&#x7B50;&#x201D; </span>
+<span class="token keyword">int</span> ans <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>    <span class="token comment">//&#x5B9A;&#x4E49;&#x4E00;&#x4E2A;&#x6574;&#x578B;&#x53D8;&#x91CF;&#xFF0C;&#x53D8;&#x91CF;&#x7684;&#x7C7B;&#x578B;&#x4E0D;&#x540C;&#xFF0C;&#x80FD;&#x88C5;&#x5185;&#x5BB9;&#x7684;&#x591A;&#x5C11;&#x548C;&#x6027;&#x8D28;&#x4E5F;&#x4E0D;&#x540C; </span>
 
-<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>		<span class="token comment">//&#x5FC5;&#x987B;&#x8FD9;&#x6837;&#x5199;&#xFF0C;&#x662F;&#x8BA1;&#x7B97;&#x673A;&#x6267;&#x884C;&#x4F60;&#x7A0B;&#x5E8F;&#x7684;&#x8D77;&#x70B9;</span>
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>     <span class="token comment">//&#x5FC5;&#x987B;&#x8FD9;&#x6837;&#x5199;&#xFF0C;&#x662F;&#x8BA1;&#x7B97;&#x673A;&#x6267;&#x884C;&#x4F60;&#x7A0B;&#x5E8F;&#x7684;&#x8D77;&#x70B9;</span>
 
-	<span class="token keyword">while</span><span class="token punctuation">(</span><span class="token punctuation">(</span>c<span class="token operator">=</span><span class="token function">getchar</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token operator">!=</span><span class="token string">&apos;\n&apos;</span><span class="token punctuation">)</span><span class="token punctuation">{</span>	<span class="token comment">//&#x4E0D;&#x505C;&#x7684;&#x8BFB;&#x5165;&#x5B57;&#x7B26;&#x88C5;&#x5165;c&#xFF0C;&#x76F4;&#x5230;&#x8BFB;&#x5230;&#x56DE;&#x8F66;&#x5B57;&#x7B26;&#x201C;\n&#x201D; </span>
-		<span class="token keyword">if</span><span class="token punctuation">(</span>c<span class="token operator">!=</span><span class="token string">&apos; &apos;</span> <span class="token operator">&amp;&amp;</span> c<span class="token operator">!=</span><span class="token string">&apos;\n&apos;</span><span class="token punctuation">)</span><span class="token punctuation">{</span>	<span class="token comment">//&#x5224;&#x65AD;&#x8BFB;&#x5165;&#x7684;&#x5B57;&#x7B26;&#x662F;&#x5426;&#x4E3A;&#x7A7A;&#x683C;&#x7B26;&#x548C;&#x56DE;&#x8F66;&#x7B26; </span>
-			ans <span class="token operator">++</span><span class="token punctuation">;</span>				<span class="token comment">//&#x5982;&#x679C;&#x4E0D;&#x662F;&#xFF0C;&#x5C31;&#x662F;&#x6211;&#x4EEC;&#x8981;&#x7EDF;&#x8BA1;&#x7684;&#x5B57;&#x7B26;&#xFF0C;&#x7B54;&#x6848;&#x52A0;1 </span>
-		<span class="token punctuation">}</span>
-	<span class="token punctuation">}</span>
-	cout <span class="token operator">&lt;&lt;</span> ans <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>		<span class="token comment">//&#x8F93;&#x51FA;&#x6211;&#x4EEC;&#x7EDF;&#x8BA1;&#x5230;&#x7684;&#x7B54;&#x6848; </span>
+    <span class="token keyword">while</span><span class="token punctuation">(</span><span class="token punctuation">(</span>c<span class="token operator">=</span><span class="token function">getchar</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token operator">!=</span><span class="token string">&apos;\n&apos;</span><span class="token punctuation">)</span><span class="token punctuation">{</span> <span class="token comment">//&#x4E0D;&#x505C;&#x7684;&#x8BFB;&#x5165;&#x5B57;&#x7B26;&#x88C5;&#x5165;c&#xFF0C;&#x76F4;&#x5230;&#x8BFB;&#x5230;&#x56DE;&#x8F66;&#x5B57;&#x7B26;&#x201C;\n&#x201D; </span>
+        <span class="token keyword">if</span><span class="token punctuation">(</span>c<span class="token operator">!=</span><span class="token string">&apos; &apos;</span> <span class="token operator">&amp;&amp;</span> c<span class="token operator">!=</span><span class="token string">&apos;\n&apos;</span><span class="token punctuation">)</span><span class="token punctuation">{</span>  <span class="token comment">//&#x5224;&#x65AD;&#x8BFB;&#x5165;&#x7684;&#x5B57;&#x7B26;&#x662F;&#x5426;&#x4E3A;&#x7A7A;&#x683C;&#x7B26;&#x548C;&#x56DE;&#x8F66;&#x7B26; </span>
+            ans <span class="token operator">++</span><span class="token punctuation">;</span>             <span class="token comment">//&#x5982;&#x679C;&#x4E0D;&#x662F;&#xFF0C;&#x5C31;&#x662F;&#x6211;&#x4EEC;&#x8981;&#x7EDF;&#x8BA1;&#x7684;&#x5B57;&#x7B26;&#xFF0C;&#x7B54;&#x6848;&#x52A0;1 </span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+    cout <span class="token operator">&lt;&lt;</span> ans <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>        <span class="token comment">//&#x8F93;&#x51FA;&#x6211;&#x4EEC;&#x7EDF;&#x8BA1;&#x5230;&#x7684;&#x7B54;&#x6848; </span>
 
-	<span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>                 <span class="token comment">//&#x544A;&#x8BC9;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#xFF0C;&#x4F60;&#x7684;&#x7A0B;&#x5E8F;&#x6B63;&#x5E38;&#x7ED3;&#x675F;</span>
+    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>                   <span class="token comment">//&#x544A;&#x8BC9;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#xFF0C;&#x4F60;&#x7684;&#x7A0B;&#x5E8F;&#x6B63;&#x5E38;&#x7ED3;&#x675F;</span>
 <span class="token punctuation">}</span>
 <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></pre></li>
 </ul>
@@ -347,8 +347,6 @@ pre[data-line] .line-highlight[data-end]:after {
 <ol>
 <li><a href="https://www.luogu.com.cn">https://www.luogu.com.cn</a></li>
 </ol>
-<h2 class="mume-header" id="%E7%BC%96%E8%BE%91%E6%95%B4%E7%90%86">&#x7F16;&#x8F91;&#x6574;&#x7406;</h2>
-
 <p>&#x8FBD;&#x5B81;&#x5E08;&#x8303;&#x5927;&#x5B66; &#x2022; &#x5F20;&#x5927;&#x4E3A;@<a href="https://daweizh.github.io/noip/">https://daweizh.github.io/noip/</a></p>
 
       </div>
@@ -363,7 +361,6 @@ pre[data-line] .line-highlight[data-end]:after {
 <li><a href="#%E6%95%B0%E6%8D%AE%E8%A7%84%E6%A8%A1%E4%B8%8E%E7%BA%A6%E5%AE%9A">&#x6570;&#x636E;&#x89C4;&#x6A21;&#x4E0E;&#x7EA6;&#x5B9A;</a></li>
 <li><a href="#%E5%8F%82%E8%80%83%E4%BB%A3%E7%A0%81">&#x53C2;&#x8003;&#x4EE3;&#x7801;</a></li>
 <li><a href="#%E5%8F%82%E8%80%83%E7%BD%91%E5%9D%80">&#x53C2;&#x8003;&#x7F51;&#x5740;</a></li>
-<li><a href="#%E7%BC%96%E8%BE%91%E6%95%B4%E7%90%86">&#x7F16;&#x8F91;&#x6574;&#x7406;</a></li>
 </ul>
 </li>
 </ul>

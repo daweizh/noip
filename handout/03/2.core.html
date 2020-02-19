@@ -277,10 +277,10 @@ pre[data-line] .line-highlight[data-end]:after {
 <li>&#x5728;wedo&#x6587;&#x4EF6;&#x5939;&#x4E2D;&#x521B;&#x5EFA;game&#x6587;&#x4EF6;&#x5939;</li>
 <li>&#x5728;game&#x6587;&#x4EF6;&#x5939;&#x4E2D;&#x521B;&#x5EFA;arith&#x6587;&#x4EF6;&#x5939;</li>
 </ol>
-<pre data-role="codeBlock" data-info class="language-"><code>E:\NOI\WEDO
+<pre data-role="codeBlock" data-info="shell" class="language-shell">E:\NOI\WEDO
         &#x2514;&#x2500;game
             &#x2514;&#x2500;arith
-</code></pre><p>&#x5728;arith&#x6587;&#x4EF6;&#x5939;&#x5185;&#x521B;&#x5EFA;&#x9879;&#x76EE;arith</p>
+</pre><p>&#x5728;arith&#x6587;&#x4EF6;&#x5939;&#x5185;&#x521B;&#x5EFA;&#x9879;&#x76EE;arith</p>
 <p><img src="images/arith-01.png" alt></p>
 <h2 class="mume-header" id="%E5%86%99%E6%A0%B8%E5%BF%83%E4%BB%A3%E7%A0%81">&#x5199;&#x6838;&#x5FC3;&#x4EE3;&#x7801;</h2>
 
@@ -295,33 +295,33 @@ pre[data-line] .line-highlight[data-end]:after {
 <span class="token keyword">long</span> <span class="token keyword">long</span> result<span class="token punctuation">;</span>	<span class="token comment">//&#x6B63;&#x786E;&#x7B54;&#x6848; </span>
 
 <span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token keyword">int</span> argc<span class="token punctuation">,</span> <span class="token keyword">char</span><span class="token operator">*</span><span class="token operator">*</span> argv<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-	cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;please int x + y or x - y then input answer,&quot;</span><span class="token punctuation">;</span>
-	cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;between operator is blank.&quot;</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
-	cin <span class="token operator">&gt;&gt;</span> x <span class="token operator">&gt;&gt;</span> opt <span class="token operator">&gt;&gt;</span> y<span class="token punctuation">;</span>
-	
-	<span class="token keyword">switch</span><span class="token punctuation">(</span>opt<span class="token punctuation">)</span><span class="token punctuation">{</span>
-		<span class="token keyword">case</span> <span class="token string">&apos;+&apos;</span><span class="token operator">:</span>
-			result <span class="token operator">=</span> x <span class="token operator">+</span> y<span class="token punctuation">;</span>
-			<span class="token keyword">break</span><span class="token punctuation">;</span>
-		<span class="token keyword">case</span> <span class="token string">&apos;-&apos;</span><span class="token operator">:</span>
-			result <span class="token operator">=</span> x <span class="token operator">-</span> y<span class="token punctuation">;</span>
-			<span class="token keyword">break</span><span class="token punctuation">;</span>
-	<span class="token punctuation">}</span>
-	
-	cin <span class="token operator">&gt;&gt;</span> ans<span class="token punctuation">;</span>
-	<span class="token keyword">if</span><span class="token punctuation">(</span>ans<span class="token operator">==</span>result<span class="token punctuation">)</span>
-		cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;Right!&quot;</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
-	<span class="token keyword">else</span>
-		cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;Error!&quot;</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
-		
-	<span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+    cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;please int x + y or x - y then input answer,&quot;</span><span class="token punctuation">;</span>
+    cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;between operator is blank.&quot;</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+    cin <span class="token operator">&gt;&gt;</span> x <span class="token operator">&gt;&gt;</span> opt <span class="token operator">&gt;&gt;</span> y<span class="token punctuation">;</span>
+    
+    <span class="token keyword">switch</span><span class="token punctuation">(</span>opt<span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token keyword">case</span> <span class="token string">&apos;+&apos;</span><span class="token operator">:</span>
+            result <span class="token operator">=</span> x <span class="token operator">+</span> y<span class="token punctuation">;</span>
+            <span class="token keyword">break</span><span class="token punctuation">;</span>
+        <span class="token keyword">case</span> <span class="token string">&apos;-&apos;</span><span class="token operator">:</span>
+            result <span class="token operator">=</span> x <span class="token operator">-</span> y<span class="token punctuation">;</span>
+            <span class="token keyword">break</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    
+    cin <span class="token operator">&gt;&gt;</span> ans<span class="token punctuation">;</span>
+    <span class="token keyword">if</span><span class="token punctuation">(</span>ans<span class="token operator">==</span>result<span class="token punctuation">)</span>
+        cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;Right!&quot;</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+    <span class="token keyword">else</span>
+        cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;Error!&quot;</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+      
+    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span>
 <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></pre><p>&#x6309;F11&#x6267;&#x884C;</p>
-<pre data-role="codeBlock" data-info class="language-"><code>please int x + y or x - y then input answer,between operator is blank.
+<pre data-role="codeBlock" data-info="shell" class="language-shell">please int x + y or x - y <span class="token keyword">then</span> input answer,between operator is blank.
 123 + 321
 444
-Right!
-</code></pre><h2 class="mume-header" id="%E9%9A%8F%E6%9C%BA%E5%87%BA%E9%A2%98">&#x968F;&#x673A;&#x51FA;&#x9898;</h2>
+Right<span class="token operator">!</span>
+</pre><h2 class="mume-header" id="%E9%9A%8F%E6%9C%BA%E5%87%BA%E9%A2%98">&#x968F;&#x673A;&#x51FA;&#x9898;</h2>
 
 <p>&#x81EA;&#x5DF1;&#x60F3;&#x9898;&#x592A;&#x96BE;&#x4E86;&#xFF01;&#xFF01;&#xFF01;&#x8BA9;&#x8BA1;&#x7B97;&#x673A;&#x5E2E;&#x5FD9;&#x968F;&#x673A;&#x51FA;&#x9898;&#x600E;&#x6837;&#xFF1F;</p>
 <pre data-role="codeBlock" data-info="c++ {.line-numbers}" class="language-cpp line-numbers"><span class="token macro property">#<span class="token directive keyword">include</span> <span class="token string">&lt;iostream&gt;</span></span>
@@ -339,54 +339,54 @@ Right!
 <span class="token keyword">long</span> <span class="token keyword">long</span> result<span class="token punctuation">;</span>	<span class="token comment">//&#x6B63;&#x786E;&#x7B54;&#x6848; </span>
 
 <span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token keyword">int</span> argc<span class="token punctuation">,</span> <span class="token keyword">char</span><span class="token operator">*</span><span class="token operator">*</span> argv<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-	
-	<span class="token function">srand</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token keyword">unsigned</span><span class="token punctuation">)</span><span class="token function">time</span><span class="token punctuation">(</span><span class="token constant">NULL</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>	<span class="token comment">//&#x8BBE;&#x5B9A;&#x968F;&#x673A;&#x6570;&#x751F;&#x6210;&#x65B9;&#x5F0F; </span>
+    
+    <span class="token function">srand</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token keyword">unsigned</span><span class="token punctuation">)</span><span class="token function">time</span><span class="token punctuation">(</span><span class="token constant">NULL</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>	<span class="token comment">//&#x8BBE;&#x5B9A;&#x968F;&#x673A;&#x6570;&#x751F;&#x6210;&#x65B9;&#x5F0F; </span>
 
-	<span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> i<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">;</span>i<span class="token operator">&lt;</span>num<span class="token punctuation">;</span>i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>			<span class="token comment">//&#x8BA9;&#x8BA1;&#x7B97;&#x673A;&#x51FA;num&#x9053;&#x9898; </span>
-		x <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token keyword">long</span> <span class="token keyword">long</span><span class="token punctuation">)</span><span class="token function">rand</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-		y <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token keyword">long</span> <span class="token keyword">long</span><span class="token punctuation">)</span><span class="token function">rand</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> i<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">;</span>i<span class="token operator">&lt;</span>num<span class="token punctuation">;</span>i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>			<span class="token comment">//&#x8BA9;&#x8BA1;&#x7B97;&#x673A;&#x51FA;num&#x9053;&#x9898; </span>
+        x <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token keyword">long</span> <span class="token keyword">long</span><span class="token punctuation">)</span><span class="token function">rand</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        y <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token keyword">long</span> <span class="token keyword">long</span><span class="token punctuation">)</span><span class="token function">rand</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 
-		<span class="token keyword">switch</span><span class="token punctuation">(</span>opt<span class="token punctuation">)</span><span class="token punctuation">{</span>
-			<span class="token keyword">case</span> <span class="token string">&apos;+&apos;</span><span class="token operator">:</span>
-				result <span class="token operator">=</span> x <span class="token operator">+</span> y<span class="token punctuation">;</span>
-				<span class="token keyword">break</span><span class="token punctuation">;</span>
-			<span class="token keyword">case</span> <span class="token string">&apos;-&apos;</span><span class="token operator">:</span>
-				result <span class="token operator">=</span> x <span class="token operator">-</span> y<span class="token punctuation">;</span>
-				<span class="token keyword">break</span><span class="token punctuation">;</span>
-		<span class="token punctuation">}</span>
+        <span class="token keyword">switch</span><span class="token punctuation">(</span>opt<span class="token punctuation">)</span><span class="token punctuation">{</span>
+            <span class="token keyword">case</span> <span class="token string">&apos;+&apos;</span><span class="token operator">:</span>
+                result <span class="token operator">=</span> x <span class="token operator">+</span> y<span class="token punctuation">;</span>
+                <span class="token keyword">break</span><span class="token punctuation">;</span>
+            <span class="token keyword">case</span> <span class="token string">&apos;-&apos;</span><span class="token operator">:</span>
+                result <span class="token operator">=</span> x <span class="token operator">-</span> y<span class="token punctuation">;</span>
+                <span class="token keyword">break</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
 
-		cout <span class="token operator">&lt;&lt;</span> x <span class="token operator">&lt;&lt;</span> opt <span class="token operator">&lt;&lt;</span> y <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;=&quot;</span> <span class="token punctuation">;</span> <span class="token comment">//&#x663E;&#x793A;&#x95EE;&#x9898;&#x6A2A;&#x5F0F;		</span>
-		cin <span class="token operator">&gt;&gt;</span> ans<span class="token punctuation">;</span>
-		<span class="token keyword">if</span><span class="token punctuation">(</span>ans<span class="token operator">==</span>result<span class="token punctuation">)</span>
-			cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;Right!&quot;</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
-		<span class="token keyword">else</span>
-			cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;Error!&quot;</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
-	<span class="token punctuation">}</span>
-		
-	<span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+        cout <span class="token operator">&lt;&lt;</span> x <span class="token operator">&lt;&lt;</span> opt <span class="token operator">&lt;&lt;</span> y <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;=&quot;</span> <span class="token punctuation">;</span> <span class="token comment">//&#x663E;&#x793A;&#x95EE;&#x9898;&#x6A2A;&#x5F0F;		</span>
+        cin <span class="token operator">&gt;&gt;</span> ans<span class="token punctuation">;</span>
+        <span class="token keyword">if</span><span class="token punctuation">(</span>ans<span class="token operator">==</span>result<span class="token punctuation">)</span>
+            cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;Right!&quot;</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+        <span class="token keyword">else</span>
+            cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;Error!&quot;</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+      
+    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span>
 <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></pre><p>&#x6309;F11&#x6267;&#x884C;&#xFF1A;</p>
-<pre data-role="codeBlock" data-info class="language-"><code>13452+5616=19086
-Error!
-13351+30155=43506
-Right!
-29107+14963=44
-Error!
-28158+8300=44
-Error!
-32420+11621=44
-Error!
-1812+16807=44
-Error!
-3769+30221=44
-Error!
-17826+12964=44
-Error!
-21264+2914=44
-Error!
-26072+7071=44
-Error!
-</code></pre>
+<pre data-role="codeBlock" data-info="shell" class="language-shell">13452+5616<span class="token operator">=</span>19086
+Error<span class="token operator">!</span>
+13351+30155<span class="token operator">=</span>43506
+Right<span class="token operator">!</span>
+29107+14963<span class="token operator">=</span>44
+Error<span class="token operator">!</span>
+28158+8300<span class="token operator">=</span>44
+Error<span class="token operator">!</span>
+32420+11621<span class="token operator">=</span>44
+Error<span class="token operator">!</span>
+1812+16807<span class="token operator">=</span>44
+Error<span class="token operator">!</span>
+3769+30221<span class="token operator">=</span>44
+Error<span class="token operator">!</span>
+17826+12964<span class="token operator">=</span>44
+Error<span class="token operator">!</span>
+21264+2914<span class="token operator">=</span>44
+Error<span class="token operator">!</span>
+26072+7071<span class="token operator">=</span>44
+Error<span class="token operator">!</span>
+</pre>
       </div>
       <div class="md-sidebar-toc"><ul>
 <li><a href="#%E5%A6%82%E4%BD%95%E5%8E%BB%E5%81%9A">&#x5982;&#x4F55;&#x53BB;&#x505A;</a>

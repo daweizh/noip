@@ -48,12 +48,11 @@
         <a href='handout/03/luogu.html'>L</a>,<a href='handout/03/notes.html'>N</a>
       </th>
     </tr>
-    
     <tr>
       <th style="border:0px;text-align:left;width:50px;">04.</th>
       <th style="border:0px; border-bottom:1px dashed red;width:100%;">
-        <a href='handout/04/1.intro.html'></a>,
-        <a href='handout/04/2.resource.html'></a>
+        <a href='handout/04/1.settings.html'>settings</a>,
+        <a href='handout/04/2.params.html'>params</a>
       </th>
       <th style="border:0px;white-space:nowrap;">
         <a href='handout/04/example.html'>E</a>,<a href='handout/04/openjudge.html'>O</a>,
@@ -63,14 +62,15 @@
     <tr>
       <th style="border:0px;text-align:left;width:50px;">05.</th>
       <th style="border:0px; border-bottom:1px dashed red;width:100%;">
-        <!-- <a href='handout/05/1.intro.html'></a>,
-        <a href='handout/05/2.resource.html'></a> -->
+        <a href='handout/05/1.display.html'>display</a>,
+        <a href='handout/05/2.detail.html'>detail</a>
       </th>
       <th style="border:0px;white-space:nowrap;">
-        <!-- <a href='handout/05/example.html'>E</a>,<a href='handout/05/openjudge.html'>O</a>,
-        <a href='handout/05/luogu.html'>L</a>,<a href='handout/05/notes.html'>N</a> -->
+        <a href='handout/05/example.html'>E</a>,<a href='handout/05/openjudge.html'>O</a>,
+        <a href='handout/05/luogu.html'>L</a>,<a href='handout/05/notes.html'>N</a>
       </th>
     </tr>
+
     <tr>
       <th style="border:0px;text-align:left;width:50px;">06.</th>
       <th style="border:0px; border-bottom:1px dashed red;width:100%;">
