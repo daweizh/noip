@@ -98,11 +98,11 @@
     <tr>
       <th style="border:0px;text-align:left;width:50px;">08.</th>
       <th style="border:0px; border-bottom:1px dashed red;width:100%;">
-        E,<a href='handout/06/openjudge.html'>O</a>,L,N
         <!-- <a href='handout/08/1.intro.html'></a>,
         <a href='handout/08/2.resource.html'></a> -->
       </th>
       <th style="border:0px;white-space:nowrap;">
+        E,<a href='handout/08/openjudge.html'>O</a>,L,N
         <!-- <a href='handout/08/example.html'>E</a>,<a href='handout/08/openjudge.html'>O</a>,
         <a href='handout/08/luogu.html'>L</a>,<a href='handout/08/notes.html'>N</a> -->
       </th>
