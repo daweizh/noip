@@ -114,6 +114,7 @@
         <a href='handout/09/2.resource.html'></a> -->
       </th>
       <th style="border:0px;white-space:nowrap;">
+        E,<a href='handout/09/openjudge.html'>O</a>,L,N
         <!-- <a href='handout/09/example.html'>E</a>,<a href='handout/09/openjudge.html'>O</a>,
         <a href='handout/09/luogu.html'>L</a>,<a href='handout/09/notes.html'>N</a> -->
       </th>
@@ -125,6 +126,7 @@
         <a href='handout/10/2.resource.html'></a> -->
       </th>
       <th style="border:0px;white-space:nowrap;">
+        E,<a href='handout/10/openjudge.html'>O</a>,L,N
         <!-- <a href='handout/10/example.html'>E</a>,<a href='handout/10/openjudge.html'>O</a>,
         <a href='handout/10/luogu.html'>L</a>,<a href='handout/10/notes.html'>N</a> -->
       </th>
@@ -136,10 +138,81 @@
         <a href='handout/11/2.resource.html'></a> -->
       </th>
       <th style="border:0px;white-space:nowrap;">
+        E,<a href='handout/11/openjudge.html'>O</a>,L,N
         <!-- <a href='handout/11/example.html'>E</a>,<a href='handout/11/openjudge.html'>O</a>,
         <a href='handout/11/luogu.html'>L</a>,<a href='handout/11/notes.html'>N</a> -->
       </th>
     </tr>
+    <tr>
+      <th style="border:0px;text-align:left;width:50px;">12.</th>
+      <th style="border:0px; border-bottom:1px dashed red;width:100%;">
+        <!-- <a href='handout/11/1.intro.html'></a>,
+        <a href='handout/11/2.resource.html'></a> -->
+      </th>
+      <th style="border:0px;white-space:nowrap;">
+        E,<a href='handout/12/openjudge.html'>O</a>,L,N
+        <!-- <a href='handout/11/example.html'>E</a>,<a href='handout/11/openjudge.html'>O</a>,
+        <a href='handout/11/luogu.html'>L</a>,<a href='handout/11/notes.html'>N</a> -->
+      </th>
+    </tr>
+    <tr>
+      <th style="border:0px;text-align:left;width:50px;">13.</th>
+      <th style="border:0px; border-bottom:1px dashed red;width:100%;">
+        <!-- <a href='handout/11/1.intro.html'></a>,
+        <a href='handout/11/2.resource.html'></a> -->
+      </th>
+      <th style="border:0px;white-space:nowrap;">
+        <!-- <a href='handout/11/example.html'>E</a>,<a href='handout/11/openjudge.html'>O</a>,
+        <a href='handout/11/luogu.html'>L</a>,<a href='handout/11/notes.html'>N</a> -->
+      </th>
+    </tr>
+    <tr>
+      <th style="border:0px;text-align:left;width:50px;">14.</th>
+      <th style="border:0px; border-bottom:1px dashed red;width:100%;">
+        <!-- <a href='handout/11/1.intro.html'></a>,
+        <a href='handout/11/2.resource.html'></a> -->
+      </th>
+      <th style="border:0px;white-space:nowrap;">
+        <!-- <a href='handout/11/example.html'>E</a>,<a href='handout/11/openjudge.html'>O</a>,
+        <a href='handout/11/luogu.html'>L</a>,<a href='handout/11/notes.html'>N</a> -->
+      </th>
+    </tr>
+    <tr>
+      <th style="border:0px;text-align:left;width:50px;">15.</th>
+      <th style="border:0px; border-bottom:1px dashed red;width:100%;">
+        <!-- <a href='handout/11/1.intro.html'></a>,
+        <a href='handout/11/2.resource.html'></a> -->
+      </th>
+      <th style="border:0px;white-space:nowrap;">
+        <!-- <a href='handout/11/example.html'>E</a>,<a href='handout/11/openjudge.html'>O</a>,
+        <a href='handout/11/luogu.html'>L</a>,<a href='handout/11/notes.html'>N</a> -->
+      </th>
+    </tr>
+    <tr>
+      <th style="border:0px;text-align:left;width:50px;">16.</th>
+      <th style="border:0px; border-bottom:1px dashed red;width:100%;">
+        <!-- <a href='handout/11/1.intro.html'></a>,
+        <a href='handout/11/2.resource.html'></a> -->
+      </th>
+      <th style="border:0px;white-space:nowrap;">
+        <!-- <a href='handout/11/example.html'>E</a>,<a href='handout/11/openjudge.html'>O</a>,
+        <a href='handout/11/luogu.html'>L</a>,<a href='handout/11/notes.html'>N</a> -->
+      </th>
+    </tr>
+    <tr>
+      <th style="border:0px;text-align:left;width:50px;">17.</th>
+      <th style="border:0px; border-bottom:1px dashed red;width:100%;">
+        <!-- <a href='handout/11/1.intro.html'></a>,
+        <a href='handout/11/2.resource.html'></a> -->
+      </th>
+      <th style="border:0px;white-space:nowrap;">
+        <!-- <a href='handout/11/example.html'>E</a>,<a href='handout/11/openjudge.html'>O</a>,
+        <a href='handout/11/luogu.html'>L</a>,<a href='handout/11/notes.html'>N</a> -->
+      </th>
+    </tr>
+
+
+
     <tr>
       <th style="border:0px;text-align:left;width:50px;">注</th>
       <td style="border:0px;text-align:right;width:100%;">(<b>E</b>)xample,(<b>O</b>)nlineJudge,(<b>L</b>)uogu,(<b>N</b>)otes</td>
