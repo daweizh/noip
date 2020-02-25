@@ -162,6 +162,7 @@
         <a href='handout/11/2.resource.html'></a> -->
       </th>
       <th style="border:0px;white-space:nowrap;">
+        E,<a href='handout/13/openjudge.html'>O</a>,L,N
         <!-- <a href='handout/11/example.html'>E</a>,<a href='handout/11/openjudge.html'>O</a>,
         <a href='handout/11/luogu.html'>L</a>,<a href='handout/11/notes.html'>N</a> -->
       </th>
@@ -173,6 +174,7 @@
         <a href='handout/11/2.resource.html'></a> -->
       </th>
       <th style="border:0px;white-space:nowrap;">
+        E,O,L,N
         <!-- <a href='handout/11/example.html'>E</a>,<a href='handout/11/openjudge.html'>O</a>,
         <a href='handout/11/luogu.html'>L</a>,<a href='handout/11/notes.html'>N</a> -->
       </th>
@@ -184,6 +186,7 @@
         <a href='handout/11/2.resource.html'></a> -->
       </th>
       <th style="border:0px;white-space:nowrap;">
+        E,O,L,N
         <!-- <a href='handout/11/example.html'>E</a>,<a href='handout/11/openjudge.html'>O</a>,
         <a href='handout/11/luogu.html'>L</a>,<a href='handout/11/notes.html'>N</a> -->
       </th>
@@ -195,6 +198,7 @@
         <a href='handout/11/2.resource.html'></a> -->
       </th>
       <th style="border:0px;white-space:nowrap;">
+        E,O,L,N
         <!-- <a href='handout/11/example.html'>E</a>,<a href='handout/11/openjudge.html'>O</a>,
         <a href='handout/11/luogu.html'>L</a>,<a href='handout/11/notes.html'>N</a> -->
       </th>
@@ -206,6 +210,7 @@
         <a href='handout/11/2.resource.html'></a> -->
       </th>
       <th style="border:0px;white-space:nowrap;">
+        E,O,L,N
         <!-- <a href='handout/11/example.html'>E</a>,<a href='handout/11/openjudge.html'>O</a>,
         <a href='handout/11/luogu.html'>L</a>,<a href='handout/11/notes.html'>N</a> -->
       </th>
