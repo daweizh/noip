@@ -1,4 +1,4 @@
-# NOIP学习日志
+# 学习日志
 
 辽宁师范大学 &bull; 张大为@[https://daweizh.github.io/noip/](https://daweizh.github.io/noip/)
 
