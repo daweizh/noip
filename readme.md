@@ -44,4 +44,27 @@
 </table>
 
 
+<table style="border:0px;font-size:12px;width:100%">
+  <tr>
+    <td style="border:0px;">
+      <img src="assets/me/img/zdw.jpg" width="100">
+    </td>
+    <td style="border:0px;">
+      <img src="assets/me/img/idea.jpg" width="100">
+    </td>
+    <td style="border:0px;">
+      <img src="assets/me/img/shl.jpg" width="100">
+    </td>
+    <td style="border:0px;">
+      <img src="assets/me/img/xszt.jpg" width="100">
+    </td>
+  </tr>
+  <tr>
+    <th style="border:0px;text-align:center;">辽师张大为</th>
+    <th style="border:0px;text-align:center;">智数精英</th>
+    <th style="border:0px;text-align:center;">随话录</th>
+    <th style="border:0px;text-align:center;">西山征途</th>
+  </tr>
+</table>
+
 
