@@ -18,13 +18,15 @@
   <tr>
     <th style="border:0px;text-align:left;width:50px;">3.</th>
     <th style="border:0px; border-bottom:1px dashed red;width:100%;" align="right">
-      <a href='junior/'>普及组真题</a>
+      <a href='junior/preliminary/'>普及组初赛</a> |
+      <a href='junior/repecharge/'>普及组复赛</a>
     </th>
   </tr>
   <tr>
     <th style="border:0px;text-align:left;width:50px;">4.</th>
     <th style="border:0px; border-bottom:1px dashed red;width:100%;" align="right">
-      <a href='senior/'>提高组真题</a>
+      <a href='senior/preliminary/'>提高组初赛</a> |
+      <a href='senior/repecharge/'>提高组复赛</a>
     </th>
   </tr>
   <tr>
