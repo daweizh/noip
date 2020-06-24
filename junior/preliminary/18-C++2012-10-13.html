@@ -991,7 +991,7 @@ int main(){
 				$scope.score = {q1:0,q2:0,q3:0,q4:0,qq:0};
 				
 				$scope.loadAnswers = function () {
-		            $http({method: 'GET',url: '../../../assets/data/junior-2012-10-13.json'}).then(
+		            $http({method: 'GET',url: '../../assets/data/junior-2012-10-13.json'}).then(
 		                function successCallback(response) {
 		                    $scope.ans = response.data;
 	//	                    $log.info($scope.ans);
