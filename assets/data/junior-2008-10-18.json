@@ -1,0 +1,48 @@
+{
+	"questa":[
+		{"id":1,"answer":"","key":"A","score":1.5},
+		{"id":2,"answer":"","key":"B","score":1.5},
+		{"id":3,"answer":"","key":"C","score":1.5},
+		{"id":4,"answer":"","key":"C","score":1.5},
+		{"id":5,"answer":"","key":"B","score":1.5},
+		{"id":6,"answer":"","key":"D","score":1.5},
+		{"id":7,"answer":"","key":"C","score":1.5},
+		{"id":8,"answer":"","key":"D","score":1.5},
+		{"id":9,"answer":"","key":"A","score":1.5},
+		{"id":10,"answer":"","key":"B","score":1.5},
+		{"id":11,"answer":"","key":"D","score":1.5},
+		{"id":12,"answer":"","key":"A","score":1.5},
+		{"id":13,"answer":"","key":"B","score":1.5},
+		{"id":14,"answer":"","key":"B","score":1.5},
+		{"id":15,"answer":"","key":"B","score":1.5},
+		{"id":16,"answer":"","key":"A","score":1.5},
+		{"id":17,"answer":"","key":"B","score":1.5},
+		{"id":18,"answer":"","key":"A","score":1.5},
+		{"id":19,"answer":"","key":"B","score":1.5},
+		{"id":20,"answer":"","key":"D","score":1.5}
+	],
+	"questb":[
+		{"id":1,"answer":"","key":"12","score":2.5},
+		{"id":2,"answer":"","key":"4","score":2.5},
+		{"id":3,"answer":"","key":"7","score":5}
+		
+	],
+	"questc":[
+		{"id":1,"answer":"","key":"23","score":8},
+		{"id":2,"answer":"","key":"2,3,1","score":8},
+		{"id":3,"answer":"","key":"5 4 10 1 6 22 -59 -6 -11 -6","score":8},
+		{"id":4,"answer":"","key":"DBGEFCA","score":8}
+	],
+	"questd":[
+		{"id":1,"answer":"","key":"change[i]>='A'&&change[i]<='Z';change[i]<='Z'","score":2.5},
+		{"id":2,"answer":"","key":"str[i]>='A'&&str[i]<='Z';str[i]<='Z'","score":2.5},
+		{"id":3,"answer":"","key":"str[i]=change[str[i]-'a']","score":2.5},
+		{"id":4,"answer":"","key":"ChangeString()","score":2.5},
+		{"id":5,"answer":"","key":"a[left]","score":3},
+		{"id":6,"answer":"","key":"a[j]<value","score":3},
+		{"id":7,"answer":"","key":"a[i]>value","score":3},
+		{"id":8,"answer":"","key":"a[i]=value","score":3},
+		{"id":9,"answer":"","key":"i+1,right,n","score":3},
+		{"id":10,"answer":"","key":"FindKth(left,i–1,n)","score":3}
+	]
+}

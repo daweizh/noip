@@ -1,0 +1,48 @@
+{
+	"questa":[
+		{"id":1,"answer":"","key":"B","score":1.5},
+		{"id":2,"answer":"","key":"B","score":1.5},
+		{"id":3,"answer":"","key":"C","score":1.5},
+		{"id":4,"answer":"","key":"A","score":1.5},
+		{"id":5,"answer":"","key":"A","score":1.5},
+		{"id":6,"answer":"","key":"A","score":1.5},
+		{"id":7,"answer":"","key":"B","score":1.5},
+		{"id":8,"answer":"","key":"C","score":1.5},
+		{"id":9,"answer":"","key":"C","score":1.5},
+		{"id":10,"answer":"","key":"A","score":1.5},
+		{"id":11,"answer":"","key":"B","score":1.5},
+		{"id":12,"answer":"","key":"B","score":1.5},
+		{"id":13,"answer":"","key":"B","score":1.5},
+		{"id":14,"answer":"","key":"C","score":1.5},
+		{"id":15,"answer":"","key":"A","score":1.5},
+		{"id":16,"answer":"","key":"C","score":1.5},
+		{"id":17,"answer":"","key":"D","score":1.5},
+		{"id":18,"answer":"","key":"C","score":1.5},
+		{"id":19,"answer":"","key":"C","score":1.5},
+		{"id":20,"answer":"","key":"B","score":1.5}
+	],
+	"questb":[
+		{"id":1,"answer":"","key":"1009","score":5},
+		{"id":2,"answer":"","key":"1008","score":5},
+		{"id":3,"answer":"","key":"3","score":5}
+	],
+	"questc":[
+		{"id":1,"answer":"","key":"z","score":8},
+		{"id":2,"answer":"","key":"8","score":8},
+		{"id":3,"answer":"","key":"11","score":8},
+		{"id":4,"answer":"","key":"1 3","score":3},
+		{"id":5,"answer":"","key":"2017 1","score":5}
+	],
+	"questd":[
+		{"id":1,"answer":"","key":"1","score":2},
+		{"id":2,"answer":"","key":"p>0;p!=0;p","score":3},
+		{"id":3,"answer":"","key":"result*x%m","score":3},
+		{"id":4,"answer":"","key":"x*x%m","score":3},
+		{"id":5,"answer":"","key":"result","score":3},
+		{"id":6,"answer":"","key":"count=count+len[i];count+=len[i]","score":2.5},
+		{"id":7,"answer":"","key":"count<m;m>count","score":2.5},
+		{"id":8,"answer":"","key":"lbound<ubound;ubound>lbound","score":3},
+		{"id":9,"answer":"","key":"(lbound+ubound+1)/2;(lbound+ubound+1)>>1;(lbound+ubound+1)/2+1","score":3},
+		{"id":10,"answer":"","key":"count=count+len[i]/mid;count+=len[i]/mid","score":3}
+	]
+}
