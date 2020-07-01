@@ -57,6 +57,13 @@
     </th>
     <th style="border:0px;">2020-06-23</th>
   </tr>
+  <tr>
+    <th style="border:0px;text-align:left;width:50px;">09.</th>
+    <th style="border:0px; border-bottom:1px dashed red;width:100%;" align="right">
+      <a href='http://noi.ccf.org.cn/noi-video/newsview13.html' target="_blank">二维数组及其应用</a>
+    </th>
+    <th style="border:0px;">2020-06-30</th>
+  </tr>
 
 </table>
 
