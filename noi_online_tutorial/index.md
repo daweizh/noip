@@ -4,7 +4,7 @@
   <tr>
     <th style="border:0px;text-align:left;width:50px;">01.</th>
     <th style="border:0px; border-bottom:1px dashed red;width:100%;" align="right">
-      <a href='http://www.noi.cn/noi-video/newsview2.html' target="_blank">C++程序设计入门&顺序程序设计范例</a>
+      <a href='http://www.noi.cn/noi-video/newsview2.html' target="_blank">C++入门&顺序程序设计范例</a>
     </th>
     <th style="border:0px;" nowrap>&nbsp;2020-05-05</th>
   </tr>
