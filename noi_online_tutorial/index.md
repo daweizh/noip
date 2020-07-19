@@ -64,6 +64,20 @@
     </th>
     <th style="border:0px;" nowrap>&nbsp;2020-06-30</th>
   </tr>
+  <tr>
+    <th style="border:0px;text-align:left;width:50px;">10.</th>
+    <th style="border:0px; border-bottom:1px dashed red;width:100%;" align="right">
+      <a href='http://noi.ccf.org.cn/noi-video/newsview14.html' target="_blank">字符类型和字符数组</a>
+    </th>
+    <th style="border:0px;" nowrap>&nbsp;2020-07-07</th>
+  </tr>
+  <tr>
+    <th style="border:0px;text-align:left;width:50px;">11.</th>
+    <th style="border:0px; border-bottom:1px dashed red;width:100%;" align="right">
+      <a href='http://noi.ccf.org.cn/noi-video/newsview15.html' target="_blank">函数及应用</a>
+    </th>
+    <th style="border:0px;" nowrap>&nbsp;2020-07-14</th>
+  </tr>
 
 </table>
 
