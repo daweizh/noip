@@ -6,8 +6,8 @@
   <tr>
     <th style="border:0px;text-align:left;width:50px;">01.</th>
     <th style="border:0px; border-bottom:1px dashed red;width:100%;" align="right">
-      <a href='01/1..html'>求解过程</a> |
-      <a href='01/2..html'>对拍过程</a>
+      <a href='01/1.vbox.html'>安装VirtualBox</a> |
+      <a href='01/2.import.html'>导入noilinux</a>
     </th>
   </tr>
 </table>
