@@ -6,7 +6,8 @@
   <tr>
     <th style="border:0px;text-align:left;width:50px;">1.</th>
     <th style="border:0px; border-bottom:1px dashed red;width:100%;" align="right">
-      <a href='notes/'>笔记</a>
+      <a href='notes/'>笔记</a> |
+      <a href='skill/'>实战</a>
     </th>
   </tr>
   <tr>
