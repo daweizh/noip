@@ -78,6 +78,20 @@
     </th>
     <th style="border:0px;" nowrap>&nbsp;2020-07-14</th>
   </tr>
+  <tr>
+    <th style="border:0px;text-align:left;width:50px;">12.</th>
+    <th style="border:0px; border-bottom:1px dashed red;width:100%;" align="right">
+      <a href='http://noi.ccf.org.cn/noi-video/newsview16.html' target="_blank">递归函数及递归算法</a>
+    </th>
+    <th style="border:0px;" nowrap>&nbsp;2020-07-21</th>
+  </tr>
+  <tr>
+    <th style="border:0px;text-align:left;width:50px;">13.</th>
+    <th style="border:0px; border-bottom:1px dashed red;width:100%;" align="right">
+      <a href='http://www.noi.cn/noi-video/newsview17.html' target="_blank">递推算法</a>
+    </th>
+    <th style="border:0px;" nowrap>&nbsp;2020-07-28</th>
+  </tr>
 
 </table>
 
