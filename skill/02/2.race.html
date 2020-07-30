@@ -1,0 +1,601 @@
+<!DOCTYPE html><html><head>
+      <title>2.race</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <style>
+      /**
+ * prism.js Github theme based on GitHub's theme.
+ * @author Sam Clarke
+ */
+code[class*="language-"],
+pre[class*="language-"] {
+  color: #333;
+  background: none;
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.4;
+
+  -moz-tab-size: 8;
+  -o-tab-size: 8;
+  tab-size: 8;
+
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+  padding: .8em;
+  overflow: auto;
+  /* border: 1px solid #ddd; */
+  border-radius: 3px;
+  /* background: #fff; */
+  background: #f5f5f5;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+  padding: .1em;
+  border-radius: .3em;
+  white-space: normal;
+  background: #f5f5f5;
+}
+
+.token.comment,
+.token.blockquote {
+  color: #969896;
+}
+
+.token.cdata {
+  color: #183691;
+}
+
+.token.doctype,
+.token.punctuation,
+.token.variable,
+.token.macro.property {
+  color: #333;
+}
+
+.token.operator,
+.token.important,
+.token.keyword,
+.token.rule,
+.token.builtin {
+  color: #a71d5d;
+}
+
+.token.string,
+.token.url,
+.token.regex,
+.token.attr-value {
+  color: #183691;
+}
+
+.token.property,
+.token.number,
+.token.boolean,
+.token.entity,
+.token.atrule,
+.token.constant,
+.token.symbol,
+.token.command,
+.token.code {
+  color: #0086b3;
+}
+
+.token.tag,
+.token.selector,
+.token.prolog {
+  color: #63a35c;
+}
+
+.token.function,
+.token.namespace,
+.token.pseudo-element,
+.token.class,
+.token.class-name,
+.token.pseudo-class,
+.token.id,
+.token.url-reference .token.variable,
+.token.attr-name {
+  color: #795da3;
+}
+
+.token.entity {
+  cursor: help;
+}
+
+.token.title,
+.token.title .token.punctuation {
+  font-weight: bold;
+  color: #1d3e81;
+}
+
+.token.list {
+  color: #ed6a43;
+}
+
+.token.inserted {
+  background-color: #eaffea;
+  color: #55a532;
+}
+
+.token.deleted {
+  background-color: #ffecec;
+  color: #bd2c00;
+}
+
+.token.bold {
+  font-weight: bold;
+}
+
+.token.italic {
+  font-style: italic;
+}
+
+
+/* JSON */
+.language-json .token.property {
+  color: #183691;
+}
+
+.language-markup .token.tag .token.punctuation {
+  color: #333;
+}
+
+/* CSS */
+code.language-css,
+.language-css .token.function {
+  color: #0086b3;
+}
+
+/* YAML */
+.language-yaml .token.atrule {
+  color: #63a35c;
+}
+
+code.language-yaml {
+  color: #183691;
+}
+
+/* Ruby */
+.language-ruby .token.function {
+  color: #333;
+}
+
+/* Markdown */
+.language-markdown .token.url {
+  color: #795da3;
+}
+
+/* Makefile */
+.language-makefile .token.symbol {
+  color: #795da3;
+}
+
+.language-makefile .token.variable {
+  color: #183691;
+}
+
+.language-makefile .token.builtin {
+  color: #0086b3;
+}
+
+/* Bash */
+.language-bash .token.keyword {
+  color: #0086b3;
+}
+
+/* highlight */
+pre[data-line] {
+  position: relative;
+  padding: 1em 0 1em 3em;
+}
+pre[data-line] .line-highlight-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  display: block;
+  width: 100%;
+}
+
+pre[data-line] .line-highlight {
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: inherit 0;
+  margin-top: 1em;
+  background: hsla(24, 20%, 50%,.08);
+  background: linear-gradient(to right, hsla(24, 20%, 50%,.1) 70%, hsla(24, 20%, 50%,0));
+  pointer-events: none;
+  line-height: inherit;
+  white-space: pre;
+}
+
+pre[data-line] .line-highlight:before, 
+pre[data-line] .line-highlight[data-end]:after {
+  content: attr(data-start);
+  position: absolute;
+  top: .4em;
+  left: .6em;
+  min-width: 1em;
+  padding: 0 .5em;
+  background-color: hsla(24, 20%, 50%,.4);
+  color: hsl(24, 20%, 95%);
+  font: bold 65%/1.5 sans-serif;
+  text-align: center;
+  vertical-align: .3em;
+  border-radius: 999px;
+  text-shadow: none;
+  box-shadow: 0 1px white;
+}
+
+pre[data-line] .line-highlight[data-end]:after {
+  content: attr(data-end);
+  top: auto;
+  bottom: .4em;
+}html body{font-family:"Helvetica Neue",Helvetica,"Segoe UI",Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ul,html body>ol{margin-bottom:16px}html body ul,html body ol{padding-left:2em}html body ul.no-list,html body ol.no-list{padding:0;list-style-type:none}html body ul ul,html body ul ol,html body ol ol,html body ol ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:bold;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:bold}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em !important;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::before,html body code::after{letter-spacing:-0.2em;content:"\00a0"}html body pre>code{padding:0;margin:0;font-size:.85em !important;word-break:normal;white-space:pre;background:transparent;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;font-size:.85em !important;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:before,html body pre tt:before,html body pre code:after,html body pre tt:after{content:normal}html body p,html body blockquote,html body ul,html body ol,html body dl,html body pre{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body pre,html body code{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview .pagebreak,.markdown-preview .newpage{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center !important}.markdown-preview:not([for="preview"]) .code-chunk .btn-group{display:none}.markdown-preview:not([for="preview"]) .code-chunk .status{display:none}.markdown-preview:not([for="preview"]) .code-chunk .output-div{margin-bottom:16px}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,0.66);border:4px solid rgba(150,150,150,0.66);background-clip:content-box}html body[for="html-export"]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0}@media screen and (min-width:914px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{font-size:14px !important;padding:1em}}@media print{html body[for="html-export"]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for="html-export"]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,0.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,0.66);border:4px solid rgba(150,150,150,0.66);background-clip:content-box}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc ul{padding:0 1.6em;margin-top:.8em}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc li{margin-bottom:.8em}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc ul{list-style-type:none}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% -  300px);padding:2em calc(50% - 457px -  150px);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for="html-export"]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for="html-export"]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+      </style>
+    </head>
+    <body for="html-export">
+      <div class="mume markdown-preview  ">
+      <h1 class="mume-header" id="%E8%B0%83%E8%AF%95%E7%AB%9E%E8%B5%9B%E7%A8%8B%E5%BA%8F">&#x8C03;&#x8BD5;&#x7ADE;&#x8D5B;&#x7A0B;&#x5E8F;</h1>
+
+<p>&#x8FBD;&#x5B81;&#x5E08;&#x8303;&#x5927;&#x5B66; &#x2022; &#x5F20;&#x5927;&#x4E3A;@<a href="https://daweizh.github.io/noip/">https://daweizh.github.io/noip/</a></p>
+<p>&#x4EE5; NOIP 2017&#x5E74;&#x7B2C;23&#x5C4A;&#x666E;&#x53CA;&#x7EC4;&#x590D;&#x8D5B;&#x8BD5;&#x9898;score&#x4E3A;&#x4F8B;&#xFF0C;&#x8BB2;&#x89E3;&#x7ADE;&#x8D5B;&#x89E3;&#x9898;&#x7684;&#x57FA;&#x672C;&#x8FC7;&#x7A0B;&#x3002;</p>
+<h2 class="mume-header" id="1-%E5%87%86%E5%A4%87%E5%8F%AF%E6%8F%90%E4%BA%A4%E7%9A%84%E6%9C%80%E5%B0%8F%E7%A8%8B%E5%BA%8F%E6%A1%86%E6%9E%B6">1. &#x51C6;&#x5907;&#x53EF;&#x63D0;&#x4EA4;&#x7684;&#x6700;&#x5C0F;&#x7A0B;&#x5E8F;&#x6846;&#x67B6;</h2>
+
+<p>&#x5EFA;&#x7ACB;&#x6700;&#x5C0F;&#x53EF;&#x63D0;&#x4EA4;&#x7A0B;&#x5E8F;&#x6846;&#x67B6;&#x3002;</p>
+<pre data-role="codeBlock" data-info="C++" class="language-cpp"><span class="token macro property">#<span class="token directive keyword">include</span> <span class="token string">&lt;iostream&gt;</span></span>
+<span class="token macro property">#<span class="token directive keyword">include</span> <span class="token string">&lt;cstdio&gt;</span></span>
+<span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token function">freopen</span><span class="token punctuation">(</span><span class="token string">&quot;score.in&quot;</span><span class="token punctuation">,</span><span class="token string">&quot;r&quot;</span><span class="token punctuation">,</span><span class="token constant">stdin</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">freopen</span><span class="token punctuation">(</span><span class="token string">&quot;score.out&quot;</span><span class="token punctuation">,</span><span class="token string">&quot;w&quot;</span><span class="token punctuation">,</span><span class="token constant">stdout</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    cout <span class="token operator">&lt;&lt;</span> <span class="token number">40</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+
+    <span class="token function">fclose</span><span class="token punctuation">(</span><span class="token constant">stdout</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">fclose</span><span class="token punctuation">(</span><span class="token constant">stdin</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    
+    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</pre><ol>
+<li><strong>Ctrl+s</strong>&#xFF0C;&#x5C06;&#x4E0A;&#x8FF0;&#x4EE3;&#x7801;&#x4EE5;&#x6587;&#x4EF6;&#x540D; <strong>score.cpp</strong> &#x4FDD;&#x5B58;&#x5230;&#x4E0E;&#x6D4B;&#x8BD5;&#x6570;&#x636E;&#x76F8;&#x540C;&#x7684; <strong>score</strong> &#x6587;&#x4EF6;&#x5939;&#x4E0B;</li>
+<li><strong>Ctrl+F5</strong>&#x8FD0;&#x884C;&#xFF0C;&#x51FA;&#x73B0;&#x5982;&#x4E0B;&#x7EC8;&#x7AEF;&#x7A97;&#x53E3;<br>
+<img src="images/race-01.png" alt="&#x8F93;&#x5165;&#x8F93;&#x51FA;&#x91CD;&#x5B9A;&#x5411;&#x540E;&#x7684;&#x8FD0;&#x884C;&#x7ED3;&#x679C;&#x7A97;&#x53E3;"><br>
+<strong>&#x6CE8;&#x610F;&#xFF1A;&#x8BE5;&#x7A97;&#x53E3;&#x4E00;&#x5B9A;&#x8981;&#x5173;&#x95ED;&#xFF0C;&#x5426;&#x5219;GUIDE&#x65E0;&#x6CD5;&#x54CD;&#x5E94;&#x4EFB;&#x4F55;&#x64CD;&#x4F5C;</strong></li>
+<li>&#x70B9;&#x51FB;<img src="images/race-02.png" alt="&#x5237;&#x65B0;&#x6309;&#x94AE;">&#xFF0C;&#x67E5;&#x770B;score.out&#x6587;&#x4EF6;&#x5185;&#x5BB9;&#x662F;&#x5426;&#x6B63;&#x786E;<pre data-role="codeBlock" data-info class="language-"><code>40
+</code></pre></li>
+</ol>
+<h2 class="mume-header" id="2-%E7%BC%96%E5%86%99%E5%AF%B9%E6%8B%8D%E7%A8%8B%E5%BA%8F%E6%B5%8B%E8%AF%95%E6%8F%90%E4%BA%A4%E4%BB%A3%E7%A0%81">2. &#x7F16;&#x5199;&#x5BF9;&#x62CD;&#x7A0B;&#x5E8F;&#x6D4B;&#x8BD5;&#x63D0;&#x4EA4;&#x4EE3;&#x7801;</h2>
+
+<p>&#x9488;&#x5BF9;&#x7ED9;&#x5B9A;&#x7684;&#x6D4B;&#x8BD5;&#x7528;&#x4F8B;&#xFF0C;&#x53EA;&#x6709;&#x901A;&#x8FC7;&#x5BF9;&#x62CD;&#x7A0B;&#x5E8F;&#x5F97;&#x5230;Ac&#x624D;&#x80FD;&#x786E;&#x5B9A;&#x6240;&#x63D0;&#x4EA4;&#x4EE3;&#x7801;&#x53EF;&#x4EE5;&#x5F97;&#x5206;&#x3002;<br>
+&#x7F16;&#x5199;&#x5982;&#x4E0B;&#x5BF9;&#x62CD;&#x7A0B;&#x5E8F;&#xFF0C;&#x547D;&#x540D;&#x4E3A; <strong><a href="http://score.sh">score.sh</a></strong> &#xFF0C;&#x4FDD;&#x5B58;&#x5230;&#x4E0E; <strong>score.cpp</strong> &#x76F8;&#x540C;&#x7684; <strong>score</strong> &#x6587;&#x4EF6;&#x5939;&#x4E0B;&#x3002;</p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash"><span class="token shebang important">#!/bin/bash</span>
+i<span class="token operator">=</span>1
+<span class="token keyword">while</span> <span class="token punctuation">[</span> <span class="token variable">$i</span> -le 10 <span class="token punctuation">]</span>
+<span class="token keyword">do</span>
+    <span class="token keyword">echo</span> score<span class="token variable">$i</span>
+    <span class="token function">cp</span> -f score<span class="token variable">$i</span>.in score.in
+    ./score
+    <span class="token keyword">if</span> <span class="token function">diff</span> score<span class="token variable">$i</span>.ans score.out <span class="token punctuation">;</span> <span class="token keyword">then</span>
+        <span class="token keyword">echo</span> Ac
+    <span class="token keyword">fi</span>
+    i<span class="token operator">=</span><span class="token variable"><span class="token variable">$((</span>$i<span class="token operator">+</span><span class="token number">1</span><span class="token variable">))</span></span>
+<span class="token keyword">done</span>
+</pre><p>&#x6253;&#x5F00;&#x7EC8;&#x7AEF;&#x7A97;&#x53E3;</p>
+<p><img src="images/race-03.png" alt></p>
+<p>&#x7EC8;&#x7AEF;&#x7A97;&#x53E3;&#x5982;&#x4E0B;</p>
+<p><img src="images/race-04.png" alt></p>
+<p>&#x5728;&#x7EC8;&#x7AEF;&#x7A97;&#x53E3;&#x952E;&#x5165;&#x5982;&#x4E0B;&#x547D;&#x4EE4;&#x5E76;&#x6267;&#x884C;&#x4E0A;&#x8FF0;&#x5BF9;&#x62CD;&#x7A0B;&#x5E8F;</p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash">$ <span class="token function">cd</span> ~/noip/2017/score/
+$ sh ./score.sh
+</pre><p>&#x8F93;&#x51FA;&#x7684;&#x5BF9;&#x62CD;&#x7ED3;&#x679C;&#x5982;&#x4E0B;</p>
+<pre data-role="codeBlock" data-info="tex" class="language-latex">score1
+Ac
+score2
+1c1
+&lt; 50
+---
+&gt; 40
+score3
+1c1
+&lt; 10
+---
+&gt; 40
+score4
+1c1
+&lt; 65
+---
+&gt; 40
+score5
+1c1
+&lt; 70
+---
+&gt; 40
+score6
+1c1
+&lt; 55
+---
+&gt; 40
+score7
+1c1
+&lt; 37
+---
+&gt; 40
+score8
+1c1
+&lt; 46
+---
+&gt; 40
+score9
+1c1
+&lt; 56
+---
+&gt; 40
+score10
+1c1
+&lt; 58
+---
+&gt; 40
+</pre><p>&#x53D1;&#x73B0;&#x4E0A;&#x8FF0;&#x7ED3;&#x679C;&#x4E2D;&#x53EA;&#x6709;&#x4E00;&#x4E2A;Ac&#xFF0C;&#x6839;&#x636E;&#x8BE5;&#x6D4B;&#x8BD5;&#x70B9;&#x5206;&#x503C;&#xFF0C;&#x53EF;&#x5F97;10&#x5206;&#x3002;</p>
+<h2 class="mume-header" id="3-%E8%AF%BB%E5%8F%96%E8%BE%93%E5%85%A5%E6%95%B0%E6%8D%AE">3. &#x8BFB;&#x53D6;&#x8F93;&#x5165;&#x6570;&#x636E;</h2>
+
+<p>&#x7EFC;&#x5408;&#x5206;&#x6790;&#x8BD5;&#x9898;&#x63CF;&#x8FF0;&#x5BF9;&#x6570;&#x636E;&#x5EFA;&#x6A21;&#xFF0C;&#x627E;&#x5230;&#x57FA;&#x672C;&#x7684;&#x8F93;&#x5165;&#x8F93;&#x51FA;&#x6570;&#x636E;&#x5B58;&#x50A8;&#x65B9;&#x5F0F;&#xFF0C;&#x5E76;&#x786E;&#x5B9A;&#x5B83;&#x4EEC;&#x7684;&#x6570;&#x636E;&#x7C7B;&#x578B;&#x3002;</p>
+<p>&#x6839;&#x636E;&#x8BD5;&#x9898;&#x63CF;&#x8FF0;&#xFF0C;&#x7528;a&#x4FDD;&#x5B58;&#x4F5C;&#x4E1A;&#x6210;&#x7EE9;&#xFF0C;&#x7528;b&#x4FDD;&#x5B58;&#x5C0F;&#x6D4B;&#x6210;&#x7EE9;&#xFF0C;&#x7528;c&#x4FDD;&#x5B58;&#x671F;&#x672B;&#x8003;&#x8BD5;&#x6210;&#x7EE9;&#xFF0C;&#x7528;score&#x4FDD;&#x5B58;&#x603B;&#x6210;&#x7EE9;&#x3002;&#x7531;&#x4E8E;&#x9700;&#x8981;&#x8BA1;&#x7B97;&#x6210;&#x7EE9;&#x7684;&#x53EA;&#x6709;&#x725B;&#x725B;&#xFF0C;&#x786E;&#x5B9A;&#x6570;&#x636E;&#x7684;&#x8BFB;&#x5165;&#x7B56;&#x7565;&#x4E3A; <strong>&#x4E00;&#x6B21;&#x6027;&#x8BFB;&#x5165;</strong> &#x3002;</p>
+<pre data-role="codeBlock" data-info="C++" class="language-cpp"><span class="token macro property">#<span class="token directive keyword">include</span> <span class="token string">&lt;iostream&gt;</span></span>
+<span class="token macro property">#<span class="token directive keyword">include</span> <span class="token string">&lt;cstdio&gt;</span></span>
+<span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span>
+
+<span class="token keyword">int</span> a<span class="token punctuation">,</span>b<span class="token punctuation">,</span>c<span class="token punctuation">,</span>score<span class="token punctuation">;</span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token function">freopen</span><span class="token punctuation">(</span><span class="token string">&quot;score.in&quot;</span><span class="token punctuation">,</span><span class="token string">&quot;r&quot;</span><span class="token punctuation">,</span><span class="token constant">stdin</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">freopen</span><span class="token punctuation">(</span><span class="token string">&quot;score.out&quot;</span><span class="token punctuation">,</span><span class="token string">&quot;w&quot;</span><span class="token punctuation">,</span><span class="token constant">stdout</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    cin <span class="token operator">&gt;&gt;</span> a <span class="token operator">&gt;&gt;</span> b <span class="token operator">&gt;&gt;</span> c<span class="token punctuation">;</span>
+    cout <span class="token operator">&lt;&lt;</span> <span class="token number">40</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+
+    <span class="token function">fclose</span><span class="token punctuation">(</span><span class="token constant">stdout</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">fclose</span><span class="token punctuation">(</span><span class="token constant">stdin</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    
+    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</pre><p>&#x6309; <strong>F7</strong> &#x7F16;&#x8BD1;&#x901A;&#x8FC7;&#x4E0A;&#x8FF0;&#x7A0B;&#x5E8F;&#xFF0C;&#x5C06;&#x8F93;&#x5165;&#x5149;&#x6807;&#x653E;&#x5728;<code>cout &lt;&lt; 40 &lt;&lt; endl;</code>&#x884C;&#x9996;&#xFF0C;&#x6309; <strong>F9</strong> &#x952E;&#x8BBE;&#x7F6E;&#x65AD;&#x70B9;&#x3002;</p>
+<p><img src="images/race-05.png" alt="&#x8BBE;&#x7F6E;&#x65AD;&#x70B9;"></p>
+<p>&#x6309; <strong>F5</strong> &#x952E;&#x5F00;&#x59CB;&#x8C03;&#x8BD5;&#xFF0C;&#x51FA;&#x73B0;&#x5982;&#x4E0B;&#x7EC8;&#x7AEF;&#x7A97;&#x53E3;</p>
+<p><img src="images/race-06.png" alt="&#x8FD0;&#x884C;&#x8C03;&#x8BD5;&#x65F6;&#x51FA;&#x73B0;&#x7684;&#x7A97;&#x53E3;"></p>
+<p><strong>&#x6CE8;&#x610F;&#xFF1A;&#x4E00;&#x5B9A;&#x5728;&#x8C03;&#x8BD5;&#x7ED3;&#x675F;&#x65F6;&#x5173;&#x95ED;&#x8BE5;&#x7A97;&#x53E3;&#xFF0C;&#x5426;&#x5219;GUIDE&#x4E0D;&#x54CD;&#x5E94;&#x4EFB;&#x4F55;&#x64CD;&#x4F5C;</strong> &#x3002;&#x5728;&#x8C03;&#x8BD5;&#x72B6;&#x6001;&#x4E0B;&#xFF0C;&#x70B9;&#x51FB; <strong>&#x4FE1;&#x606F;&#x67E5;&#x770B;&#x680F;</strong> &#x53F3;&#x4E0B;&#x7684; <strong>&#x53D8;&#x91CF;&#x67E5;&#x770B;</strong> &#xFF0C;&#x70B9;&#x51FB;<img src="images/race-07.png" alt>&#x6309;&#x94AE;&#x4F9D;&#x6B21;&#x589E;&#x52A0;&#x53D8;&#x91CF; <strong>a</strong> &#xFF0C;<strong>b</strong> &#x548C; <strong>c</strong> &#xFF0C;&#x5E76;&#x89C2;&#x5BDF;&#x5176; <strong>&#x7C7B;&#x578B;</strong> &#x548C; <strong>&#x503C;</strong> &#xFF0C;&#x5982;&#x4E0B;&#x56FE;&#x6240;&#x793A;&#x3002;</p>
+<p><img src="images/race-08.png" alt="&#x67E5;&#x770B;&#x53D8;&#x91CF;&#x5185;&#x5BB9;"></p>
+<p>&#x8C03;&#x8BD5;&#x7ED3;&#x675F;&#x540E;&#x5173;&#x95ED; <strong>&#x8C03;&#x8BD5;&#x7EC8;&#x7AEF;&#x7A97;&#x53E3;</strong> &#xFF0C;&#x6309; <strong>F9</strong> &#x952E;&#x53BB;&#x9664;&#x65AD;&#x70B9;&#x6807;&#x8BB0;&#x3002;</p>
+<h2 class="mume-header" id="4-%E8%B0%83%E8%AF%95%E5%B9%B6%E5%8F%91%E7%8E%B0%E7%A8%8B%E5%BA%8F%E4%B8%AD%E7%9A%84%E9%97%AE%E9%A2%98">4. &#x8C03;&#x8BD5;&#x5E76;&#x53D1;&#x73B0;&#x7A0B;&#x5E8F;&#x4E2D;&#x7684;&#x95EE;&#x9898;</h2>
+
+<p>&#x6839;&#x636E;&#x8BD5;&#x9898;&#x4E2D;&#x7ED9;&#x51FA;&#x7684;&#x8BA1;&#x7B97;&#x603B;&#x6210;&#x7EE9;&#x7684;&#x65B9;&#x6CD5;&#xFF0C;&#x786E;&#x5B9A;&#x6570;&#x636E;&#x52A0;&#x5DE5;&#x65B9;&#x6CD5;&#xFF08;&#x7B97;&#x6CD5;&#xFF09;&#x3002;</p>
+<pre data-role="codeBlock" data-info="C++" class="language-cpp">score <span class="token operator">=</span> a<span class="token operator">*</span><span class="token number">0.2</span> <span class="token operator">+</span> b<span class="token operator">*</span><span class="token number">0.3</span> <span class="token operator">+</span> c<span class="token operator">*</span><span class="token number">0.5</span><span class="token punctuation">;</span> 
+</pre><p>&#x5176;&#x4E2D;&#xFF0C;<strong>20%=2/10=0.2&#xFF0C;30%=3/10=0.3&#xFF0C;50%=5/10=0.5</strong> &#xFF0C;&#x5B8C;&#x6574;&#x7A0B;&#x5E8F;&#x5982;&#x4E0B;&#xFF1A;</p>
+<pre data-role="codeBlock" data-info="C++" class="language-cpp"><span class="token macro property">#<span class="token directive keyword">include</span> <span class="token string">&lt;iostream&gt;</span></span>
+<span class="token macro property">#<span class="token directive keyword">include</span> <span class="token string">&lt;cstdio&gt;</span></span>
+<span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span>
+
+<span class="token keyword">int</span> a<span class="token punctuation">,</span>b<span class="token punctuation">,</span>c<span class="token punctuation">,</span>score<span class="token punctuation">;</span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token function">freopen</span><span class="token punctuation">(</span><span class="token string">&quot;score.in&quot;</span><span class="token punctuation">,</span><span class="token string">&quot;r&quot;</span><span class="token punctuation">,</span><span class="token constant">stdin</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">freopen</span><span class="token punctuation">(</span><span class="token string">&quot;score.out&quot;</span><span class="token punctuation">,</span><span class="token string">&quot;w&quot;</span><span class="token punctuation">,</span><span class="token constant">stdout</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    cin <span class="token operator">&gt;&gt;</span> a <span class="token operator">&gt;&gt;</span> b <span class="token operator">&gt;&gt;</span> c<span class="token punctuation">;</span>
+    score <span class="token operator">=</span> a<span class="token operator">*</span><span class="token number">0.2</span> <span class="token operator">+</span> b<span class="token operator">*</span><span class="token number">0.3</span> <span class="token operator">+</span> c<span class="token operator">*</span><span class="token number">0.5</span><span class="token punctuation">;</span>
+	
+    cout <span class="token operator">&lt;&lt;</span> score <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+
+    <span class="token function">fclose</span><span class="token punctuation">(</span><span class="token constant">stdout</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">fclose</span><span class="token punctuation">(</span><span class="token constant">stdin</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    
+    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</pre><p>&#x6309; <strong>F7</strong> &#x91CD;&#x65B0;&#x7F16;&#x8BD1;&#x901A;&#x8FC7;&#xFF0C;&#x7136;&#x540E;&#x8FD0;&#x884C;&#x5BF9;&#x62CD;&#x7A0B;&#x5E8F;&#xFF0C;&#x89C2;&#x5BDF;&#x6D4B;&#x8BD5;&#x70B9;&#x901A;&#x8FC7;&#x60C5;&#x51B5;&#x3002;</p>
+<pre data-role="codeBlock" data-info="tex" class="language-latex">score1
+Ac
+score2
+Ac
+score3
+Ac
+score4
+Ac
+score5
+Ac
+score6
+Ac
+score7
+1c1
+&lt; 37
+---
+&gt; 36
+score8
+1c1
+&lt; 46
+---
+&gt; 45
+score9
+1c1
+&lt; 56
+---
+&gt; 55
+score10
+1c1
+&lt; 58
+---
+&gt; 57
+</pre><p>&#x53D1;&#x73B0;&#x540E;4&#x4E2A;&#x6D4B;&#x8BD5;&#x70B9;&#x5E76;&#x672A;&#x901A;&#x8FC7;&#xFF0C;&#x800C;&#x4E14;&#x8F93;&#x51FA;&#x7ED3;&#x679C;&#x4E0E;&#x7B54;&#x6848;&#x503C;&#x76F8;&#x5DEE;1&#x3002;&#x95EE;&#x9898;&#x51FA;&#x5728;&#x54EA;&#x4E86;&#xFF1F;&#x518D;&#x6B21;&#x8BBE;&#x7F6E;&#x65AD;&#x70B9;&#xFF0C;&#x89C2;&#x5BDF;<code>a*0.2</code>&#xFF0C;<code>b*0.3</code>&#xFF0C;<code>c*0.5</code>&#x548C;<code>score</code>&#x7684;&#x7C7B;&#x578B;&#x548C;&#x503C;&#x3002;</p>
+<p><img src="images/race-09.png" alt></p>
+<p>&#x901A;&#x8FC7;&#x4E0A;&#x56FE;&#x53D1;&#x73B0;<code>a*0.2</code>&#xFF0C;<code>b*0.3</code>&#x548C;<code>c*0.5</code>&#x7684;&#x7C7B;&#x578B;&#x4E3A;<code>double</code>&#xFF0C;&#x800C;<code>score</code>&#x7684;&#x7C7B;&#x578B;&#x662F;<code>int</code>&#xFF0C;&#x8FD9;&#x6837;&#x9700;&#x8981;&#x5728;<code>double</code>&#x548C;<code>int</code>&#x7C7B;&#x578B;&#x4E4B;&#x95F4;&#x8FDB;&#x884C;&#x8F6C;&#x6362;&#xFF0C;&#x800C;&#x4E14;&#x7531;<code>double</code>&#x5411;<code>int</code>&#x7C7B;&#x578B;&#x8F6C;&#x6362;&#x65F6;&#x53EF;&#x80FD;&#x5B58;&#x5728;&#x7740;&#x7CBE;&#x5EA6;&#x635F;&#x5931;&#x3002;</p>
+<h2 class="mume-header" id="5-%E6%94%B9%E7%94%A8%E5%85%A8%E6%95%B4%E6%95%B0%E8%BF%90%E7%AE%97">5. &#x6539;&#x7528;&#x5168;&#x6574;&#x6570;&#x8FD0;&#x7B97;</h2>
+
+<p>&#x65E2;&#x7136;&#x4F7F;&#x7528;&#x6574;&#x6570;&#x548C;&#x5C0F;&#x6570;&#x7684;&#x6DF7;&#x5408;&#x8BA1;&#x7B97;&#x4F1A;&#x53D1;&#x751F;&#x6570;&#x636E;&#x7C7B;&#x578B;&#x8F6C;&#x6362;&#xFF0C;&#x90A3;&#x80FD;&#x4E0D;&#x80FD;&#x8FDB;&#x884C;&#x5168;<code>int</code>&#x578B;&#x8BA1;&#x7B97;&#x5462;&#xFF1F;&#x4E0B;&#x9762;&#x5C31;&#x662F;&#x4E00;&#x79CD;&#x65B9;&#x6CD5;</p>
+<pre data-role="codeBlock" data-info="C++" class="language-cpp">score <span class="token operator">=</span> <span class="token punctuation">(</span>a<span class="token operator">*</span><span class="token number">20</span> <span class="token operator">+</span> b<span class="token operator">*</span><span class="token number">30</span> <span class="token operator">+</span>c<span class="token operator">*</span><span class="token number">50</span><span class="token punctuation">)</span> <span class="token operator">/</span><span class="token number">100</span><span class="token punctuation">;</span>
+</pre><p>&#x5B8C;&#x6574;&#x7684;&#x7A0B;&#x5E8F;&#x5982;&#x4E0B;</p>
+<pre data-role="codeBlock" data-info="C++" class="language-cpp"><span class="token macro property">#<span class="token directive keyword">include</span> <span class="token string">&lt;iostream&gt;</span></span>
+<span class="token macro property">#<span class="token directive keyword">include</span> <span class="token string">&lt;cstdio&gt;</span></span>
+<span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span>
+
+<span class="token keyword">int</span> a<span class="token punctuation">,</span>b<span class="token punctuation">,</span>c<span class="token punctuation">,</span>score<span class="token punctuation">;</span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token function">freopen</span><span class="token punctuation">(</span><span class="token string">&quot;score.in&quot;</span><span class="token punctuation">,</span><span class="token string">&quot;r&quot;</span><span class="token punctuation">,</span><span class="token constant">stdin</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">freopen</span><span class="token punctuation">(</span><span class="token string">&quot;score.out&quot;</span><span class="token punctuation">,</span><span class="token string">&quot;w&quot;</span><span class="token punctuation">,</span><span class="token constant">stdout</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    cin <span class="token operator">&gt;&gt;</span> a <span class="token operator">&gt;&gt;</span> b <span class="token operator">&gt;&gt;</span> c<span class="token punctuation">;</span>
+    score <span class="token operator">=</span> <span class="token punctuation">(</span>a<span class="token operator">*</span><span class="token number">20</span> <span class="token operator">+</span> b<span class="token operator">*</span><span class="token number">30</span> <span class="token operator">+</span> c<span class="token operator">*</span><span class="token number">50</span><span class="token punctuation">)</span><span class="token operator">/</span><span class="token number">100</span><span class="token punctuation">;</span>
+    cout <span class="token operator">&lt;&lt;</span> score <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+
+    <span class="token function">fclose</span><span class="token punctuation">(</span><span class="token constant">stdout</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">fclose</span><span class="token punctuation">(</span><span class="token constant">stdin</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    
+    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</pre><p>&#x518D;&#x6B21;&#x8FD0;&#x884C;&#x5BF9;&#x62CD;&#x7A0B;&#x5E8F;&#xFF0C;&#x89C2;&#x5BDF;&#x7ED3;&#x679C;&#x5982;&#x4E0B;&#xFF1A;</p>
+<pre data-role="codeBlock" data-info="tex" class="language-latex">score1
+Ac
+score2
+Ac
+score3
+Ac
+score4
+Ac
+score5
+Ac
+score6
+Ac
+score7
+Ac
+score8
+Ac
+score9
+Ac
+score10
+Ac
+</pre><p>&#x6240;&#x6709;&#x6D4B;&#x8BD5;&#x6570;&#x636E;&#x5168;&#x90E8;&#x901A;&#x8FC7;&#x3002;</p>
+<h2 class="mume-header" id="6-%E7%9B%B4%E6%8E%A5%E8%AE%A1%E7%AE%97%E5%B9%B6%E8%BE%93%E5%87%BA">6. &#x76F4;&#x63A5;&#x8BA1;&#x7B97;&#x5E76;&#x8F93;&#x51FA;</h2>
+
+<p>&#x907F;&#x514D;&#x6570;&#x636E;&#x7C7B;&#x578B;&#x5F3A;&#x5236;&#x8F6C;&#x6362;&#xFF0C;&#x53EF;&#x4EE5;&#x76F4;&#x63A5;&#x8F93;&#x51FA;&#x8BA1;&#x7B97;&#x7ED3;&#x679C;&#xFF0C;&#x7A0B;&#x5E8F;&#x5982;&#x4E0B;</p>
+<pre data-role="codeBlock" data-info="C++" class="language-cpp"><span class="token macro property">#<span class="token directive keyword">include</span> <span class="token string">&lt;iostream&gt;</span></span>
+<span class="token macro property">#<span class="token directive keyword">include</span> <span class="token string">&lt;cstdio&gt;</span></span>
+<span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span>
+
+<span class="token keyword">int</span> a<span class="token punctuation">,</span>b<span class="token punctuation">,</span>c<span class="token punctuation">,</span>score<span class="token punctuation">;</span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token function">freopen</span><span class="token punctuation">(</span><span class="token string">&quot;score.in&quot;</span><span class="token punctuation">,</span><span class="token string">&quot;r&quot;</span><span class="token punctuation">,</span><span class="token constant">stdin</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">freopen</span><span class="token punctuation">(</span><span class="token string">&quot;score.out&quot;</span><span class="token punctuation">,</span><span class="token string">&quot;w&quot;</span><span class="token punctuation">,</span><span class="token constant">stdout</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    cin <span class="token operator">&gt;&gt;</span> a <span class="token operator">&gt;&gt;</span> b <span class="token operator">&gt;&gt;</span> c<span class="token punctuation">;</span>
+    cout <span class="token operator">&lt;&lt;</span> a<span class="token operator">*</span><span class="token number">.2</span> <span class="token operator">+</span> b<span class="token operator">*</span><span class="token number">.3</span> <span class="token operator">+</span> c<span class="token operator">*</span><span class="token number">.5</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+
+    <span class="token function">fclose</span><span class="token punctuation">(</span><span class="token constant">stdout</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">fclose</span><span class="token punctuation">(</span><span class="token constant">stdin</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    
+    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</pre><p>&#x91CD;&#x65B0;&#x6267;&#x884C;&#x5BF9;&#x62CD;&#x7A0B;&#x5E8F;&#xFF0C;&#x7ED3;&#x679C;&#x5982;&#x4E0B;</p>
+<pre data-role="codeBlock" data-info="tex" class="language-latex">score1
+Ac
+score2
+Ac
+score3
+Ac
+score4
+Ac
+score5
+Ac
+score6
+Ac
+score7
+Ac
+score8
+Ac
+score9
+Ac
+score10
+Ac
+</pre><h2 class="mume-header" id="7-%E6%80%BB%E6%88%90%E7%BB%A9%E9%87%87%E7%94%A8%E6%B5%AE%E7%82%B9%E5%9E%8B">7. &#x603B;&#x6210;&#x7EE9;&#x91C7;&#x7528;&#x6D6E;&#x70B9;&#x578B;</h2>
+
+<p>&#x4E3A;&#x907F;&#x514D;&#x7C7B;&#x578B;&#x8F6C;&#x6362;&#x8FC7;&#x7A0B;&#x4E2D;&#x7684;&#x7CBE;&#x5EA6;&#x635F;&#x5931;&#xFF0C;&#x53EF;&#x7528;<code>double</code>&#x5B9A;&#x4E49;&#x603B;&#x6210;&#x7EE9;<code>score</code>&#x53D8;&#x91CF;&#xFF0C;&#x7A0B;&#x5E8F;&#x5982;&#x4E0B;&#xFF1A;</p>
+<pre data-role="codeBlock" data-info="C++" class="language-cpp"><span class="token macro property">#<span class="token directive keyword">include</span> <span class="token string">&lt;iostream&gt;</span></span>
+<span class="token macro property">#<span class="token directive keyword">include</span> <span class="token string">&lt;cstdio&gt;</span></span>
+<span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span>
+
+<span class="token keyword">int</span> a<span class="token punctuation">,</span>b<span class="token punctuation">,</span>c<span class="token punctuation">;</span>
+<span class="token keyword">double</span> score<span class="token punctuation">;</span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token function">freopen</span><span class="token punctuation">(</span><span class="token string">&quot;score.in&quot;</span><span class="token punctuation">,</span><span class="token string">&quot;r&quot;</span><span class="token punctuation">,</span><span class="token constant">stdin</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">freopen</span><span class="token punctuation">(</span><span class="token string">&quot;score.out&quot;</span><span class="token punctuation">,</span><span class="token string">&quot;w&quot;</span><span class="token punctuation">,</span><span class="token constant">stdout</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    cin <span class="token operator">&gt;&gt;</span> a <span class="token operator">&gt;&gt;</span> b <span class="token operator">&gt;&gt;</span> c<span class="token punctuation">;</span>
+    score <span class="token operator">=</span> a<span class="token operator">*</span><span class="token number">.2</span> <span class="token operator">+</span> b<span class="token operator">*</span><span class="token number">.3</span> <span class="token operator">+</span> c<span class="token operator">*</span><span class="token number">.5</span><span class="token punctuation">;</span>
+    cout <span class="token operator">&lt;&lt;</span> score <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+
+    <span class="token function">fclose</span><span class="token punctuation">(</span><span class="token constant">stdout</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">fclose</span><span class="token punctuation">(</span><span class="token constant">stdin</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    
+    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</pre><p>&#x6267;&#x884C;&#x5BF9;&#x62CD;&#x7A0B;&#x5E8F;&#xFF0C;&#x7ED3;&#x679C;&#x5982;&#x4E0B;&#xFF1A;</p>
+<pre data-role="codeBlock" data-info="tex" class="language-latex">score1
+Ac
+score2
+Ac
+score3
+Ac
+score4
+Ac
+score5
+Ac
+score6
+Ac
+score7
+Ac
+score8
+Ac
+score9
+Ac
+score10
+Ac
+</pre>
+      </div>
+      
+      
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    </body></html>
