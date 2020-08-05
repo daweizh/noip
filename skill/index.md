@@ -17,5 +17,12 @@
       <a href='02/2.race.html'>调试竞赛程序</a>
     </th>
   </tr>
+  <tr>
+    <th style="border:0px;text-align:left;width:50px;">03.</th>
+    <th style="border:0px; border-bottom:1px dashed red;width:100%;" align="right">
+      <a href='03/1.test.html'>编写测试程序</a> |
+      <a href='03/2.arbiter.html'>判题程序Arbiter使用说明</a>
+    </th>
+  </tr>
 </table>
 
