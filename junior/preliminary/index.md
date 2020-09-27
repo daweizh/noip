@@ -2,6 +2,29 @@
 
 <table style="border:none;width:100%;">
   <tr>
+    <th style="border:0px;text-align:left;padding:0px 5px;" nowrap>25.</th>
+    <th style="border:0px;text-align:left;padding:0px 5px;" nowrap>2019-10-19</th>
+    <th style="border:0px; width:100%;padding:0px 5px;">
+      <hr style="height:1px; border:none; border-top:1px dashed red;">
+    </th>
+    <th style="border:0px;text-align:left;padding:0px 5px;" nowrap>
+      在线测试
+      <a href='25-NOIP-2019-junior-C++.pdf'>原题下载</a>
+    </th>
+  </tr>
+  <tr>
+    <th style="border:0px;text-align:left;padding:0px 5px;" nowrap>24.</th>
+    <th style="border:0px;text-align:left;padding:0px 5px;" nowrap>2018-10-13</th>
+    <th style="border:0px; width:100%;padding:0px 5px;">
+      <hr style="height:1px; border:none; border-top:1px dashed red;">
+    </th>
+    <th style="border:0px;text-align:left;padding:0px 5px;" nowrap>
+      在线测试
+      <a href='24-NOIP-2018-junior-C++.pdf'>原题下载</a>
+    </th>
+  </tr>
+
+  <tr>
     <th style="border:0px;text-align:left;padding:0px 5px;" nowrap>23.</th>
     <th style="border:0px;text-align:left;padding:0px 5px;" nowrap>2017-10-14</th>
     <th style="border:0px; width:100%;padding:0px 5px;">
@@ -9,7 +32,7 @@
     </th>
     <th style="border:0px;text-align:left;padding:0px 5px;" nowrap>
       <a href='23-C++2017-10-14.html'>在线测试</a>
-      <a href='23.NOIP2017普及组初赛C++试题和答案.pdf'>原题下载</a>
+      <a href='23-NOIP-2017-junior-C++.pdf'>原题下载</a>
     </th>
   </tr>
   <tr>
