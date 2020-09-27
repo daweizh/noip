@@ -9,6 +9,7 @@
     </th>
     <th style="border:0px;text-align:left;padding:0px 5px;" nowrap>
       <a href='23-C++2017-10-14.html'>在线测试</a>
+      <a href='23.NOIP2017普及组初赛C++试题和答案.pdf'>原题下载</a>
     </th>
   </tr>
   <tr>
