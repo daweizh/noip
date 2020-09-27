@@ -43,7 +43,7 @@
     </th>
     <th style="border:0px;text-align:left;padding:0px 5px;" nowrap>
       <a href='22-C++2016-10-22.html'>在线测试</a>
-      <a href='22.NOIP2016普及组初赛C++试题和答案.pdf'>原题下载</a>
+      <a href='22-NOIP-2016-junior-C++.pdf'>原题下载</a>
     </th>
   </tr>
   <tr>
@@ -54,7 +54,7 @@
     </th>
     <th style="border:0px;text-align:left;padding:0px 5px;" nowrap>
       <a href='21-C++2015-10-11.html'>在线测试</a>
-      <a href='21.NOIP2015普及组初赛C++试题和答案.pdf'>原题下载</a>
+      <a href='21-NOIP-2015-junior-C++.pdf'>原题下载</a>
     </th>
   </tr>
   <tr>
@@ -65,7 +65,7 @@
     </th>
     <th style="border:0px;text-align:left;padding:0px 5px;" nowrap>
       <a href='20-C++2014-10-12.html'>在线测试</a>
-      <a href='20.NOIP2014普及组初赛C++试题和答案.pdf'>原题下载</a>
+      <a href='20-NOIP-2014-junior-C++.pdf'>原题下载</a>
     </th>
   </tr>
   <tr>
@@ -76,7 +76,7 @@
     </th>
     <th style="border:0px;text-align:left;padding:0px 5px;" nowrap>
       <a href='19-C++2013-10-13.html'>在线测试</a>
-      <a href='19.NOIP2013普及组初赛C++试题和答案.pdf'>原题下载</a>
+      <a href='19-NOIP-2013-junior-C++.pdf'>原题下载</a>
     </th>
   </tr>
   <tr>
@@ -87,7 +87,7 @@
     </th>
     <th style="border:0px;text-align:left;padding:0px 5px;" nowrap>
       <a href='18-C++2012-10-13.html'>在线测试</a>
-      <a href='18.NOIP2012普及组初赛C++试题和答案.pdf'>原题下载</a>
+      <a href='18-NOIP-2012-junior-C++.pdf'>原题下载</a>
     </th>
   </tr>
   <tr>
@@ -98,7 +98,7 @@
     </th>
     <th style="border:0px;text-align:left;padding:0px 5px;" nowrap>
       <a href='17-C++2011-10-15.html'>在线测试</a>
-      <a href='17.NOIP2011普及组初赛C++试题和答案.pdf'>原题下载</a>
+      <a href='17-NOIP-2011-junior-C++.pdf'>原题下载</a>
     </th>
   </tr>
   <tr>
@@ -109,7 +109,7 @@
     </th>
     <th style="border:0px;text-align:left;padding:0px 5px;" nowrap>
       <a href='16-C++2010-10-22.html'>在线测试</a>
-      <a href='16.NOIP2010普及组初赛C++试题和答案.pdf'>原题下载</a>
+      <a href='16-NOIP-2010-junior-C++.pdf'>原题下载</a>
     </th>
   </tr>
   <tr>
@@ -120,7 +120,7 @@
     </th>
     <th style="border:0px;text-align:left;padding:0px 5px;" nowrap>
       <a href='15-C++2009-10-17.html'>在线测试</a>
-      <a href='15.NOIP2009普及组初赛C++试题和答案.pdf'>原题下载</a>
+      <a href='15-NOIP-2009-junior-C++.pdf'>原题下载</a>
     </th>
   </tr>
   <tr>
@@ -131,7 +131,7 @@
     </th>
     <th style="border:0px;text-align:left;padding:0px 5px;" nowrap>
       <a href='14-C++2008-10-18.html'>在线测试</a>
-      <a href='14.NOIP2008普及组初赛C++试题和答案.pdf'>原题下载</a>
+      <a href='14-NOIP-2008-junior-C++.pdf'>原题下载</a>
     </th>
   </tr>
 </table>
