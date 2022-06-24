@@ -1,6 +1,6 @@
 # 笔记
 
-辽宁师范大学 &bull; 张大为@[https://daweizh.github.io/noip/](https://daweizh.github.io/noip/)
+辽宁师范大学 &bull; 张大为@[https://stemv.github.io/noip/](https://stemv.github.io/noip/)
 
 <table style="border:none;width:100%;">
   <tr>
@@ -28,7 +28,7 @@
     <th style="border:0px;text-align:left;width:50px;">02.</th>
     <th style="border:0px; border-bottom:1px dashed red;width:100%;" align="right">
       <a href='03/1.program.html'>什么是程序</a> |
-      <a href='03/2.project.html'>用Dev写项目</a>
+      <a href='03/2.project.html'>用 Dev 写项目</a>
     </th>
   </tr>
   <tr>
@@ -81,4 +81,3 @@
     </th>
   </tr>
 </table>
-
